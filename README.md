@@ -11,4 +11,7 @@ Display 'Fizz' or 'Buzz' when a number is divided by 3 or 5
 Find indices of two numbers that add up to target  
 
 - [Palindrome Number](palindromeNumber.js) | JavaScript  
-Check whether the number reads the same backward as forward.
+Check whether the number reads the same backward as forward  
+
+- [Contains Duplicate](containsDuplicate.js) | JavaScript  
+Check whether a value in an array appears twice or more  
