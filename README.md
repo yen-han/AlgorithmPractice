@@ -14,4 +14,7 @@ Find indices of two numbers that add up to target
 Check whether the number reads the same backward as forward  
 
 - [Contains Duplicate](containsDuplicate.js) | JavaScript  
-Check whether a value in an array appears twice or more  
+Check whether a value in an array appears twice or more   
+
+- [Search Insert Position](searchInsertPosition.js) | JavaScript  
+Find the matched index or index to insert the target  
