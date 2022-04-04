@@ -18,3 +18,6 @@ Check whether a value in an array appears twice or more
 
 - [Search Insert Position](searchInsertPosition.js) | JavaScript  
 Find the matched index or index to insert the target  
+
+- [Maximum Subarray](maximumSubarray.js) | JavaScript  
+Find the maximum sum of contiguous part of an array  
