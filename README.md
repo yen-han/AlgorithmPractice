@@ -20,4 +20,7 @@ Check whether a value in an array appears twice or more
 Find the matched index or index to insert the target  
 
 - [Maximum Subarray](maximumSubarray.js) | JavaScript  
-Find the maximum sum of contiguous part of an array  
+Find the maximum sum of contiguous part of an array   
+
+- [Valid Palindrome](validPalindrome.js) | JavaScript  
+Find a phrase with palindrome  
