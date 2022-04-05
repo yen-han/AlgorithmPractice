@@ -11,18 +11,22 @@ twice in the array, and return false if every element is distinct.
  * @return {boolean}
 ************************************************************************/
 
-// 1st Try: Go through every index to check for duplicate
- var containsDuplicate = function(nums) {
-    for(let i = 0; i< nums.length-1; i++) {
-        for(let j = i+1; j < nums.length; j++) {
-            if(nums[i] == nums[j]) {
-                return true;
-            }
-        }
-    }
-    return false;
-};
+// 1st Attempt: Go through every index to check for duplicate
+//  var containsDuplicate = function(nums) {
+//     for(let i = 0; i< nums.length-1; i++) {
+//         for(let j = i+1; j < nums.length; j++) {
+//             if(nums[i] == nums[j]) {
+//                 return true;
+//             }
+//         }
+//     }
+//     return false;
+// };
 
+// 2nd Attempt: Create Set to remove duplicate and compare length with original array
+var containsDuplicate = function(nums) {
+    return nums.length > 1 && new Set(nums).size !== nums.length;
+}
 // TEST
 // Output: true
 console.log(containsDuplicate([1,2,3,1]));
