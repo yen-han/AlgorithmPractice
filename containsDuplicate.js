@@ -2,7 +2,8 @@
 Source LeetCode
 217 Contains Duplicate
 (https://leetcode.com/problems/contains-duplicate/)
-Date 2022-04-02
+1st : 2022-04-02
+2nd : 2022-04-04
 
 Given an integer array nums, return true if any value appears at least 
 twice in the array, and return false if every element is distinct.
@@ -23,10 +24,12 @@ twice in the array, and return false if every element is distinct.
 //     return false;
 // };
 
-// 2nd Attempt: Create Set to remove duplicate and compare length with original array
+// 2nd Attempt
+// LOGIC: Create Set to remove duplicate and compare length with original array
 var containsDuplicate = function(nums) {
     return nums.length > 1 && new Set(nums).size !== nums.length;
 }
+
 // TEST
 // Output: true
 console.log(containsDuplicate([1,2,3,1]));
