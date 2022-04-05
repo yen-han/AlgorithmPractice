@@ -24,3 +24,7 @@ Find the maximum sum of contiguous part of an array
 
 - [Valid Palindrome](validPalindrome.js) | JavaScript  
 Find a phrase with palindrome  
+
+| No  | title | Language | description |  
+| --- | --- | --- | --- |  
+| 1 | [Valid Palindrome](validPalindrome.js) | JavaScript | Find a phrase with palindrome |   
