@@ -23,8 +23,11 @@ Find the matched index or index to insert the target
 Find the maximum sum of contiguous part of an array   
 
 - [Valid Palindrome](validPalindrome.js) | JavaScript  
-Find a phrase with palindrome  
+Find a phrase with palindrome   
 
-| No  | title | Language | description |  
+- [Reverse String](reverseString.js) | JavaScript   
+Reverse the order of the given string    
+
+| No  | Title | Language | Description |  
 | :---: | --- | --- | --- |  
 | 1 | [Valid Palindrome](validPalindrome.js) | JavaScript | Find a phrase with palindrome |   
