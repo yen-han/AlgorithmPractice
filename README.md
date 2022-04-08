@@ -28,6 +28,9 @@ Find a phrase with palindrome
 - [Reverse String](reverseString.js) | JavaScript   
 Reverse the order of the given string    
 
+- [Valid Anagram](validAnagram.js) | JavaScript   
+Check whether the given strings are anagram or not   
+
 | No  | Title | Language | Description |  
 | :---: | --- | --- | --- |  
 | 1 | [Valid Palindrome](validPalindrome.js) | JavaScript | Find a phrase with palindrome |   
