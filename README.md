@@ -29,7 +29,10 @@ Find a phrase with palindrome
 Reverse the order of the given string    
 
 - [Valid Anagram](validAnagram.js) | JavaScript   
-Check whether the given strings are anagram or not   
+Check whether the given strings are anagram or not  
+
+- [Plus One](plusOne.js) | JavaScript   
+Add one to the given array    
 
 | No  | Title | Language | Description |  
 | :---: | --- | --- | --- |  
