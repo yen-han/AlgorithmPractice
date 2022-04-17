@@ -33,6 +33,9 @@ Check whether the given strings are anagram or not
 
 - [Plus One](plusOne.js) | JavaScript   
 Add one to the given array    
+  
+- [Valid Parentheses](validParentheses.js) | JavaScript   
+Check if the string consists of brackets in the correct order     
 
 | No  | Title | Language | Description |  
 | :---: | --- | --- | --- |  
