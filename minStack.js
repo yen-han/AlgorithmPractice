@@ -3,6 +3,7 @@ Source LeetCode
 155 Min Stack
 (https://leetcode.com/problems/min-stack/)
 1st 2022-04-17
+2nd 2022-04-18
 
 Design a stack that supports push, pop, top, and retrieving the minimum 
 element in constant time.

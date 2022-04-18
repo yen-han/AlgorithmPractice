@@ -3,6 +3,7 @@ Source LeetCode
 234 Palindrome Linked List
 (https://leetcode.com/problems/palindrome-linked-list/)
 1st 2022-04-18
+2nd 2022-04-18
 
 Given the head of a singly linked list, return true if it is a palindrome.
 
