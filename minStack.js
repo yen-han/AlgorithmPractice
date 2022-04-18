@@ -59,12 +59,43 @@ MinStack.prototype.getMin = function() {
     min = this.up.data;
     node=this.up;
     while(node!==null){
-        //console.log(this);
         if(min> node.data){
-            min=node.data;
-            //his.pop();
+            min = node.data;
         }
          node=node.prev;
+    }
+    return min;
+};
+
+// 2nd Attempt
+// LOGIC: consider as array
+var MinStack = function() {
+    this.stack=[];
+};
+
+// @param {number} val
+// @return {void}
+MinStack.prototype.push = function(val) {
+    this.stack.push(val);
+};
+
+// @return {void}
+MinStack.prototype.pop = function() {
+    this.stack.pop();
+};
+
+// @return {number}
+MinStack.prototype.top = function() {
+    return this.stack[this.stack.length-1];
+};
+
+// @return {number}
+MinStack.prototype.getMin = function() {
+    let min = this.stack[0];
+    for(let i=0; i < this.stack.length;i++) {
+        if(min > this.stack[i]) {
+            min = this.stack[i];
+        }
     }
     return min;
 };
