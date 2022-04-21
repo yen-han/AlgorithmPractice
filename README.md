@@ -1,7 +1,7 @@
 ## Coding Practice
 The repository contains coding practices from various sources such as LeetCode, codility.<br>   
 
-# Queue
+### Queue
 | No  | Title | Language | Description |   
 | :---: | --- | --- | --- |   
 | L933 | [Number of Recent Calls](numberOfRecentCalls.js) | JavaScript | counts the number of recent requests within a certain time frame. |  
