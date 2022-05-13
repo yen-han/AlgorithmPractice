@@ -23,7 +23,7 @@ A leaf is a node with no children.
 ************************************************************************/
 
 // 1st Attempt
-// LOGIC: If the next node has already appeared, it has cycle
+// LOGIC: Sum until leaf node either left or right
 // Time : O(n)
 
 var hasPathSum = function(root, targetSum) {
