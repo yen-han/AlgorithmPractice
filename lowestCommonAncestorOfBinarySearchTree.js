@@ -1,7 +1,7 @@
 /*********************************************************************** 
 Source LeetCode
-141 Linked List Cycle
-(https://leetcode.com/problems/linked-list-cycle/)
+235 Lowest Common Ancestor of a Binary Search Tree
+(https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 1st 2022-05-05
 
 Given a binary search tree (BST), find the lowest common ancestor (LCA) 
