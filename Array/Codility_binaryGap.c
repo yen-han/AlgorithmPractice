@@ -41,7 +41,7 @@ int rangeCheck()
     do 
     {
         scanf("%d", &givenNumber);
-        // Check if the givien number is within the range
+        // Check if the given number is within the range
         if (givenNumber > 0 && givenNumber <= 2147483647)
         {
             exit = 1;

@@ -16,17 +16,14 @@ twice. You can return the answer in any order.
 // Logic) Check if target-numbers[i] includes in the remaining array. 
 
 let twoSum = function(numbers, target) {
-    let answer = [];
     for(let i = 0; i < numbers.length ; i++) {
         let diff = numbers.indexOf(target-numbers[i]);
         // Not the same element & have matched integer in the remaining array
         if(diff !== i &&  diff !== -1) {
-            answer.push(i);
-            answer.push(diff);
-            return answer;
+            return [i, diff];
         }
     }
-
+    return [];
 };
 
 // TEST
@@ -36,3 +33,5 @@ console.log(twoSum([2,7,11,15], 9));
 console.log(twoSum([3,2,4], 6));
 // Output: [0,1]
 console.log(twoSum([3,3], 6));
+// Output: []
+console.log(twoSum([1,3], 6));

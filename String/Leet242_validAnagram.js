@@ -31,7 +31,7 @@ different word or phrase, typically using all the original letters exactly once.
 
 // 2nd Attempt
 // LOGIC: Create object with alphabet of the first string & subtract occurrence of alphabet from the second string
-// Time: O(n) 
+// Time: O(n)  |  Memory: O(1)  
 var isAnagram = function(s, t) {
     if(s.length === t.length){
         let object={};
