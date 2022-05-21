@@ -78,8 +78,10 @@ The repository contains coding practices from various sources such as LeetCode, 
 | Leet344 | [Reverse String](String/Leet344_reverseString.js)  | JavaScript | O(n) | O(1) | Reverse the order of the given string. |   
 | Leet412 | [Fizz Buzz](String/Leet412_fizzBuzz.js) | JavaScript | O(n) | O(n) | Display 'Fizz' or 'Buzz' when a number is divided by 3 or 5. |   
     
-    
+
 ### Tree   
+| No  | Title | Language | Time | Space | Description |   
+| :---: | --- | --- | --- | --- | --- |   
 | Leet94 | [Binary Tree Inorder Traversal](Tree/Leet94_binaryTreeInorderTraversal.js) | JavaScript | O(n) | O(n) | Inorder method(Left, Root, Right) in Depth First Traversals of binary tree. |  
 | Leet101 | [Symmetric Tree](Tree/Leet101_symmetricTree.js) | JavaScript | O(n) | O(1) | Check whether it is mirror of itself. |   
 | Leet108 | [Convert Sorted Array to Binary Search Tree](Tree/Leet108_convertedSortedArraytoBinarySearchTree.js) | JavaScript | - | O(1) | Make balanced binary search tree with number array. |   
