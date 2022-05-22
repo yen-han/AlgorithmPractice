@@ -27,7 +27,8 @@ The repository contains coding practices from various sources such as LeetCode, 
 ### Greedy
 | No  | Title | Language | Time | Space | Description |   
 | :---: | --- | --- | --- | --- | --- |   
-| Leet561 | [Array Partition I](Greedy/Leet561_arrayPartitionI.js) | JavaScript | O(n^2) | O(1) | Find maximized sum out of minimum number in pair. |  
+| Leet561 | [Array Partition I](Greedy/Leet561_arrayPartitionI.js) | JavaScript | O(n^2) | O(1) | Find maximized sum out of minimum number in pair. |   
+| Leet1221 | [Split a String in Balanced Strings](Greedy/Leet1221_splitStringInBalancedStrings.js) | JavaScript | O(n) | O(1) | Find maximum number of balanced string. |  
 | Leet1710 | [Maximum Units on a Truck](Greedy/Leet1710_maximumUnitsOnTruck.js) | JavaScript | O(nlogn) | O(1) | Find maximum units of boxes can be stored on a truck. |  
    
 
@@ -90,5 +91,5 @@ The repository contains coding practices from various sources such as LeetCode, 
 | Leet235 | [Lowest Common Ancestor of a Binary Search Tree](Tree/Leet235_lowestCommonAncestorOfBinarySearchTree.js) | JavaScript | O(n) | O(1) | Find the lowest common ancestor between two values. |    
 | Leet700 | [Search in a Binary Search Tree](Tree/Leet700_searchBinarySearchTree.js) | JavaScript | O(n) | O(1) | Find the node and subtree that matches with given value. |   
 
-[Top](#topics)  
+[Go to Top](#topics)  
 
