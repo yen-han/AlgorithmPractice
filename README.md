@@ -28,6 +28,7 @@ The repository contains coding practices from various sources such as LeetCode, 
 | No  | Title | Language | Time | Space | Description |   
 | :---: | --- | --- | --- | --- | --- |   
 | Leet561 | [Array Partition I](Greedy/Leet561_arrayPartitionI.js) | JavaScript | O(n<sup>2</sup>) | O(1) | Find maximized sum out of minimum number in pair. |   
+| Leet605 | [Can Place Flowers](Greedy/Leet605_canPlaceFlowers.js) | JavaScript | O(n) | O(1) | Check the number of space that can place flowers. |    
 | Leet860 | [Lemonade Change](Greedy/Leet860_lemonadeChange.js) | JavaScript | O(n) | O(1) | Give the correct change to all customers. |    
 | Leet1221 | [Split a String in Balanced Strings](Greedy/Leet1221_splitStringInBalancedStrings.js) | JavaScript | O(n) | O(1) | Find maximum number of balanced string. |  
 | Leet1710 | [Maximum Units on a Truck](Greedy/Leet1710_maximumUnitsOnTruck.js) | JavaScript | O(nlogn) | O(1) | Find maximum units of boxes can be stored on a truck. |  
