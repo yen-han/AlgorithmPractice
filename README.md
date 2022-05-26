@@ -3,6 +3,7 @@ The repository contains coding practices from various sources such as LeetCode, 
 
 ## Topics  
 - [Array](#array)  
+- [Dynamic Programming](#dynamic-programming)
 - [Greedy](#greedy)  
 - [Linked-List](#linked-list)  
 - [Math](#math)  
@@ -22,7 +23,13 @@ The repository contains coding practices from various sources such as LeetCode, 
 | Leet66 | [Plus One](Array/Leet66_plusOne.js) | JavaScript | O(n) | O(1) | Add one to the given array. |   
 | Leet217 | [Contains Duplicate](Array/Leet217_containsDuplicate.js) | JavaScript | O(n) | O(1) | Check whether a value in an array appears twice or more. |  
 | Leet997 | [Find the Town Judge](Array/Leet997_findTownJudge.js) | JavaScript | O(n) | O(n) | Find the town judge with given terms. |  
-   
+    
+
+### Dynamic Programming
+| No  | Title | Language | Time | Space | Description |   
+| :---: | --- | --- | --- | --- | --- |   
+| Leet70 | [Climbing Stairs](Dynamic-Programming/Leet70_climbingStairs.js) | JavaScript | O(n) | O(n) | Find possible ways to climb steps. |   
+     
 
 ### Greedy
 | No  | Title | Language | Time | Space | Description |   
