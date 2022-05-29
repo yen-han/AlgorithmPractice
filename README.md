@@ -28,6 +28,7 @@ The repository contains coding practices from various sources such as LeetCode, 
 ### Dynamic Programming
 | No  | Title | Language | Time | Space | Description |   
 | :---: | --- | --- | --- | --- | --- |   
+| Leet62 | [Unique Paths](Dynamic-Programming/Leet62_uniquePaths.js) | JavaScript | O(n<sup>2</sup>) | O(n) | Find unique path going from left-top to right-bottom. |   
 | Leet70 | [Climbing Stairs](Dynamic-Programming/Leet70_climbingStairs.js) | JavaScript | O(n) | O(n) | Find possible ways to climb steps. |   
      
 
