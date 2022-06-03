@@ -86,6 +86,7 @@ The repository contains coding practices from various sources such as LeetCode, 
 | No  | Title | Language | Time | Space | Description |   
 | :---: | --- | --- | --- | --- | --- |       
 | Leet9 | [Palindrome Number](String/Leet9_palindromeNumber.js) | JavaScript | O(n) | O(n) | Check whether the number reads the same backward as forward. |    
+| Leet13 | [Roman to Integer](String/Leet13_romanToInteger.js) | JavaScript | O(n) | O(1) | Calculate integer number form roman numerals. |    
 | Leet125 | [Valid Palindrome](String/Leet125_validPalindrome.js) | JavaScript | O(n) | O(n) | Find a phrase with palindrome. |  
 | Leet242 | [Valid Anagram](String/Leet242_validAnagram.js)  | JavaScript | O(n) | O(1) | Check whether the given strings are anagram or not. |   
 | Leet344 | [Reverse String](String/Leet344_reverseString.js)  | JavaScript | O(n) | O(1) | Reverse the order of the given string. |   
