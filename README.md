@@ -56,13 +56,14 @@ The repository contains coding practices from various sources such as LeetCode, 
 ### Math  
 | No  | Title | Language | Time | Space | Description |   
 | :---: | --- | --- | --- | --- | --- |   
+| Leet204 | [Count Primes](Queue/Leet204_countPrimes.js) | JavaScript | O(n) | O(n)  | Count prime numbers. |  
 | Leet231 | [Power of Two](Math/Leet231_powerOfTwo.js) | JavaScript | - | O(1) | Check if the number is power of two. |   
 | Leet509 | [Fibonacci Number](Math/Leet509_fibonacciNumber.js) | JavaScript | - | O(1) | Check for fibonacci number. |   
    
 
 ### Queue
 | No  | Title | Language | Time | Space | Description |   
-| :---: | --- | --- | --- | --- | --- |  
+| :---: | --- | --- | --- | --- | --- |   
 | Leet232 | [Implement Queue using Stacks](Queue/Leet232_implementQueueUsingStacks.js) | JavaScript | - | - | Build queue with two stacks. |  
 | Leet933 | [Number of Recent Calls](Queue/Leet933_numberOfRecentCalls.js) | JavaScript | O(n) | O(n) | Counts the number of recent requests within a certain time frame. |  
       
