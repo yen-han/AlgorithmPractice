@@ -56,7 +56,8 @@ The repository contains coding practices from various sources such as LeetCode, 
 ### Math  
 | No  | Title | Language | Time | Space | Description |   
 | :---: | --- | --- | --- | --- | --- |   
-| Leet204 | [Count Primes](Queue/Leet204_countPrimes.js) | JavaScript | O(n) | O(n)  | Count prime numbers. |  
+| Leet204 | [Happy Number](Math/Leet202_happyNumber.js) | JavaScript | O(logN) | O(logN)  | Check for happy number without cycle. |    
+| Leet204 | [Count Primes](Math/Leet204_countPrimes.js) | JavaScript | O(n) | O(n)  | Count prime numbers. |    
 | Leet231 | [Power of Two](Math/Leet231_powerOfTwo.js) | JavaScript | - | O(1) | Check if the number is power of two. |   
 | Leet509 | [Fibonacci Number](Math/Leet509_fibonacciNumber.js) | JavaScript | - | O(1) | Check for fibonacci number. |   
    
