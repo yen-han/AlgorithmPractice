@@ -3,6 +3,7 @@ Source LeetCode
 189 Rotate Array
 (https://leetcode.com/problems/rotate-array/)
 1st 2022-06-08
+1st 2022-06-08
 
 Given an array, rotate the array to the right by k steps,
 where k is non-negative.
@@ -52,3 +53,22 @@ var rotate = function(nums, k) {
         nums[k] = temp[j]
     }
 };
+
+// 2nd Attempt
+// LOGIC: Reverse array as a whole, reverse respectively.
+// Time: O(n) Space: O(1)
+var rotate = function(nums, k) {
+    if(k > nums.length) k %= nums.length;
+    nums.reverse();
+    arrReverse(nums, 0, k-1)
+    arrReverse(nums, k, nums.length-1)
+};
+function arrReverse(nums, start, end){
+     while (start < end) {
+         let temp = nums[start];
+         nums[start] = nums[end];
+         nums[end] = temp;
+         start++;
+         end--;
+   }
+}

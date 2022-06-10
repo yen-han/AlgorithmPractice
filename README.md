@@ -21,7 +21,7 @@ The repository contains coding practices from various sources such as LeetCode, 
 | Leet35 | [Search Insert Position](Array/Leet35_searchInsertPosition.js) | JavaScript | - | - | Find the matched index or index to insert the target. |   
 | Leet53 | [Maximum Subarray](Array/Leet53_maximumSubarray.js) | JavaScript | O(n^2) | O(1) | Find the maximum sum of contiguous part of an array. |  
 | Leet66 | [Plus One](Array/Leet66_plusOne.js) | JavaScript | O(n) | O(1) | Add one to the given array. |   
-| Leet189 | [Rotate Array](Array/Leet189_rotateArray.js) | JavaScript | O(n) | O(n) | Rotate array with given number of times. |   
+| Leet189 | [Rotate Array](Array/Leet189_rotateArray.js) | JavaScript | O(n) | O(n)/O(1) | Rotate array with given number of times. |   
 | Leet217 | [Contains Duplicate](Array/Leet217_containsDuplicate.js) | JavaScript | O(n) | O(1) | Check whether a value in an array appears twice or more. |   
 | Leet997 | [Find the Town Judge](Array/Leet997_findTownJudge.js) | JavaScript | O(n) | O(n) | Find the town judge with given terms. |  
     
