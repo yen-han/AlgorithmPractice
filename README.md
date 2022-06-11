@@ -61,6 +61,7 @@ The repository contains coding practices from various sources such as LeetCode, 
 | Leet204 | [Count Primes](Math/Leet204_countPrimes.js) | JavaScript | O(n) | O(n)  | Count prime numbers. |    
 | Leet231 | [Power of Two](Math/Leet231_powerOfTwo.js) | JavaScript | - | O(1) | Check if the number is power of two. |   
 | Leet509 | [Fibonacci Number](Math/Leet509_fibonacciNumber.js) | JavaScript | - | O(1) | Check for fibonacci number. |   
+| Leet1154 | [Day of the Year](Math/Leet1154_dayOfTheYear.js) | JavaScript | O(1) | O(1) | find the day of year with given date. |   
    
 
 ### Queue
