@@ -102,6 +102,7 @@ The repository contains coding practices from various sources such as LeetCode, 
 | :---: | --- | --- | --- | --- | --- |   
 | Leet94 | [Binary Tree Inorder Traversal](Tree/Leet94_binaryTreeInorderTraversal.js) | JavaScript | O(n) | O(n) | Inorder method(Left, Root, Right) in Depth First Traversals of binary tree. |  
 | Leet101 | [Symmetric Tree](Tree/Leet101_symmetricTree.js) | JavaScript | O(n) | O(1) | Check whether it is mirror of itself. |   
+| Leet104 | [Maximum Depth of Binary Tree](Tree/Leet104_maximumDepthOfBinaryTree.js) | JavaScript | O(n) | O(1) | Find maximum depth. |   
 | Leet108 | [Convert Sorted Array to Binary Search Tree](Tree/Leet108_convertedSortedArraytoBinarySearchTree.js) | JavaScript | - | O(1) | Make balanced binary search tree with number array. |   
 | Leet112 | [Path Sum](Tree/Leet112_pathSum.js) | JavaScript | O(n) | O(1) | Find the way to have path  |   
 | Leet144 | [Binary Tree Preorder Traversal](Tree/Leet144_binaryTreePreorderTraversal.js) | JavaScript | O(n) | O(n) | Preorder method(Root, Left, Right) in Depth First Traversals of binary tree. |   
