@@ -23,7 +23,7 @@ The repository contains coding practices from various sources such as LeetCode, 
 | Leet35 | [Search Insert Position](Array/Leet35_searchInsertPosition.js) | JavaScript | - | - | Find the matched index or index to insert the target. |   
 | Leet53 | [Maximum Subarray](Array/Leet53_maximumSubarray.js) | JavaScript | O(n^2) | O(1) | Find the maximum sum of contiguous part of an array. |  
 | Leet66 | [Plus One](Array/Leet66_plusOne.js) | JavaScript | O(n) | O(1) | Add one to the given array. |   
-| Leet169 | [Majority Element](Array/Leet169_majorityElement.js) | JavaScript | O(n) | O(1) | Find an element occurs more than n/2 times. |   
+| Leet169 | [Majority Element](Array/Leet169_majorityElement.js) | JavaScript | O(nlogn) | O(1) | Find an element occurs more than n/2 times. |   
 | Leet189 | [Rotate Array](Array/Leet189_rotateArray.js) | JavaScript | O(n) | O(n)/O(1) | Rotate array with given number of times. |   
 | Leet217 | [Contains Duplicate](Array/Leet217_containsDuplicate.js) | JavaScript | O(n) | O(1) | Check whether a value in an array appears twice or more. |   
 | Leet997 | [Find the Town Judge](Array/Leet997_findTownJudge.js) | JavaScript | O(n) | O(n) | Find the town judge with given terms. |  
@@ -100,6 +100,7 @@ The repository contains coding practices from various sources such as LeetCode, 
 | :---: | --- | --- | --- | --- | --- |       
 | Leet9 | [Palindrome Number](String/Leet9_palindromeNumber.js) | JavaScript | O(n) | O(n) | Check whether the number reads the same backward as forward. |    
 | Leet13 | [Roman to Integer](String/Leet13_romanToInteger.js) | JavaScript | O(n) | O(1) | Calculate integer number form roman numerals. |    
+| Leet28 | [Implement strStr()](String/Leet28_implementStrStr().js) | JavaScript | O(m*n) | O(1) | Find needle in haystack. |    
 | Leet125 | [Valid Palindrome](String/Leet125_validPalindrome.js) | JavaScript | O(n) | O(n) | Find a phrase with palindrome. |  
 | Leet242 | [Valid Anagram](String/Leet242_validAnagram.js)  | JavaScript | O(n) | O(1) | Check whether the given strings are anagram or not. |   
 | Leet344 | [Reverse String](String/Leet344_reverseString.js)  | JavaScript | O(n) | O(1) | Reverse the order of the given string. |   
