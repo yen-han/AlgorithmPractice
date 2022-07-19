@@ -102,6 +102,7 @@ The repository contains coding practices from various sources such as LeetCode, 
 | Leet13 | [Roman to Integer](String/Leet13_romanToInteger.js) | JavaScript | O(n) | O(1) | Calculate integer number form roman numerals. |    
 | Leet28 | [Implement strStr()](String/Leet28_implementStrStr().js) | JavaScript | O(m*n) | O(1) | Find needle in haystack. |    
 | Leet125 | [Valid Palindrome](String/Leet125_validPalindrome.js) | JavaScript | O(n) | O(n) | Find a phrase with palindrome. |  
+| Leet171 | [Excel Sheet Column Number](String/Leet171_excelSheetColumnNumber.js) | JavaScript | O(n) | O(1) | Find corresponding column number from excel sheet column title. |  
 | Leet242 | [Valid Anagram](String/Leet242_validAnagram.js)  | JavaScript | O(n) | O(1) | Check whether the given strings are anagram or not. |   
 | Leet344 | [Reverse String](String/Leet344_reverseString.js)  | JavaScript | O(n) | O(1) | Reverse the order of the given string. |   
 | Leet412 | [Fizz Buzz](String/Leet412_fizzBuzz.js) | JavaScript | O(n) | O(n) | Display 'Fizz' or 'Buzz' when a number is divided by 3 or 5. |   
