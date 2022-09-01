@@ -18,7 +18,7 @@ The repository contains coding practices from various sources such as LeetCode, 
 | No  | Title | Language | Time | Space | Description |   
 | :---: | --- | --- | --- | --- | --- |  
 | Codility | [Binary Gap](Array/Codility_binaryGap.c) | C | O(n) | O(n) | Find the longest binary gap. |  
-| Leet1 | [Two Sum](Array/Leet1_twoSum.js) | JavaScript | O(n) | O(n) | Find indices of two numbers that add up to target. |  
+| Leet1 | [Two Sum](Array/Leet1_twoSum.js) | JavaScript | O(n) | O(1) | Find indices of two numbers that add up to the target. |  
 | Leet26 | [Remove Duplicates from Sorted Array](Array/Leet26_removeDuplicatesFromSortedArray.js) | JavaScript | O(n) | O(1) | Find duplicate elements and re-order the array without those elements. |   
 | Leet35 | [Search Insert Position](Array/Leet35_searchInsertPosition.js) | JavaScript | - | - | Find the matched index or index to insert the target. |   
 | Leet53 | [Maximum Subarray](Array/Leet53_maximumSubarray.js) | JavaScript | O(n^2) | O(1) | Find the maximum sum of contiguous part of an array. |  
