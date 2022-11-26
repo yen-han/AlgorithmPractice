@@ -1,7 +1,9 @@
 /*********************************************************************** 
-From LeetCode
+Source LeetCode
 412 Fizz Buzz
-Date 2022-03-30
+(https://leetcode.com/problems/fizz-buzz/)
+1st 2022-03-30
+2nd 2022-11-26
 
 Given an integer n, return a string array answer (1-indexed) where:
 
@@ -11,23 +13,48 @@ answer[i] == "Buzz" if i is divisible by 5.
 answer[i] == i (as a string) if none of the above conditions are true.
 ************************************************************************/
 
-let fizzBuzz = function(n) {
-    let answer = [];
-    for(let i = 0; i < n; i++){
-        if((i+1) % 3 === 0 && (i+1) % 5 === 0){
-            answer[i] = "FizzBuzz";
-        }
-        else if((i+1) % 3 === 0){
-            answer[i] = "Fizz";
-        }
-        else if((i+1) % 5 === 0){
-            answer[i] = "Buzz";
-        } else {
-            answer[i] = `${i+1}`;
-        }
+/***********************************************************************
+ * @Notes
+ * switch-case statement with mod() is faster than if-else.
+ **********************************************************************/
+
+// 2nd Attempt
+// LOGIC: Go through every integer, modulus 3, 5, or 15
+let fizzBuzz = function (n) {
+  let answer = [];
+  for (let i = 0; i < n; i++) {
+    if ((i + 1) % 15 === 0) {
+      answer[i] = "FizzBuzz";
+    } else if ((i + 1) % 3 === 0) {
+      answer[i] = "Fizz";
+    } else if ((i + 1) % 5 === 0) {
+      answer[i] = "Buzz";
+    } else {
+      answer[i] = `${i + 1}`;
     }
-    return answer;
+  }
+  return answer;
 };
+
+// 1st Attempt
+// LOGIC: Go through every integer, modulus 3, 5, or 3 and 5
+// let fizzBuzz = function(n) {
+//     let answer = [];
+//     for(let i = 0; i < n; i++){
+//         if((i+1) % 3 === 0 && (i+1) % 5 === 0){
+//             answer[i] = "FizzBuzz";
+//         }
+//         else if((i+1) % 3 === 0){
+//             answer[i] = "Fizz";
+//         }
+//         else if((i+1) % 5 === 0){
+//             answer[i] = "Buzz";
+//         } else {
+//             answer[i] = `${i+1}`;
+//         }
+//     }
+//     return answer;
+// };
 
 // TEST
 // Output: ["1","2","Fizz"]
