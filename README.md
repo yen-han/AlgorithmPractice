@@ -63,12 +63,13 @@ The repository contains coding practices from various sources such as LeetCode, 
 
 ### Linked List
 
-|   No    | Title                                                                          | Language   | Time | Space       | Description                                                  |
-| :-----: | ------------------------------------------------------------------------------ | ---------- | ---- | ----------- | ------------------------------------------------------------ |
-| Leet21  | [Merge Two Sorted Lists](Linked-List/Leet21_mergeTwoSortedLists.js)            | JavaScript | O(n) | O(1)        | Merge two linked lists.                                      |
-| Leet141 | [Linked List Cycle](Linked-List/Leet141_linkedListCycle.js)                    | JavaScript | O(n) | O(n)        | Check if linked list has a cycle.                            |
-| Leet203 | [Remove Linked List Elements](Linked-List/Leet203_removeLinkedListElements.js) | JavaScript | O(n) | O(1)        | Remove element in Linked List that matches with given value. |
-| Leet234 | [Palindrome Linked List](Linked-List/Leet234_palindromeLinkedList.js)          | JavaScript | O(n) | O(n) / O(1) | Check if linked list is palindrome.                          |
+|   No    | Title                                                                          | Language   | Time | Space       | Level | Description                                                  |
+| :-----: | ------------------------------------------------------------------------------ | ---------- | ---- | ----------- | ----- | ------------------------------------------------------------ |
+| Leet21  | [Merge Two Sorted Lists](Linked-List/Leet21_mergeTwoSortedLists.js)            | JavaScript | O(n) | O(1)        | Easy  | Merge two linked lists.                                      |
+| Leet141 | [Linked List Cycle](Linked-List/Leet141_linkedListCycle.js)                    | JavaScript | O(n) | O(n)        | Easy  | Check if linked list has a cycle.                            |
+| Leet203 | [Remove Linked List Elements](Linked-List/Leet203_removeLinkedListElements.js) | JavaScript | O(n) | O(1)        | Easy  | Remove element in Linked List that matches with given value. |
+| Leet206 | [Reverse Linked List](Linked-List/Leet206_reverseLinkedList.js)                | JavaScript | O(n) | O(1)        | Easy  | Reverse direction of linked list                             |
+| Leet234 | [Palindrome Linked List](Linked-List/Leet234_palindromeLinkedList.js)          | JavaScript | O(n) | O(n) / O(1) | Easy  | Check if linked list is palindrome.                          |
 
 ### Math
 
