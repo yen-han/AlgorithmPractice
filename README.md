@@ -32,6 +32,7 @@ The repository contains coding practices from various sources such as LeetCode, 
 | Leet169  | [Majority Element](Array/Leet169_majorityElement.js)                                   | JavaScript | O(nlogn) | O(1)      |        | Find an element occurs more than n/2 times.                            |
 | Leet189  | [Rotate Array](Array/Leet189_rotateArray.js)                                           | JavaScript | O(n)     | O(n)/O(1) |        | Rotate array with given number of times.                               |
 | Leet217  | [Contains Duplicate](Array/Leet217_containsDuplicate.js)                               | JavaScript | O(n)     | O(1)      |        | Check whether a value in an array appears twice or more.               |
+| Leet268  | [Missing Number](Array/Leet268_missingNumber.js)                                       | JavaScript | O(n)     | O(n)/O(1) |        | Check for missing number                                               |
 | Leet283  | [Move Zeroes](Array/Leet283_moveZeroes.js)                                             | JavaScript | O(n)     | O(1)      |        | Move zeroes to the end of array.                                       |
 | Leet997  | [Find the Town Judge](Array/Leet997_findTownJudge.js)                                  | JavaScript | O(n)     | O(n)      |        | Find the town judge with given terms.                                  |
 
