@@ -69,3 +69,23 @@ var getIntersectionNode = function (headA, headB) {
   }
   return null;
 };
+
+// 2nd Attempt
+// LOGIC: Hash Table, Store all nodes on one list. Then check if the other
+// has the same node.
+// Time : O(m + n)  |  Space : O(n)
+var getIntersectionNode = function (headA, headB) {
+  const set = new Set();
+
+  while (headB != null) {
+    set.add(headB);
+    headB = headB.next;
+  }
+
+  while (headA != null) {
+    if (set.has(headA)) return headA;
+    headA = headA.next;
+  }
+
+  return null;
+};
