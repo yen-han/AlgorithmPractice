@@ -112,6 +112,7 @@ The repository contains coding practices from various sources such as LeetCode, 
 | :-----: | --------------------------------------------------------------------- | ---------- | ---------------- | ----- | --------------------------------------------------------------- |
 |  Leet9  | [Palindrome Number](String/Leet9_palindromeNumber.js)                 | JavaScript | O(n)             | O(n)  | Check whether the number reads the same backward as forward.    |
 | Leet13  | [Roman to Integer](String/Leet13_romanToInteger.js)                   | JavaScript | O(n)             | O(1)  | Calculate integer number form roman numerals.                   |
+| Leet14  | [Longest Common Prefix](String/Leet14_longestCommonPrefix.js)         | JavaScript | O(s)             | O(1)  | Find the longest prefix among strings.                          |
 | Leet28  | [Implement strStr()](<String/Leet28_implementStrStr().js>)            | JavaScript | O(m\*n)          | O(1)  | Find needle in haystack.                                        |
 | Leet38  | [Count and Say](String/Leet38_countAndSay.js)                         | JavaScript | O(n<sup>2</sup>) | O(1)  | Count the number of occurrence of the digit and say.            |
 | Leet125 | [Valid Palindrome](String/Leet125_validPalindrome.js)                 | JavaScript | O(n)             | O(n)  | Find a phrase with palindrome.                                  |
