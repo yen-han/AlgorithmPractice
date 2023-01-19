@@ -47,8 +47,8 @@ The repository contains coding practices from various sources such as LeetCode, 
 | Leet118 | [Pascal's Triangle](Dynamic-Programming/Leet118_pascalsTriangle.js)              | JavaScript | O(n<sup>2</sup>) | O(1)  | Easy | Return Pascal's triangle numbers.                     |
 | Leet746 | [Min Cost Climbing Stairs](Dynamic-Programming/Leet746_minCostClimbingStairs.js) | JavaScript | O(n)             | O(1)  | Easy | Find minimum cost to climb stairs.                    |
 
-[Go to Top](#topics)
 
+<p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
 
 ### Graph
 
@@ -66,7 +66,7 @@ The repository contains coding practices from various sources such as LeetCode, 
 | Leet1221 | [Split a String in Balanced Strings](Greedy/Leet1221_splitStringInBalancedStrings.js) | JavaScript | O(n)             | O(1)  | Easy | Find maximum number of balanced string.               |
 | Leet1710 | [Maximum Units on a Truck](Greedy/Leet1710_maximumUnitsOnTruck.js)                    | JavaScript | O(nlogn)         | O(1)  | Easy | Find maximum units of boxes can be stored on a truck. |
 
-[Go to Top](#topics)
+<p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
 
 
 ### Linked List
@@ -92,7 +92,7 @@ The repository contains coding practices from various sources such as LeetCode, 
 | Leet509  | [Fibonacci Number](Math/Leet509_fibonacciNumber.js) | JavaScript | -       | O(1)    | Easy | Check for fibonacci number.               |
 | Leet1154 | [Day of the Year](Math/Leet1154_dayOfTheYear.js)    | JavaScript | O(1)    | O(1)    | Easy | find the day of year with given date.     |
 
-[Go to Top](#topics)
+<p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
 
 
 ### Queue
@@ -110,7 +110,7 @@ The repository contains coding practices from various sources such as LeetCode, 
 | Leet704 | [Binary Search](Search/Leet704_binarySearch.js)       | Binary      | JavaScript | O(logn) | O(1)  | Easy | Find target number with logn complexity. |
 | Leet733 | [Flood Fill](Search/Leet733_floodFill.js)             | Depth-first | JavaScript | -       | O(1)  | Easy | Apply new color in an image.             |
 
-[Go to Top](#topics)
+<p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
 
 
 ### Stack
@@ -135,7 +135,7 @@ The repository contains coding practices from various sources such as LeetCode, 
 | Leet344 | [Reverse String](String/Leet344_reverseString.js)                     | JavaScript | O(n)             | O(1)  | Easy | Reverse the order of the given string.                          |
 | Leet412 | [Fizz Buzz](String/Leet412_fizzBuzz.js)                               | JavaScript | O(n)             | O(n)  | Easy | Display 'Fizz' or 'Buzz' when a number is divided by 3 or 5.    |
 
-[Go to Top](#topics)
+<p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
 
 
 ### Tree
@@ -151,4 +151,4 @@ The repository contains coding practices from various sources such as LeetCode, 
 | Leet235 | [Lowest Common Ancestor of a Binary Search Tree](Tree/Leet235_lowestCommonAncestorOfBinarySearchTree.js) | JavaScript | O(n) | O(1)  | Medium | Find the lowest common ancestor between two values.                          |
 | Leet700 | [Search in a Binary Search Tree](Tree/Leet700_searchBinarySearchTree.js)                                 | JavaScript | O(n) | O(1)  | Easy | Find the node and subtree that matches with given value.                     |
 
-[Go to Top](#topics)
+<p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
