@@ -118,24 +118,24 @@ The repository contains coding practices from various sources such as LeetCode, 
 
 |   No    | Title                                                 | Language   | Time | Space | Level  | Description                                                    |
 | :-----: | ----------------------------------------------------- | ---------- | ---- | ----- | ------ | -------------------------------------------------------------- |
-| Leet20  | [Valid Parentheses](Stack/Leet20_validParentheses.js) | JavaScript | O(n) | O(n)  | Easy   | Check if the string consists of brackets in the correct order. |
-| Leet155 | [Min Stack](Stack/Leet155_minStack.js)                | JavaScript | -    | -     | Medium | Build stack to support push, pop, top, minimum element.        |
+| Leet20  | Valid Parentheses | [JavaScript](Stack/Leet20_validParentheses.js) | O(n) | O(n)  | Easy   | Check if the string consists of brackets in the correct order. |
+| Leet155 | Min Stack                | [JavaScript](Stack/Leet155_minStack.js) | -    | -     | Medium | Build stack to support push, pop, top, minimum element.        |
 
 ### String
 
 |   No    | Title                                                                 | Language                                                 | Time             | Space | Level  | Description                                                     |
 | :-----: | --------------------------------------------------------------------- | -------------------------------------------------------- | ---------------- | ----- | ------ | --------------------------------------------------------------- |
-|  Leet9  | [Palindrome Number](String/Leet9_palindromeNumber.js)                 | JavaScript                                               | O(n)             | O(n)  | Easy   | Check whether the number reads the same backward as forward.    |
-| Leet13  | [Roman to Integer](String/Leet13_romanToInteger.js)                   | JavaScript                                               | O(n)             | O(1)  | Easy   | Calculate integer number form roman numerals.                   |
-| Leet14  | [Longest Common Prefix](String/Leet14_longestCommonPrefix.js)         | JavaScript                                               | O(s)             | O(1)  | Easy   | Find the longest prefix among strings.                          |
-| Leet28  | [Implement strStr()](<String/Leet28_implementStrStr().js>)            | JavaScript                                               | O(m\*n)          | O(1)  | Medium | Find needle in haystack.                                        |
-| Leet38  | [Count and Say](String/Leet38_countAndSay.js)                         | JavaScript                                               | O(n<sup>2</sup>) | O(1)  | Medium | Count the number of occurrence of the digit and say.            |
-| Leet125 | [Valid Palindrome](String/Leet125_validPalindrome.js)                 | JavaScript                                               | O(n)             | O(n)  | Easy   | Find a phrase with palindrome.                                  |
-| Leet171 | [Excel Sheet Column Number](String/Leet171_excelSheetColumnNumber.js) | JavaScript                                               | O(n)             | O(1)  | Easy   | Find corresponding column number from excel sheet column title. |
-| Leet242 | [Valid Anagram](String/Leet242_validAnagram.js)                       | JavaScript                                               | O(n)             | O(1)  | Easy   | Check whether the given strings are anagram or not.             |
-| Leet344 | [Reverse String](String/Leet344_reverseString.js)                     | JavaScript                                               | O(n)             | O(1)  | Easy   | Reverse the order of the given string.                          |
+|  Leet9  | Palindrome Number                 | [JavaScript](String/Leet9_palindromeNumber.js)                                               | O(n)             | O(n)  | Easy   | Check whether the number reads the same backward as forward.    |
+| Leet13  | Roman to Integer                   | [JavaScript](String/Leet13_romanToInteger.js)                                               | O(n)             | O(1)  | Easy   | Calculate integer number form roman numerals.                   |
+| Leet14  | Longest Common Prefix         | [JavaScript](String/Leet14_longestCommonPrefix.js)                                               | O(s)             | O(1)  | Easy   | Find the longest prefix among strings.                          |
+| Leet28  | Implement strStr()            | [JavaScript](String/Leet28_implementStrStr().js)                                               | O(m\*n)          | O(1)  | Medium | Find needle in haystack.                                        |
+| Leet38  | Count and Say                         | [JavaScript](String/Leet38_countAndSay.js)                                               | O(n<sup>2</sup>) | O(1)  | Medium | Count the number of occurrence of the digit and say.            |
+| Leet125 | Valid Palindrome                 | [JavaScript](String/Leet125_validPalindrome.js)                                               | O(n)             | O(n)  | Easy   | Find a phrase with palindrome.                                  |
+| Leet171 | Excel Sheet Column Number | [JavaScript](String/Leet171_excelSheetColumnNumber.js)                                               | O(n)             | O(1)  | Easy   | Find corresponding column number from excel sheet column title. |
+| Leet242 | Valid Anagram                      | [JavaScript](String/Leet242_validAnagram.js)                                                | O(n)             | O(1)  | Easy   | Check whether the given strings are anagram or not.             |
+| Leet344 | Reverse String                   | [JavaScript](String/Leet344_reverseString.js)                                                 | O(n)             | O(1)  | Easy   | Reverse the order of the given string.                          |
 | Leet387 | First Unique Character in a String                                    | [Java](String/Leet387_firstUniqueCharacterInString.java) | O(n<sup>2</sup>) | O(1)  | Easy   | Find the first and unique character in a string.                |
-| Leet412 | [Fizz Buzz](String/Leet412_fizzBuzz.js)                               | JavaScript                                               | O(n)             | O(n)  | Easy   | Display 'Fizz' or 'Buzz' when a number is divided by 3 or 5.    |
+| Leet412 | Fizz Buzz                               | [JavaScript](String/Leet412_fizzBuzz.js)                                               | O(n)             | O(n)  | Easy   | Display 'Fizz' or 'Buzz' when a number is divided by 3 or 5.    |
 
 <p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
 
