@@ -3,6 +3,7 @@ Source LeetCode
 350 Intersection of Two Arrays II
 https://leetcode.com/problems/intersection-of-two-arrays-ii/
 1st 2023-01-30
+2nd 2023-02-01
 
 Given two integer arrays nums1 and nums2, return an array of their 
 intersection. Each element in the result must appear as many times 
@@ -51,5 +52,34 @@ class Solution {
             k++;
         }
         return newArr;
+    }
+}
+
+// 2nd Attempt
+// LOGIC: Hashtable to count the occurrence of each number from nums1
+//        Then, decrement the count for each number from nums2
+//        Add the intersection number to the answer array 
+// Time: O(max(m, n))  |  Space: O(max(m, n)))
+class Solution {
+    public int[] intersect(int[] nums1, int[] nums2) {
+        Hashtable<Integer,Integer> ht = new Hashtable<Integer,Integer>();
+        for(int i = 0; i < nums1.length; i++){
+            if(ht.containsKey(nums1[i])){
+                ht.put(nums1[i], ht.get(nums1[i]) + 1);
+            } 
+            else ht.put(nums1[i], 1);
+        }  
+        ArrayList<Integer> arr = new ArrayList<Integer>();
+        for(int i = 0; i < nums2.length; i++){
+            if(ht.containsKey(nums2[i]) && ht.get(nums2[i]) != 0){
+                arr.add(nums2[i]);
+                ht.put(nums2[i], ht.get(nums2[i])-1);
+            }
+        }
+        int[] answer = new int[arr.size()];
+        for (int i = 0; i < arr.size(); i++){
+            answer[i] = (arr.get(i));   
+        }
+        return answer;
     }
 }

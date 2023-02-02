@@ -19,24 +19,24 @@ The repository contains coding practices from various sources such as LeetCode, 
 
 ### Array
 
-|    No    | Title                               | Language                                                      | Time      | Space        | Level  | Description                                                            |
-| :------: | ----------------------------------- | ------------------------------------------------------------- | --------- | ------------ | ------ | ---------------------------------------------------------------------- |
-| Codility | Binary Gap                          | [C](Array/Codility_binaryGap.c)                               | O(n)      | O(n)         |        | Find the longest binary gap.                                           |
-|  Leet1   | Two Sum                             | [JavaScript](Array/Leet1_twoSum.js)                           | O(n)      | O(1)         | Easy   | Find indices of two numbers that add up to the target.                 |
-|  Leet26  | Remove Duplicates from Sorted Array | [JavaScript](Array/Leet26_removeDuplicatesFromSortedArray.js) | O(n)      | O(1)         | Easy   | Find duplicate elements and re-order the array without those elements. |
-|  Leet27  | Remove Duplicates from Sorted Array | [JavaScript](Array/Leet27_removeElement.js)                   | O(n)      | O(1)         | Easy   | Remove all occurrences of given number in array                        |
-|  Leet35  | Search Insert Position              | [JavaScript](Array/Leet35_searchInsertPosition.js)            | -         | -            | Easy   | Find the matched index or index to insert the target.                  |
-|  Leet53  | Maximum Subarray                    | [JavaScript](Array/Leet53_maximumSubarray.js)                 | O(n^2)    | O(1)         | Medium | Find the maximum sum of contiguous part of an array.                   |
-|  Leet66  | Plus One                            | [JavaScript](Array/Leet66_plusOne.js)                         | O(n)      | O(1)         | Easy   | Add one to the given array.                                            |
-| Leet121  | Best Time to Buy and Sell Stock     | [JavaScript](Array/Leet121_bestTimeToBuySellStock.js)         | O(n)      | O(1)         | Easy   | Find the maximum profit.                                               |
-| Leet136  | Single Number                       | [JavaScript](Array/Leet136_singleNumber.js)                   | O(n)      | O(n)         | Easy   | Find single number in the array.                                       |
-| Leet169  | Majority Element                    | [JavaScript](Array/Leet169_majorityElement.js)                | O(nlogn)  | O(1)         | Easy   | Find an element occurs more than n/2 times.                            |
-| Leet189  | Rotate Array                        | [JavaScript](Array/Leet189_rotateArray.js)                    | O(n)      | O(n)/O(1)    | Medium | Rotate array with given number of times.                               |
-| Leet217  | Contains Duplicate                  | [JavaScript](Array/Leet217_containsDuplicate.js)              | O(n)      | O(1)         | Easy   | Check whether a value in an array appears twice or more.               |
-| Leet268  | Missing Number                      | [JavaScript](Array/Leet268_missingNumber.js)                  | O(n)      | O(n)/O(1)    | Easy   | Check for missing number                                               |
-| Leet283  | Move Zeroes                         | [JavaScript](Array/Leet283_moveZeroes.js)                     | O(n)      | O(1)         | Easy   | Move zeroes to the end of array.                                       |
-| Leet350  | Intersection of Two Arrays II       | [Java](Array/Leet350_intersectionOfTwoArraysii.java)          | O(m \* n) | O(max(m, n)) | Easy   | Find all elements on both arrays.                                      |
-| Leet997  | Find the Town Judge                 | [JavaScript](Array/Leet997_findTownJudge.js)                  | O(n)      | O(n)         | Easy   | Find the town judge with given terms.                                  |
+|    No    | Title                               | Language                                                      | Time                    | Space        | Level  | Description                                                            |
+| :------: | ----------------------------------- | ------------------------------------------------------------- | ----------------------- | ------------ | ------ | ---------------------------------------------------------------------- |
+| Codility | Binary Gap                          | [C](Array/Codility_binaryGap.c)                               | O(n)                    | O(n)         |        | Find the longest binary gap.                                           |
+|  Leet1   | Two Sum                             | [JavaScript](Array/Leet1_twoSum.js)                           | O(n)                    | O(1)         | Easy   | Find indices of two numbers that add up to the target.                 |
+|  Leet26  | Remove Duplicates from Sorted Array | [JavaScript](Array/Leet26_removeDuplicatesFromSortedArray.js) | O(n)                    | O(1)         | Easy   | Find duplicate elements and re-order the array without those elements. |
+|  Leet27  | Remove Duplicates from Sorted Array | [JavaScript](Array/Leet27_removeElement.js)                   | O(n)                    | O(1)         | Easy   | Remove all occurrences of given number in array                        |
+|  Leet35  | Search Insert Position              | [JavaScript](Array/Leet35_searchInsertPosition.js)            | -                       | -            | Easy   | Find the matched index or index to insert the target.                  |
+|  Leet53  | Maximum Subarray                    | [JavaScript](Array/Leet53_maximumSubarray.js)                 | O(n^2)                  | O(1)         | Medium | Find the maximum sum of contiguous part of an array.                   |
+|  Leet66  | Plus One                            | [JavaScript](Array/Leet66_plusOne.js)                         | O(n)                    | O(1)         | Easy   | Add one to the given array.                                            |
+| Leet121  | Best Time to Buy and Sell Stock     | [JavaScript](Array/Leet121_bestTimeToBuySellStock.js)         | O(n)                    | O(1)         | Easy   | Find the maximum profit.                                               |
+| Leet136  | Single Number                       | [JavaScript](Array/Leet136_singleNumber.js)                   | O(n)                    | O(n)         | Easy   | Find single number in the array.                                       |
+| Leet169  | Majority Element                    | [JavaScript](Array/Leet169_majorityElement.js)                | O(nlogn)                | O(1)         | Easy   | Find an element occurs more than n/2 times.                            |
+| Leet189  | Rotate Array                        | [JavaScript](Array/Leet189_rotateArray.js)                    | O(n)                    | O(n)/O(1)    | Medium | Rotate array with given number of times.                               |
+| Leet217  | Contains Duplicate                  | [JavaScript](Array/Leet217_containsDuplicate.js)              | O(n)                    | O(1)         | Easy   | Check whether a value in an array appears twice or more.               |
+| Leet268  | Missing Number                      | [JavaScript](Array/Leet268_missingNumber.js)                  | O(n)                    | O(n)/O(1)    | Easy   | Check for missing number                                               |
+| Leet283  | Move Zeroes                         | [JavaScript](Array/Leet283_moveZeroes.js)                     | O(n)                    | O(1)         | Easy   | Move zeroes to the end of array.                                       |
+| Leet350  | Intersection of Two Arrays II       | [Java](Array/Leet350_intersectionOfTwoArraysii.java)          | O(m \* n), O(max(m, n)) | O(max(m, n)) | Easy   | Find all elements on both arrays.                                      |
+| Leet997  | Find the Town Judge                 | [JavaScript](Array/Leet997_findTownJudge.js)                  | O(n)                    | O(n)         | Easy   | Find the town judge with given terms.                                  |
 
 ### Bit
 
