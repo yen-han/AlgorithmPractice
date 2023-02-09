@@ -19,7 +19,7 @@ Constraints
 
 // 1st Attempt
 // LOGIC: Recursion - Divide n by 3 and check the remainder
-// Time: -  |  Space: O(1)
+// Time: O(logn)  |  Space: O(1)
 var isPowerOfThree = function (n) {
   if (n <= 0) {
     return false;
