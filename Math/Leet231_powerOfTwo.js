@@ -13,16 +13,16 @@ An integer n is a power of two, if there exists an integer x such that n == 2x.
 ************************************************************************/
 
 // 1st Attempt
-// LOGIC: Recursion 
-var isPowerOfTwo = function(n) {
-    if(n <= 0){
-        return false;
-    } else if(n === 1){
-        return true;
-    } else if(n % 2 !== 0){
-        return false;
-    }
-    else {
-        return isPowerOfTwo(n/2);
-    }
+// LOGIC: Recursion
+// Time: O(logn)  |  Space: O(1)
+var isPowerOfTwo = function (n) {
+  if (n <= 0) {
+    return false;
+  } else if (n === 1) {
+    return true;
+  } else if (n % 2 !== 0) {
+    return false;
+  } else {
+    return isPowerOfTwo(n / 2);
+  }
 };
