@@ -3,6 +3,7 @@ Source LeetCode
 231 Power of Two
 (https://leetcode.com/problems/power-of-two/)
 1st 2022-04-25
+2nd 2023-02-13
 
 Given an integer n, return true if it is a power of two. Otherwise, 
 return false.
@@ -25,4 +26,12 @@ var isPowerOfTwo = function (n) {
   } else {
     return isPowerOfTwo(n / 2);
   }
+};
+
+// 2nd Attempt
+// LOGIC: Bit operator
+// Time: -  |  Space: O(1)
+var isPowerOfTwo = function (n) {
+  if (n <= 0) return false;
+  return (n & (n - 1)) === 0;
 };
