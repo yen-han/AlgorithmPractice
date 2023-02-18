@@ -1,6 +1,6 @@
 /*********************************************************************** 
 Source LeetCode
-169 Find Peak Element
+162 Find Peak Element
 https://leetcode.com/problems/find-peak-element/description/
 1st 2023-02-17
 
