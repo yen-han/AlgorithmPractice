@@ -1,6 +1,6 @@
-# Coding Practice
+# Algorithm Practice
 
-The repository contains coding practices from various sources such as LeetCode, codility.<br>
+The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
 ## Topics
 
