@@ -15,6 +15,8 @@ in any order.
 ************************************************************************/
 
 // 1st Attempt
+// LOGIC: Add element in a given array to subsets in order
+// Time: O(n^2)  |  Memory: O(n^2)
 var subsets = function (nums) {
   let res = [[]];
   for (let i = 0; i < nums.length; ++i) {
