@@ -110,11 +110,13 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 ### Search
 
-|   No    | Title            | Type        | Language                                        | Time    | Space | Level | Description                              |
-| :-----: | ---------------- | ----------- | ----------------------------------------------- | ------- | ----- | ----- | ---------------------------------------- |
-| Leet463 | Island Perimeter | Depth-first | [JavaScript](Search/Leet463_islandPerimeter.js) | O(n)    | O(1)  | Easy  | Find perimeter on an island.             |
-| Leet704 | Binary Search    | Binary      | [JavaScript](Search/Leet704_binarySearch.js)    | O(logn) | O(1)  | Easy  | Find target number with logn complexity. |
-| Leet733 | Flood Fill       | Depth-first | [JavaScript](Search/Leet733_floodFill.js)       | -       | O(1)  | Easy  | Apply new color in an image.             |
+|      No       | Title                                                     | Type        | Language                                        | Time    | Space                                                 | Level | Description                              |
+| :-----------: | --------------------------------------------------------- | ----------- | ----------------------------------------------- | ------- | ----------------------------------------------------- | ----- | ---------------------------------------- |
+|    Leet33     | Search in Rotated Sorted Array                            |
+| Binary Search | [JavaScript](Search/Leet33_SearchInRotatedSortedArray.js) | O(logn)     | O(1)                                            | Medium  | Find index of target integer in rotated sorted array. |
+|    Leet463    | Island Perimeter                                          | Depth-first | [JavaScript](Search/Leet463_islandPerimeter.js) | O(n)    | O(1)                                                  | Easy  | Find perimeter on an island.             |
+|    Leet704    | Binary Search                                             | Binary      | [JavaScript](Search/Leet704_binarySearch.js)    | O(logn) | O(1)                                                  | Easy  | Find target number with logn complexity. |
+|    Leet733    | Flood Fill                                                | Depth-first | [JavaScript](Search/Leet733_floodFill.js)       | -       | O(1)                                                  | Easy  | Apply new color in an image.             |
 
 <p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
 
