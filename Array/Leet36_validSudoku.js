@@ -28,7 +28,7 @@ Constraints:
 ************************************************************************/
 
 // 1st Attempt
-// LOGIC: Using temp array to store
+// LOGIC: Check if each row, column, and 3*3 sub-box follows the sudoku rules.
 // Time: O(n^2) Space: O(n^2)
 var isValidSudoku = function (board) {
   // Hash set
