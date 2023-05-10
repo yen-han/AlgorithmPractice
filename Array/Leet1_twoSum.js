@@ -2,7 +2,8 @@
 From LeetCode
 1 Two Sum
 (https://leetcode.com/problems/two-sum/)
-Date 2022-03-31
+1st 2022-03-31 (JavaScript)
+2nd 2023-05-10 (Java)
 
 Given an array of integers numbers and an integer target, return indices of 
 the two numbers such that they add up to target. You may assume that each 
@@ -20,25 +21,26 @@ Constraints:
  * @return {number[]}
 ************************************************************************/
 
-// Logic : Check if target-numbers[i] includes in the remaining array. 
+// 1st Attempt
+// Logic : Check if target-numbers[i] includes in the remaining array.
 // Time  : O(n)  | Space : O(1)
-let twoSum = function(numbers, target) {
-    for(let i = 0; i < numbers.length ; i++) {
-        let diff = numbers.indexOf(target - numbers[i]);
-        // Not the same element & have matched integer in the remaining array
-        if(diff !== i &&  diff !== -1) {
-            return [i, diff];
-        }
+let twoSum = function (numbers, target) {
+  for (let i = 0; i < numbers.length; i++) {
+    let diff = numbers.indexOf(target - numbers[i]);
+    // Not the same element & have matched integer in the remaining array
+    if (diff !== i && diff !== -1) {
+      return [i, diff];
     }
-    return [];
+  }
+  return [];
 };
 
 // TEST
 // Output: [0,1]
-console.log(twoSum([2,7,11,15], 9));
+console.log(twoSum([2, 7, 11, 15], 9));
 // Output: [1,2]
-console.log(twoSum([3,2,4], 6));
+console.log(twoSum([3, 2, 4], 6));
 // Output: [0,1]
-console.log(twoSum([3,3], 6));
+console.log(twoSum([3, 3], 6));
 // Output: []
-console.log(twoSum([1,3], 6));
+console.log(twoSum([1, 3], 6));
