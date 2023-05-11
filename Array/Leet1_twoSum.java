@@ -4,6 +4,7 @@ Source LeetCode
 https://leetcode.com/problems/two-sum/description/
 1st 2022-03-31 (JavaScript)
 2nd 2023-05-10 (Java)
+3rd 2023-05-11 (Java)
 
 Given an array of integers numbers and an integer target, return indices of 
 the two numbers such that they add up to target. 
@@ -37,6 +38,21 @@ class Solution {
             if(index != i && index != -1){
                 return new int[]{i, index};
             }
+        }
+        return null;
+    }
+}
+
+// 3rd Attempt
+// Logic: Using HashMap, tracking remaining value and matching index. 
+// Time: O(n)  |  Space: O(n)
+import java.util.HashMap;
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+        for(int i = 0;i < nums.length; i++){
+            if(map.containsKey(nums[i])) return new int[]{map.get(nums[i]), i};
+            else map.put(target - nums[i], i);
         }
         return null;
     }
