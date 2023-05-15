@@ -82,7 +82,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 |   No    | Title                            | Language                                                          | Time             | Space       | Level  | Description                                                           |
 | :-----: | -------------------------------- | ----------------------------------------------------------------- | ---------------- | ----------- | ------ | --------------------------------------------------------------------- |
-|  Leet2  | Add Two Numbers                  | [Java](Linked-List/Leet2_addTwoNumbers.java)                      | O(max(m,n))      | O(n)        | Medium | Create new linked list with sum of two linked list.                   |
+|  Leet2  | Add Two Numbers                  | [Java](Linked-List/Leet2_addTwoNumbers.java)                      | O(m+n)           | O(n)        | Medium | Create new linked list with sum of two linked list.                   |
 | Leet21  | Merge Two Sorted Lists           | [JavaScript](Linked-List/Leet21_mergeTwoSortedLists.js)           | O(n)             | O(1)        | Easy   | Merge two linked lists.                                               |
 | Leet141 | Linked List Cycle                | [JavaScript](Linked-List/Leet141_linkedListCycle.js)              | O(n)             | O(n)        | Easy   | Check if linked list has a cycle.                                     |
 | Leet160 | Intersection of Two Linked Lists | [JavaScript](Linked-List/Leet160_intersectionOfTwoLinkedLists.js) | O(m \* n)/O(m+n) | O(1)/O(n)   | Easy   | Check for intersection node(value & reference) from two linked lists. |

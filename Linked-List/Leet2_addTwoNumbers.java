@@ -35,7 +35,7 @@ Constraints
 
 // 1st Attempt
 // LOGIC: Add each Linked List's value and create new Linked List.
-// Time: O(max(m, n))  |  Space: O(n)
+// Time: O(m+n)  |  Space: O(n)
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode result = new ListNode();
