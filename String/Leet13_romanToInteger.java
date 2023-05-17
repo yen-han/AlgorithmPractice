@@ -5,6 +5,7 @@ https://leetcode.com/problems/roman-to-integer/description/
 1st 2022-06-03 (JavaScript)
 2nd 2022-06-03 (JavaScript)
 3rd 2023-05-16 (Java)
+4th 2023-05-16 (Java)
 
 Roman numerals are represented by seven different symbols: I, V, X, L, 
 C, D and M.
@@ -70,6 +71,36 @@ class Solution {
             }
         }
         
+        return result;
+    }
+}
+
+// 4th Attempt
+// LOGIC: Using HashMap, if the current index is larger than or equal to the next one, add value
+// if the current index is smaller than the next one, subtract value
+// Time: O(n)  |  Space: O(1)
+import java.util.HashMap;
+class Solution {
+    public int romanToInt(String s) {
+        HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+        map.put('I', 1);
+        map.put('V', 5);
+        map.put('X', 10);
+        map.put('L', 50);
+        map.put('C', 100);
+        map.put('D', 500);
+        map.put('M', 1000);
+
+        int result = 0;
+
+        for(int i = 0; i < s.length(); i++){
+            if((i+1 != s.length()) && (map.get(s.charAt(i)) < map.get(s.charAt(i+1)))){
+                result += (map.get(s.charAt(i+1)) - map.get(s.charAt(i)));
+                i++;
+            } else {
+                result += map.get(s.charAt(i));
+            }
+        }        
         return result;
     }
 }
