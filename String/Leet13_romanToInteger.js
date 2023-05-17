@@ -2,8 +2,9 @@
 Source LeetCode
 860 Lemonade Change
 (https://leetcode.com/problems/lemonade-change/)
-1st 2022-06-03
-2nd 2022-06-03
+1st 2022-06-03 (JavaScript)
+2nd 2022-06-03 (JavaScript)
+3rd 2023-05-16 (Java)
 
 Roman numerals are represented by seven different symbols: I, V, X, L, 
 C, D and M.
@@ -44,64 +45,72 @@ Constraints:
 // LOGIC: if the next index is from largest to smallest, add value
 // if the next index is from smallest to largest, subtract value
 // Time O(n) Space O(1)
-var romanToInt = function(s) {
-let roman = {
-        'I':  1,
-        'V':  5,
-        'X': 10,
-        'L': 50,
-        'C': 100,
-        'D': 500,
-        'M': 1000
-    }
+var romanToInt = function (s) {
+  let roman = {
+    I: 1,
+    V: 5,
+    X: 10,
+    L: 50,
+    C: 100,
+    D: 500,
+    M: 1000,
+  };
 
-    let integer = 0;
-    for(let i = 0;i < s.length; i++){
-        if(roman[s[i]] >= roman[s[i+1]]||s[i+1] === undefined) {
-            integer+= roman[s[i]];
-        }
-        else {
-            integer+= roman[s[i+1]]-roman[s[i]];
-            i++;
-        }
+  let integer = 0;
+  for (let i = 0; i < s.length; i++) {
+    if (roman[s[i]] >= roman[s[i + 1]] || s[i + 1] === undefined) {
+      integer += roman[s[i]];
+    } else {
+      integer += roman[s[i + 1]] - roman[s[i]];
+      i++;
     }
-    return integer;
+  }
+  return integer;
 };
 // 1st Attempt
 // LOGIC: 2D array to add every value, then subtract for special case
-var romanToInt = function(s) {
-    let roman=[
-        ['I',  1],
-        ['V',  5],
-        ['X',  10],
-        ['L',  50],
-        ['C', 100],
-        ['D', 500],
-        ['M',1000]
-];
-    let integer=0;
-    for(let i=0;i<s.length;i++){
-        for( let j=0;j<roman.length;j++){
-            if(s[i] ===roman[j][0]){
-                integer += roman[j][1];
-            }
-        }
+var romanToInt = function (s) {
+  let roman = [
+    ["I", 1],
+    ["V", 5],
+    ["X", 10],
+    ["L", 50],
+    ["C", 100],
+    ["D", 500],
+    ["M", 1000],
+  ];
+  let integer = 0;
+  for (let i = 0; i < s.length; i++) {
+    for (let j = 0; j < roman.length; j++) {
+      if (s[i] === roman[j][0]) {
+        integer += roman[j][1];
+      }
     }
-    for(let i=0;i<s.length;i++){
-        if(s[i] ==='I' && s[i+1]==='V' ||s[i] ==='I' && s[i+1]==='X'  ){
-            integer -= 2;
-            i++;
-        } else if(s[i] ==='X' && s[i+1]==='L' ||s[i] ==='X' && s[i+1]==='C'  ){
-            integer -= 20;
-            i++;
-        }else if(s[i] ==='C' && s[i+1]==='D' ||s[i] ==='C' && s[i+1]==='M'  ){
-            integer -= 200;
-            i++;
-        }
+  }
+  for (let i = 0; i < s.length; i++) {
+    if (
+      (s[i] === "I" && s[i + 1] === "V") ||
+      (s[i] === "I" && s[i + 1] === "X")
+    ) {
+      integer -= 2;
+      i++;
+    } else if (
+      (s[i] === "X" && s[i + 1] === "L") ||
+      (s[i] === "X" && s[i + 1] === "C")
+    ) {
+      integer -= 20;
+      i++;
+    } else if (
+      (s[i] === "C" && s[i + 1] === "D") ||
+      (s[i] === "C" && s[i + 1] === "M")
+    ) {
+      integer -= 200;
+      i++;
     }
-    return integer;
-    };
+  }
+  return integer;
+};
 
-console.log(romanToInt('IV')); // 4
-console.log(romanToInt('LVIII')); // 58
-console.log(romanToInt('MCMXCIV')); //1994
+console.log(romanToInt("IV")); // 4
+console.log(romanToInt("LVIII")); // 58
+console.log(romanToInt("MCMXCIV")); //1994
