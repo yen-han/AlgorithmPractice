@@ -29,7 +29,7 @@ Constraints:
 
 // 1st Attempt
 // LOGIC: Calculate the median number of the two sorted arrays
-// make sorted array until the median number, then return the calculated median
+// merge arrays until the median number, then return the calculated median
 // Time : O(log(m+n))  | Space : O(m+n)
 var findMedianSortedArrays = function (nums1, nums2) {
   let median = Math.floor((nums1.length + nums2.length) / 2) + 1;
@@ -57,4 +57,34 @@ var findMedianSortedArrays = function (nums1, nums2) {
   return (nums1.length + nums2.length) % 2
     ? merged[merged.length - 1]
     : (merged[merged.length - 1] + merged[merged.length - 2]) / 2;
+};
+
+// 2nd Attempt
+// LOGIC: Brute force, merge the two sorted arrays, then return the calculated median
+// Time : O(m+n)  | Space : O(m+n)
+var findMedianSortedArrays = function (nums1, nums2) {
+  let merged = [];
+  let i = 0,
+    j = 0;
+  while (!(nums1[i] == undefined && nums2[j] == undefined)) {
+    if (nums1[i] != undefined && nums2[j] != undefined) {
+      if (nums1[i] <= nums2[j]) {
+        merged.push(nums1[i]);
+        i += 1;
+      } else {
+        merged.push(nums2[j]);
+        j += 1;
+      }
+    } else if (nums1[i] != undefined) {
+      merged.push(nums1[i]);
+      i += 1;
+    } else {
+      merged.push(nums2[j]);
+      j += 1;
+    }
+  }
+  let median = Math.floor((nums1.length + nums2.length) / 2);
+  return (nums1.length + nums2.length) % 2
+    ? merged[median]
+    : (merged[median] + merged[median - 1]) / 2;
 };
