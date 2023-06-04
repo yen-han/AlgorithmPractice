@@ -34,27 +34,25 @@ Constraints
  * }
 ************************************************************************/
 
-// 1st Attempt
+// 2nd Attempt
 // LOGIC: Add each Linked List's value and create new Linked List.
 // Time: O(m+n)  |  Space: O(n)
-class Solution {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode result = new ListNode();
-        ListNode head = result;
-        int digit = 0;
-        while(l1 != null || l2 != null|| digit != 0){
-            if(l1 != null) {
-                digit += l1.val;
-                l1 = l1.next;
-            }
-            if(l2 != null){
-                digit += l2.val;
-                l2 = l2.next;
-            }
-            result.next = new ListNode(digit % 10);
-            digit /= 10;
-            result = result.next;
-        }
-        return head.next;
+var addTwoNumbers = function (l1, l2) {
+  let res = new ListNode();
+  let head = res;
+  let sum = 0;
+  while (l1 || l2 || sum != 0) {
+    if (l1) {
+      sum += l1.val;
+      l1 = l1.next;
     }
-}
+    if (l2) {
+      sum += l2.val;
+      l2 = l2.next;
+    }
+    res.next = new ListNode(sum % 10);
+    sum >= 10 ? (sum = 1) : (sum = 0);
+    res = res.next;
+  }
+  return head.next;
+};
