@@ -5,6 +5,7 @@ https://leetcode.com/problems/two-sum/description/
 1st 2022-03-31 (JavaScript)
 2nd 2023-05-10 (Java)
 3rd 2023-05-11 (Java)
+4th 2023-06-03 (JavaScript)
 
 Given an array of integers numbers and an integer target, return indices of 
 the two numbers such that they add up to target. 
