@@ -4,6 +4,7 @@ Source LeetCode
 https://leetcode.com/problems/add-two-numbers/description/
 1st 2023-05-14 (Java)
 2nd 2023-06-04 (JavaScript)
+3rd 2023-06-04 (JavaScript)
 
 You are given two non-empty linked lists representing two non-negative 
 integers. The digits are stored in reverse order, and each of their nodes 
@@ -36,7 +37,7 @@ Constraints
 
 // 1st Attempt
 // LOGIC: Add each Linked List's value and create new Linked List.
-// Time: O(m+n)  |  Space: O(n)
+// Time: O(max(m,n))  |  Space: O(n)
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode result = new ListNode();
