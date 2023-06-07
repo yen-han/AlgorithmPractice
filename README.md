@@ -95,6 +95,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 |    No    | Title            | Language                                      | Time    | Space   | Level  | Description                               |
 | :------: | ---------------- | --------------------------------------------- | ------- | ------- | ------ | ----------------------------------------- |
+|  Leet7   | Reverse Integer  | [JavaScript](Math/Leet7_reverseInteger.js)    | O(n)    | O(1)    | Medium | Reverse the given integer                 |
 |  Leet69  | Sqrt(x)          | [JavaScript](<Math/Leet69_sqrt(x).js>)        | O(n)    | O(1)    | Easy   | Check which square number is the closest. |
 | Leet202  | Happy Number     | [JavaScript](Math/Leet202_happyNumber.js)     | O(logN) | O(logN) | Easy   | Check for happy number without cycle.     |
 | Leet204  | Count Primes     | [JavaScript](Math/Leet204_countPrimes.js)     | O(n)    | O(n)    | Medium | Count prime numbers.                      |
