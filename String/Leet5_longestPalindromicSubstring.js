@@ -3,6 +3,7 @@ Source LeetCode
 5. Longest Palindromic Substring
 https://leetcode.com/problems/longest-palindromic-substring/description/
 1st 2023-06-07
+2nd 2023-06-08
 
 Given a string s, return the longest palindromic substring in s.
 
@@ -46,3 +47,39 @@ function validPalindrome(start, end, s) {
   }
   return true;
 }
+
+// 2nd Attempt
+// LOGIC: Using dynamic programming, check if the first & last letter matches
+// and if the substring in between is a palindrome
+// Time: O(n^2)  |  Memory: O(n^2)
+var longestPalindrome = function (s) {
+  let ans = [0, 0];
+  // Make 2D array for dynamic programming
+  var dp = new Array(s.length);
+
+  for (var i = 0; i < dp.length; i++) {
+    dp[i] = new Array(s.length);
+  }
+  // Length of 1
+  for (let i = 0; i < s.length; i++) {
+    dp[i][i] = true;
+  }
+  // Length of 2
+  for (let i = 0; i < s.length - 1; i++) {
+    if (s[i] == s[i + 1]) {
+      dp[i][i + 1] = true;
+      ans = [i, i + 1];
+    } else dp[i][i + 1] = false;
+  }
+  // > Lengt of 3
+  for (let diff = 2; diff < s.length; diff++) {
+    for (let i = 0; i < s.length - diff; i++) {
+      let j = i + diff;
+      if (s[i] == s[j] && dp[i + 1][j - 1]) {
+        dp[i][j] = true;
+        ans = [i, j];
+      } else dp[i][j] = false;
+    }
+  }
+  return s.slice(ans[0], ans[1] + 1);
+};
