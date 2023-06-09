@@ -60,7 +60,7 @@ var addTwoNumbers = function (l1, l2) {
 
 // 3rd Attempt
 // LOGIC: Using Recursive algorithm
-// Time: -  |  Space: O(n)
+// Time: O(max(m,n)) |  Space: O(n)
 var addTwoNumbers = function (l1, l2) {
   let res = new ListNode();
   let head = res;
