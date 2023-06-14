@@ -3,6 +3,7 @@ Source LeetCode
 14 Longest Common Prefix
 (https://leetcode.com/problems/longest-common-prefix/description/)
 1st 2023-01-16
+2nd 2023-06-14
 
 Write a function to find the longest common prefix string amongst an 
 array of strings.
@@ -23,7 +24,7 @@ Constraints:
 ************************************************************************/
 
 // 1st Attempt
-// LOGIC: Make the first string as prefix and compare with other strings.
+// LOGIC: Using horizontal search, make the first string as prefix and compare with other strings.
 // Slice it down if there is a mismatch.
 // Time : O(s)  | Space : O(1)
 var longestCommonPrefix = function (strs) {
@@ -40,4 +41,21 @@ var longestCommonPrefix = function (strs) {
     }
   }
   return prefix;
+};
+
+// 2nd Attempt
+// LOGIC: Using vertical search, check if the nth index matches with other strings.
+// Slice it down if there is a mismatch.
+// Time : O(s)  | Space : O(1)
+var longestCommonPrefix = function (strs) {
+  let prefix = "";
+  let j = 0;
+  while (strs[0][j] != undefined) {
+    for (let i = 0; i < strs.length - 1; i++) {
+      if (strs[i][j] != strs[i + 1][j]) return prefix;
+      else if (i == strs.length - 2) prefix += strs[i][j];
+    }
+    j++;
+  }
+  return strs[0];
 };
