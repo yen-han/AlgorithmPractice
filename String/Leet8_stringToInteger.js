@@ -70,7 +70,7 @@ var myAtoi = function (s) {
         res * 10 + s[i].charCodeAt(0) - 48 > Math.pow(2, 31)
       )
         res = Math.pow(2, 31);
-      else res = res * 10 + parseInt(s[i]);
+      else res = res * 10 + s[i].charCodeAt(0) - 48;
     } else return res * sign;
   }
   return res * sign;
