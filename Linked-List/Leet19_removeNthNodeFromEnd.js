@@ -3,7 +3,7 @@ Source LeetCode
 19. Remove Nth Node From End of List
 https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
 1st 2023-06-20
-
+2nd 2023-06-26
 
 Given the head of a linked list, remove the nth node from the end of 
 the list and return its head.
@@ -55,5 +55,21 @@ var removeNthFromEnd = function (head, n) {
     prev = node;
     node = node.next;
   }
+  return head;
+};
+
+// 2nd Attempt
+// LOGIC: Using two pointers(fast & slow), and move fast n times first for counting nth node.
+// Time: O(n)  |  Space: O(1)
+var removeNthFromEnd = function (head, n) {
+  let fast = head;
+  let slow = head;
+  for (let i = 0; i < n; i++) fast = fast.next;
+  if (!fast) return head.next;
+  while (fast.next) {
+    fast = fast.next;
+    slow = slow.next;
+  }
+  slow.next = slow.next.next;
   return head;
 };
