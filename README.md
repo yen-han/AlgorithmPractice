@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-87-blue)   
-![Static Badge](https://img.shields.io/badge/easy-61-orange) ![Static Badge](https://img.shields.io/badge/medium-25-orange) ![Static Badge](https://img.shields.io/badge/hard-1-orange)   
+![Static Badge](https://img.shields.io/badge/total-87-blue)  
+![Static Badge](https://img.shields.io/badge/easy-61-orange) ![Static Badge](https://img.shields.io/badge/medium-25-orange) ![Static Badge](https://img.shields.io/badge/hard-1-orange)
 
 ## Topics
 
@@ -97,6 +97,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet203 | Remove Linked List Elements      | [JavaScript](Linked-List/Leet203_removeLinkedListElements.js)                                  | O(n)             | O(1)        | Easy   | Remove element in Linked List that matches with given value.          |           |
 | Leet206 | Reverse Linked List              | [JavaScript](Linked-List/Leet206_reverseLinkedList.js)                                         | O(n)             | O(1)        | Easy   | Reverse direction of linked list                                      |           |
 | Leet234 | Palindrome Linked List           | [JavaScript](Linked-List/Leet234_palindromeLinkedList.js)                                      | O(n)             | O(n) / O(1) | Easy   | Check if linked list is palindrome.                                   |           |
+| Leet237 | Delete Node In a Linked List     | [JavaScript](Linked-List/Leet237_deleteNodeInLinkedList.js)                                    | O(1)             | O(1)        | Medium | Make function to delete the node.                                     |           |
 
 ### Math
 
