@@ -3,6 +3,7 @@ Source LeetCode
 274. H-Index
 https://leetcode.com/problems/h-index/description/
 1st 2024-01-13
+2nd 2024-01-13
 
 Given an array of integers citations where citations[i] is the number of 
 citations a researcher received for their ith paper, return the 
@@ -47,8 +48,7 @@ var hIndex = function (citations) {
   citations.sort((a, b) => a - b);
   let total = citations.length;
   for (let h = citations[total - 1]; h >= 0; h--) {
-    if (total >= h && citations[total - h] && citations[total - h] >= h)
-      return h;
+    if (citations[total - h] >= h) return h;
   }
   return 0;
 };
