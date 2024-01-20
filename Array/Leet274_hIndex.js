@@ -52,3 +52,33 @@ var hIndex = function (citations) {
   }
   return 0;
 };
+// 2nd Attempt
+// LOGIC: Brute force, H-Index means the largest number h that h papers have at least h citations.
+// Sort the given `citations` array in an ascending order.
+// Starting from the maximum number of citations.
+// Count the papers that is more than h citations and
+// see if the number of paper is more than h citations in total
+// if not subtract citation number and lop through the logic
+// Edge case for array with 1 element.
+// Time: O(n^2) |  Space: O(1)
+var hIndex = function (citations) {
+  if (citations.length == 1) return citations[0] > 0 ? 1 : 0;
+  let max = 0;
+  for (let i = 0; i < citations.length; i++) {
+    if (citations[i] > max) max = citations[i];
+  }
+
+  let count = 0;
+  let h = citations[citations.length - 1];
+  for (let i = 0; i < citations.length && h >= 0; i++) {
+    if (citations[i] >= h) count++;
+    if (i == citations.length - 1 && count >= h) {
+      return h;
+    } else if (i == citations.length - 1) {
+      i = -1;
+      h--;
+      count = 0;
+    }
+  }
+  return 0;
+};
