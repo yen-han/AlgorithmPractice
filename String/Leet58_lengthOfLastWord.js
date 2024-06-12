@@ -3,6 +3,7 @@ Source LeetCode
 58. Length of Last Word
 https://leetcode.com/problems/length-of-last-word/description/
 1st 2024-06-12
+2nd 2024-06-12
 
 Given a string s consisting of words and spaces, return the length of 
 the last word in the string.
@@ -48,4 +49,12 @@ var lengthOfLastWord = function (s) {
     }
   }
   return end - start + 1;
+};
+
+// 2nd Attempt
+// LOGIC: Using javascript string "trim, split" method
+// Time: O(n)  |  Memory: O(1)
+var lengthOfLastWord = function (s) {
+  words = s.trim().split(" ");
+  return words[words.length - 1].length;
 };
