@@ -64,7 +64,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | :-----: | ------------------------ | ------------------------------------------------------------------ | ---------------- | ----- | ------ | ----------------------------------------------------- |
 | Leet53  | Maximum Subarray         | [JavaScript](Dynamic-Programming/Leet53_maximumSubarray.js)        | O(n)             | O(1)  | Medium | Find contiguous subarry with the largest sum.         |
 | Leet62  | Unique Paths             | [JavaScript](Dynamic-Programming/Leet62_uniquePaths.js)            | O(n<sup>2</sup>) | O(n)  | Medium | Find unique path going from left-top to right-bottom. |
-| Leet70  | Climbing Stairs          | [JavaScript](Dynamic-Programming/Leet70_climbingStairs.js)         | O(n)             | O(n)  | Easy   | Find possible ways to climb steps.                    |
+| Leet70  | Climbing Stairs          | [JavaScript](Dynamic-Programming/Leet70_climbingStairs.js)         | O(n), O(n^2)     | O(n)  | Easy   | Find possible ways to climb steps.                    |
 | Leet118 | Pascal's Triangle        | [JavaScript](Dynamic-Programming/Leet118_pascalsTriangle.js)       | O(n<sup>2</sup>) | O(1)  | Easy   | Return Pascal's triangle numbers.                     |
 | Leet746 | Min Cost Climbing Stairs | [JavaScript](Dynamic-Programming/Leet746_minCostClimbingStairs.js) | O(n)             | O(1)  | Easy   | Find minimum cost to climb stairs.                    |
 
@@ -172,16 +172,17 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 ### Tree
 
-|   No    | Title                                          | Language                                                             | Time   | Space | Level  | Description                                                                  | Notes |
-| :-----: | ---------------------------------------------- | -------------------------------------------------------------------- | ------ | ----- | ------ | ---------------------------------------------------------------------------- | ----- |
-| Leet94  | Binary Tree Inorder Traversal                  | [JavaScript](Tree/Leet94_binaryTreeInorderTraversal.js)              | O(n)   | O(n)  | Easy   | Inorder method(Left, Root, Right) in Depth First Traversals of binary tree.  |       |
-| Leet100 | Same Tree                                      | [JavaScript](Tree/Leet100_sameTree.js)                               | O(V+E) | O(d)  | Easy   | Check if the trees are the same.                                             | BFS   |
-| Leet101 | Symmetric Tree                                 | [JavaScript](Tree/Leet101_symmetricTree.js)                          | O(n)   | O(1)  | Easy   | Check whether it is mirror of itself.                                        |       |
-| Leet104 | Maximum Depth of Binary Tree                   | [JavaScript](Tree/Leet104_maximumDepthOfBinaryTree.js)               | O(n)   | O(1)  | Easy   | Find maximum depth.                                                          |       |
-| Leet108 | Convert Sorted Array to Binary Search Tree     | [JavaScript](Tree/Leet108_convertedSortedArraytoBinarySearchTree.js) | -      | O(1)  | Easy   | Make balanced binary search tree with number array.                          |       |
-| Leet112 | Path Sum                                       | [JavaScript](Tree/Leet112_pathSum.js)                                | O(n)   | O(1)  | Easy   | Find the way to have path                                                    |       |
-| Leet144 | Binary Tree Preorder Traversal                 | [JavaScript](Tree/Leet144_binaryTreePreorderTraversal.js)            | O(n)   | O(n)  | Easy   | Preorder method(Root, Left, Right) in Depth First Traversals of binary tree. |       |
-| Leet235 | Lowest Common Ancestor of a Binary Search Tree | [JavaScript](Tree/Leet235_lowestCommonAncestorOfBinarySearchTree.js) | O(n)   | O(1)  | Medium | Find the lowest common ancestor between two values.                          |       |
-| Leet700 | Search in a Binary Search Tree                 | [JavaScript](Tree/Leet700_searchBinarySearchTree.js)                 | O(n)   | O(1)  | Easy   | Find the node and subtree that matches with given value.                     |       |
+|   No    | Title                                          | Language                                                             | Time   | Space | Level  | Description                                                                  | Notes                    |
+| :-----: | ---------------------------------------------- | -------------------------------------------------------------------- | ------ | ----- | ------ | ---------------------------------------------------------------------------- | ------------------------ |
+| Leet94  | Binary Tree Inorder Traversal                  | [JavaScript](Tree/Leet94_binaryTreeInorderTraversal.js)              | O(n)   | O(n)  | Easy   | Inorder method(Left, Root, Right) in Depth First Traversals of binary tree.  |                          |
+| Leet100 | Same Tree                                      | [JavaScript](Tree/Leet100_sameTree.js)                               | O(V+E) | O(d)  | Easy   | Check if the trees are the same.                                             | BFS                      |
+| Leet101 | Symmetric Tree                                 | [JavaScript](Tree/Leet101_symmetricTree.js)                          | O(n)   | O(1)  | Easy   | Check whether it is mirror of itself.                                        |                          |
+| Leet104 | Maximum Depth of Binary Tree                   | [JavaScript](Tree/Leet104_maximumDepthOfBinaryTree.js)               | O(n)   | O(1)  | Easy   | Find maximum depth.                                                          |                          |
+| Leet108 | Convert Sorted Array to Binary Search Tree     | [JavaScript](Tree/Leet108_convertedSortedArraytoBinarySearchTree.js) | -      | O(1)  | Easy   | Make balanced binary search tree with number array.                          |                          |
+| Leet112 | Path Sum                                       | [JavaScript](Tree/Leet112_pathSum.js)                                | O(n)   | O(1)  | Easy   | Find the way to have path                                                    |                          |
+| Leet144 | Binary Tree Preorder Traversal                 | [JavaScript](Tree/Leet144_binaryTreePreorderTraversal.js)            | O(n)   | O(n)  | Easy   | Preorder method(Root, Left, Right) in Depth First Traversals of binary tree. |                          |
+| Leet226 | Invert Binary Tree                             | [JavaScript](Tree/Leet226_invertBinaryTree.js)                       | O(n)   | O(n)  | Easy   | Invert binary tree                                                           | Depth-First Search (DFS) |
+| Leet235 | Lowest Common Ancestor of a Binary Search Tree | [JavaScript](Tree/Leet235_lowestCommonAncestorOfBinarySearchTree.js) | O(n)   | O(1)  | Medium | Find the lowest common ancestor between two values.                          |                          |
+| Leet700 | Search in a Binary Search Tree                 | [JavaScript](Tree/Leet700_searchBinarySearchTree.js)                 | O(n)   | O(1)  | Easy   | Find the node and subtree that matches with given value.                     |                          |
 
 <p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
