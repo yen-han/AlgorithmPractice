@@ -3,6 +3,7 @@ Source LeetCode
 64. Minimum Path Sum
 (https://leetcode.com/problems/unique-paths/)
 1st 2024-07-13
+2nd 2024-07-13
 
 Given a m x n grid filled with non-negative numbers, find a path 
 from top left to bottom right, which minimizes the sum of all numbers 
@@ -31,7 +32,7 @@ Constraints:
 
 // 1st Attempt
 // LOGIC: using 2D array
-// Time : O(m*n) Space : O(m*n)
+// Time : O(m*n)  | Space : O(m*n)
 var minPathSum = function (grid) {
   var dp = new Array(grid.length);
   for (var i = 0; i < dp.length; i++) {
@@ -52,4 +53,25 @@ var minPathSum = function (grid) {
     }
   }
   return dp[dp.length - 1][dp[0].length - 1];
+};
+
+// 2nd Attempt
+// LOGIC: using single array
+// Time : O(m*n)  | Space : O(m)
+var minPathSum = function (grid) {
+  var dp = [];
+  for (let i = 0; i < grid[0].length; i++) {
+    if (i == 0) dp[0] = grid[0][0];
+    else dp[i] = grid[0][i] + dp[i - 1];
+  }
+  for (let i = 1; i < grid.length; i++) {
+    for (let j = 0; j < grid[i].length; j++) {
+      if (j == 0) dp[j] = grid[i][j] + dp[j];
+      else {
+        dp[j] = Math.min(dp[j] + grid[i][j], grid[i][j] + dp[j - 1]);
+      }
+    }
+  }
+
+  return dp[dp.length - 1];
 };
