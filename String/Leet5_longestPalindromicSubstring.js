@@ -71,7 +71,7 @@ var longestPalindrome = function (s) {
       ans = [i, i + 1];
     } else dp[i][i + 1] = false;
   }
-  // > Lengt of 3
+  // Length of 3
   for (let diff = 2; diff < s.length; diff++) {
     for (let i = 0; i < s.length - diff; i++) {
       let j = i + diff;
