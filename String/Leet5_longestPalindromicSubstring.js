@@ -4,6 +4,7 @@ Source LeetCode
 https://leetcode.com/problems/longest-palindromic-substring/description/
 1st 2023-06-07
 2nd 2023-06-08
+3rd 2024-07-12
 
 Given a string s, return the longest palindromic substring in s.
 
@@ -82,4 +83,29 @@ var longestPalindrome = function (s) {
     }
   }
   return s.slice(ans[0], ans[1] + 1);
+};
+
+// 3rd Attempt
+// LOGIC: Starting from the longest substring, check if it is a palindrome using loop
+// Time: O(n^3)  |  Memory: O(1)
+var longestPalindrome = function (s) {
+  for (let length = s.length; length > 0; length--) {
+    for (let start = 0; start <= s.length - length; start++) {
+      let end = start + length - 1;
+      let i = start;
+      let j = end;
+      let palindromic = true;
+
+      while (palindromic && i < j) {
+        if (s[i] !== s[j]) {
+          palindromic = false;
+        } else {
+          i++;
+          j--;
+        }
+      }
+      if (palindromic) return s.slice(start, end + 1);
+    }
+  }
+  return s.slice(0, 1);
 };
