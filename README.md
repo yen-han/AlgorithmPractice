@@ -70,6 +70,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet118 | Pascal's Triangle        | [JavaScript](Dynamic-Programming/Leet118_pascalsTriangle.js)       | O(n<sup>2</sup>) | O(1)          | Easy   | Return Pascal's triangle numbers.                               |
 | Leet120 | Triangle                 | [JavaScript](Dynamic-Programming/Leet120_triangle.js)              | O(n<sup>2</sup>) | O(1)          | Medium | Return the minimum path sum.                                    |
 | Leet139 | Word Break               | [JavaScript](Dynamic-Programming/Leet139_wordBreak.js)             | O(m\*n)          | O(n)          | Medium | Find string in dictionary.                                      |
+| Leet221 | Maximal Square           | [JavaScript](Dynamic-Programming/Leet221_maximalSquare.js)         | O(m\*n)          | O(1)          | Medium | Find the largest square with 1's.                               |
 | Leet746 | Min Cost Climbing Stairs | [JavaScript](Dynamic-Programming/Leet746_minCostClimbingStairs.js) | O(n)             | O(1)          | Easy   | Find minimum cost to climb stairs.                              |
 
 <p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
