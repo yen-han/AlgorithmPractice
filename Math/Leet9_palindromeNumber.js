@@ -3,6 +3,7 @@ Source LeetCode
 9. Palindrome Number
 https://leetcode.com/problems/palindrome-number/description/
 1st 2022-04-01
+2nd 2024-08-01
 
 Given an integer x, return true if x is a
 palindrome
@@ -39,4 +40,18 @@ var isPalindrome = function (x) {
       : (palindrome = false);
   }
   return palindrome;
+};
+
+// 2nd Attempt
+// LOGIC: Reverse the given number as number and compare if the reversed number matches
+// Time : O(n)  | Space : O(1)
+var isPalindrome = function (x) {
+  let num = x;
+  let reverse = 0;
+  while (num > 0) {
+    let reminder = num % 10;
+    reverse = reverse * 10 + reminder;
+    num = Math.floor(num / 10);
+  }
+  return reverse == x;
 };
