@@ -114,6 +114,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | :------: | ----------------- | --------------------------------------------- | ------------ | ---------- | ------ | ----------------------------------------- |
 |  Leet7   | Reverse Integer   | [JavaScript](Math/Leet7_reverseInteger.js)    | O(n)         | O(1)       | Medium | Reverse the given integer                 |
 |  Leet9   | Palindrome Number | [JavaScript](Math/Leet9_palindromeNumber.js)  | O(n)         | O(n), O(1) | Easy   | Check given number is palindrome or not   |
+|  Leet67  | Add Binary        | [JavaScript](Math/Leet67_addBinary.js)        | O(n)         | O(1)       | Easy   | Sum two binary strings to one             |
 |  Leet69  | Sqrt(x)           | [JavaScript](<Math/Leet69_sqrt(x).js>)        | O(n)         | O(1)       | Easy   | Check which square number is the closest. |
 | Leet202  | Happy Number      | [JavaScript](Math/Leet202_happyNumber.js)     | O(logN)      | O(logN)    | Easy   | Check for happy number without cycle.     |
 | Leet204  | Count Primes      | [JavaScript](Math/Leet204_countPrimes.js)     | O(n)         | O(n)       | Medium | Count prime numbers.                      |
