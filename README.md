@@ -54,10 +54,11 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 ### Bit
 
-|   No    | Title            | Language                                                                           | Time | Space | Level | Description                |
-| :-----: | ---------------- | ---------------------------------------------------------------------------------- | ---- | ----- | ----- | -------------------------- |
-| Leet67  | Add Binary       | [JavaScript](Bit/Leet67_addBinary.js)                                              | O(n) | O(1)  | Easy  | Sum two binary strings.    |
-| Leet191 | Number of 1 Bits | [JavaScript](Bit/Leet191_numberOf1Bits.js), [Java](Bit/Leet191.numberOf1Bits.java) | -    | O(1)  | Easy  | Find the number of 1 bits. |
+|   No    | Title            | Language                                                                           | Time | Space | Level | Description                      |
+| :-----: | ---------------- | ---------------------------------------------------------------------------------- | ---- | ----- | ----- | -------------------------------- |
+| Leet67  | Add Binary       | [JavaScript](Bit/Leet67_addBinary.js)                                              | O(n) | O(1)  | Easy  | Sum two binary strings.          |
+| Leet190 | Reverse Bits     | [JavaScript](Bit/Leet190_reverseBits.js)                                           | O(n) | O(n)  | Easy  | Reverse bits of a given 32 bits. |
+| Leet191 | Number of 1 Bits | [JavaScript](Bit/Leet191_numberOf1Bits.js), [Java](Bit/Leet191.numberOf1Bits.java) | -    | O(1)  | Easy  | Find the number of 1 bits.       |
 
 ### Dynamic Programming
 
