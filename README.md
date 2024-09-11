@@ -12,6 +12,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 - [Dynamic Programming](#dynamic-programming)
 - [Graph](#graph)
 - [Greedy](#greedy)
+- [Heap](#heap)
 - [Linked-List](#linked-list)
 - [Math](#math)
 - [Queue](#queue)
@@ -96,6 +97,11 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet1710 | Maximum Units on a Truck           | [JavaScript](Greedy/Leet1710_maximumUnitsOnTruck.js)          | O(nlogn)         | O(1)  | Easy   | Find maximum units of boxes can be stored on a truck. |
 
 <p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
+
+### Heap
+
+| No  | Title | Language | Time | Space | Level | Description | Notes |
+| :-: | ----- | -------- | ---- | ----- | ----- | ----------- | ----- |
 
 ### Linked List
 
