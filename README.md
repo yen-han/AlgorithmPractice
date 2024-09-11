@@ -100,8 +100,9 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 ### Heap
 
-| No  | Title | Language | Time | Space | Level | Description | Notes |
-| :-: | ----- | -------- | ---- | ----- | ----- | ----------- | ----- |
+|   No    | Title                           | Language                                           | Time | Space | Level  | Description                           | Notes    |
+| :-----: | ------------------------------- | -------------------------------------------------- | ---- | ----- | ------ | ------------------------------------- | -------- |
+| Leet215 | Kth Largest Element in an Array | [Java](Heap/Leet215_kthLargestElementInArray.java) | O(n) | O(n)  | Medium | Find kth largest element in an array. | min-heap |
 
 ### Linked List
 
