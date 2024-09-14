@@ -1,8 +1,8 @@
 """
 Source LeetCode
 226. Invert Binary Tree
-Date: 2024-09-10
 https://leetcode.com/problems/invert-binary-tree/description/
+2nd: 2024-09-10
 
 Given the root of a binary tree, invert the tree, and return its root.
 
@@ -30,14 +30,9 @@ Constraints:
 
 # 1st Attempt
 # LOGIC: find the position using binary search
-# Time : O(logn)  |  Space: O(1)
+# Time : O(logn)  |  Space: O(n)
 class Solution(object):
     def invertTree(self, root):
-        """
-        :type root: TreeNode
-        :rtype: TreeNode
-        """
-
         if root is None:
             return None
         temp = root.left
