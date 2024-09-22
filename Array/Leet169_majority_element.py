@@ -3,6 +3,7 @@ Source LeetCode
 169. Majority Element
 https://leetcode.com/problems/majority-element/description/
 2nd: 2024-09-21
+3rd: 2024-09-21
 
 Given an array nums of size n, return the majority element.
 
@@ -34,3 +35,17 @@ class Solution(object):
     def majorityElement(self, nums):
         nums.sort()
         return nums[len(nums) // 2]
+    
+# 3rd Attempt
+# LOGIC: Use hash map, count the occurrence of value. return element appears more than ⌊n / 2⌋ times
+# Time : O(n)  |  Space: O(n)
+    def majorityElement(self, nums):
+        hash_map = {}
+        for i in range(0, len(nums)):
+            if(hash_map.has_key(nums[i])):
+                hash_map[nums[i]] += 1
+            else: 
+                hash_map[nums[i]] = 1
+        for key in hash_map:
+            if hash_map[key] > len(nums)//2:
+                return key
