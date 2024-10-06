@@ -56,9 +56,9 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 ### Backtracking
 
-|   No   | Title        | Language                                        | Time | Space | Level  | Description                |
-| :----: | ------------ | ----------------------------------------------- | ---- | ----- | ------ | -------------------------- |
-| Leet77 | Combinations | [python3](Backtrackiing/Leet77_combinations.py) | -    | -     | Medium | all possible combinations. |
+|   No   | Title        | Language                                       | Time | Space | Level  | Description                |
+| :----: | ------------ | ---------------------------------------------- | ---- | ----- | ------ | -------------------------- |
+| Leet77 | Combinations | [python3](Backtracking/Leet77_combinations.py) | -    | -     | Medium | all possible combinations. |
 
 ### Bit
 
