@@ -8,6 +8,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 ## Topics
 
 - [Array](#array)
+- [Backtracking](#backtracking)
 - [Bit](#bit)
 - [Dynamic Programming](#dynamic-programming)
 - [Graph](#graph)
@@ -52,6 +53,11 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet283  | Move Zeroes                                             | [JavaScript](Array/Leet283_moveZeroes.js)                                                   | O(n)                    | O(1)         | Easy   | Move zeroes to the end of array.                                       |               |
 | Leet350  | Intersection of Two Arrays II                           | [Java](Array/Leet350_intersectionOfTwoArraysii.java)                                        | O(m \* n), O(max(m, n)) | O(max(m, n)) | Easy   | Find all elements on both arrays.                                      |               |
 | Leet997  | Find the Town Judge                                     | [JavaScript](Array/Leet997_findTownJudge.js)                                                | O(n)                    | O(n)         | Easy   | Find the town judge with given terms.                                  |               |
+
+### Backtracking
+
+| No  | Title | Language | Time | Space | Level | Description |
+| :-: | ----- | -------- | ---- | ----- | ----- | ----------- |
 
 ### Bit
 
