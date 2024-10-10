@@ -58,6 +58,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 |   No   | Title        | Language                                       | Time | Space | Level  | Description                |
 | :----: | ------------ | ---------------------------------------------- | ---- | ----- | ------ | -------------------------- |
+| Leet46 | Permutations | [python3](Backtracking/Leet46_permutations.py) | -    | -     | Medium | all possible permutations. |
 | Leet77 | Combinations | [python3](Backtracking/Leet77_combinations.py) | -    | -     | Medium | all possible combinations. |
 
 ### Bit
