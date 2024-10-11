@@ -56,10 +56,11 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 ### Backtracking
 
-|   No   | Title        | Language                                       | Time | Space | Level  | Description                |
-| :----: | ------------ | ---------------------------------------------- | ---- | ----- | ------ | -------------------------- |
-| Leet46 | Permutations | [python3](Backtracking/Leet46_permutations.py) | -    | -     | Medium | all possible permutations. |
-| Leet77 | Combinations | [python3](Backtracking/Leet77_combinations.py) | -    | -     | Medium | all possible combinations. |
+|   No   | Title           | Language                                          | Time | Space | Level  | Description                                 |
+| :----: | --------------- | ------------------------------------------------- | ---- | ----- | ------ | ------------------------------------------- |
+| Leet39 | Combination Sum | [python3](Backtracking/Leet39_combination_sum.py) | -    | -     | Medium | all unique combinations that sum to target. |
+| Leet46 | Permutations    | [python3](Backtracking/Leet46_permutations.py)    | -    | -     | Medium | all possible permutations.                  |
+| Leet77 | Combinations    | [python3](Backtracking/Leet77_combinations.py)    | -    | -     | Medium | all possible combinations.                  |
 
 ### Bit
 
