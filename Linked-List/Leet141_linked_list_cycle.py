@@ -47,3 +47,16 @@ class Solution:
             head = head.next
         return False
         
+# 3rd Attempt
+# LOGIC: using two pointer
+# Time: O(n)  | Space: O(1)
+class Solution:
+    def hasCycle(self, head: Optional[ListNode]) -> bool:
+        slow = head
+        fast = head
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+            if slow == fast:
+                return True
+        return False
