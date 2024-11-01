@@ -93,6 +93,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 |    No    | Title                        | Language                                              | Time | Space | Level  | Description                                 |
 | :------: | ---------------------------- | ----------------------------------------------------- | ---- | ----- | ------ | ------------------------------------------- |
+| Leet130  | Surrounded Regions           | [python3](Graph/Leet130_surrounded_regions.py)        | -    | -     | Medium | capture surrounded regions.                 |
 | Leet200  | Number of Islands            | [python3](Graph/Leet200_number_of_islands.py)         | -    | -     | Medium | Find the number of islands surrounded by 0. |
 | Leet1971 | Find if Path Exists in Graph | [JavaScript](Graph/Leet1971_findIfPathExistsGraph.js) | -    | -     | Easy   | Find the path from source to destination.   |
 
