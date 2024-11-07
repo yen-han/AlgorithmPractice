@@ -91,11 +91,12 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 ### Graph
 
-|    No    | Title                        | Language                                              | Time | Space | Level  | Description                                 |
-| :------: | ---------------------------- | ----------------------------------------------------- | ---- | ----- | ------ | ------------------------------------------- |
-| Leet130  | Surrounded Regions           | [python3](Graph/Leet130_surrounded_regions.py)        | -    | -     | Medium | capture surrounded regions.                 |
-| Leet200  | Number of Islands            | [python3](Graph/Leet200_number_of_islands.py)         | -    | -     | Medium | Find the number of islands surrounded by 0. |
-| Leet1971 | Find if Path Exists in Graph | [JavaScript](Graph/Leet1971_findIfPathExistsGraph.js) | -    | -     | Easy   | Find the path from source to destination.   |
+|    No    | Title                        | Language                                              | Time | Space | Level  | Description                                          |
+| :------: | ---------------------------- | ----------------------------------------------------- | ---- | ----- | ------ | ---------------------------------------------------- |
+| Leet130  | Surrounded Regions           | [python3](Graph/Leet130_surrounded_regions.py)        | -    | -     | Medium | capture surrounded regions.                          |
+| Leet200  | Number of Islands            | [python3](Graph/Leet200_number_of_islands.py)         | -    | -     | Medium | Find the number of islands surrounded by 0.          |
+| Leet433  | Minimum Genetic Mutation     | [python3](Graph/Leet433_minimum_genetic_mutatioin.py) | -    | -     | Medium | Find the number of mutation to end gene within bank. |
+| Leet1971 | Find if Path Exists in Graph | [JavaScript](Graph/Leet1971_findIfPathExistsGraph.js) | -    | -     | Easy   | Find the path from source to destination.            |
 
 ### Greedy
 
