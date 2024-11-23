@@ -3,6 +3,7 @@ Source LeetCode
 637. Average of Levels in Binary Tree
 https://leetcode.com/problems/average-of-levels-in-binary-tree/description/
 1st 2024-11-16
+2nd 2024-11-16
 
 Given the root of a binary tree, return the average value of the nodes on each 
 level in the form of an array. Answers within 10-5 of the actual answer will be accepted. 
@@ -46,4 +47,32 @@ class Solution:
                     queue.append(node.right)
                 sum += node.val
             result.append(sum / level_size)
+        return result
+    
+# 2nd Attempt
+# LOGIC: using DFS, sum all the nodes in each level and append average to the result track level with index
+# Time : O(n) | Space: O(n)
+class Solution:
+    def averageOfLevels(self, root: Optional[TreeNode]) -> List[float]:
+        node_count = [] 
+        result = [] 
+
+        def dfs(node, level):
+            if node is None:
+                return
+            if len(result) > level:
+                sum = result[level] 
+                count = node_count[level] 
+            else: 
+                sum, count= 0, 0 
+                result.insert(level, node.val)
+                node_count.insert(level, 1)  
+
+            result[level] = ((sum*count) + node.val)/(count + 1)
+            node_count[level] = count + 1
+
+            dfs(node.left, level + 1)
+            dfs(node.right, level + 1)
+
+        dfs(root, 0)
         return result
