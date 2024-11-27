@@ -23,7 +23,7 @@ Constraints
 """
 
 # 3rd Attempt
-# LOGIC: Find the nth from the start of the list, and change the pointer
+# LOGIC:  Using two pointers(fast & slow), skip n times first for counting nth node.
 # Time: O(n)  |  Space: O(1)
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
