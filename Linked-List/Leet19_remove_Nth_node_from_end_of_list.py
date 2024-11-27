@@ -22,7 +22,7 @@ Constraints
 #         self.next = next
 """
 
-# 1st Attempt
+# 3rd Attempt
 # LOGIC: Find the nth from the start of the list, and change the pointer
 # Time: O(n)  |  Space: O(1)
 class Solution:
