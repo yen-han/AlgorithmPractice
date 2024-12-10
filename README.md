@@ -177,6 +177,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 |   No    | Title               | Language                                         | Time | Space | Level  | Description                                                    |
 | :-----: | ------------------- | ------------------------------------------------ | ---- | ----- | ------ | -------------------------------------------------------------- |
 | Leet20  | Valid Parentheses   | [JavaScript](Stack/Leet20_validParentheses.js)   | O(n) | O(n)  | Easy   | Check if the string consists of brackets in the correct order. |
+| Leet71  | Simplify Path       | [python3](Stack/Leet71_simplify_path.py)         | O(n) | O(n)  | Medium | Return simplified path.                                        |
 | Leet155 | Min Stack           | [JavaScript](Stack/Leet155_minStack.js)          | -    | -     | Medium | Build stack to support push, pop, top, minimum element.        |
 | Leet227 | Basic Calculator II | [JavaScript](Stack/Leet227_basicCalculatorII.js) | O(n) | O(1)  | Medium | Calculate string with integer & basic operator.                |
 
