@@ -29,7 +29,7 @@ Constraints:
 """
 
 # 1st Attempt
-# LOGIC: using 2 lists, sort one for less than x and other for greater than x, combine them at the end
+# LOGIC: using 2 lists, separate one for less than x and other for greater than x, combine them at the end
 # Time: O(n)  | Space: O(n)
 class Solution:
     def partition(self, head: Optional[ListNode], x: int) -> Optional[ListNode]:
@@ -49,7 +49,7 @@ class Solution:
             head = head.next
         # make it to the last node
         list_greater.next = None
-        
+
         # connect both less and greater list together
         list_less.next = greater.next
         return less.next
