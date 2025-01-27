@@ -3,7 +3,7 @@ Source LeetCode
 189 Rotate Array
 (https://leetcode.com/problems/rotate-array/)
 1st 2022-06-08
-1st 2022-06-08
+2nd 2022-06-08
 
 Given an array, rotate the array to the right by k steps,
 where k is non-negative.
@@ -36,39 +36,39 @@ Constraints
 // 1st Attempt
 // LOGIC: Using temp array to store
 // Time: O(n) Space: O(n)
-var rotate = function(nums, k) {
-    if(k > nums.length) k%=nums.length;
-    let move = nums.length-k
-    let temp = [];
-    // Save array that goes to the end
-    for(let i = 0;i < move; i++) {
-        temp.push(nums[i]);
-    }   
-    // Bring remaining array to the front
-    for(let i = 0;move < nums.length;i++, move++){
-            nums[i] = nums[move]
-    }
-    // Assign the temp array to the end
-    for(let j = 0 ;j < temp.length; k++, j++){
-        nums[k] = temp[j]
-    }
+var rotate = function (nums, k) {
+  if (k > nums.length) k %= nums.length;
+  let move = nums.length - k;
+  let temp = [];
+  // Save array that goes to the end
+  for (let i = 0; i < move; i++) {
+    temp.push(nums[i]);
+  }
+  // Bring remaining array to the front
+  for (let i = 0; move < nums.length; i++, move++) {
+    nums[i] = nums[move];
+  }
+  // Assign the temp array to the end
+  for (let j = 0; j < temp.length; k++, j++) {
+    nums[k] = temp[j];
+  }
 };
 
 // 2nd Attempt
 // LOGIC: Reverse array as a whole, reverse respectively.
 // Time: O(n) Space: O(1)
-var rotate = function(nums, k) {
-    if(k > nums.length) k %= nums.length;
-    nums.reverse();
-    arrReverse(nums, 0, k-1)
-    arrReverse(nums, k, nums.length-1)
+var rotate = function (nums, k) {
+  if (k > nums.length) k %= nums.length;
+  nums.reverse();
+  arrReverse(nums, 0, k - 1);
+  arrReverse(nums, k, nums.length - 1);
 };
-function arrReverse(nums, start, end){
-     while (start < end) {
-         let temp = nums[start];
-         nums[start] = nums[end];
-         nums[end] = temp;
-         start++;
-         end--;
-   }
+function arrReverse(nums, start, end) {
+  while (start < end) {
+    let temp = nums[start];
+    nums[start] = nums[end];
+    nums[end] = temp;
+    start++;
+    end--;
+  }
 }
