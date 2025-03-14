@@ -112,6 +112,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 |    No    | Title                              | Language                                                      | Time             | Space | Level  | Description                                           |
 | :------: | ---------------------------------- | ------------------------------------------------------------- | ---------------- | ----- | ------ | ----------------------------------------------------- |
 |  Leet11  | Container With Most Water          | [JavaScript](Greedy/Leet11_containerWithMostWater.js)         | O(n)             | O(1)  | Medium | Find max area that contains the most waters.          |
+| Leet135  | Candy                              | [python3](Greedy/Leet135_candy.py)                            | O(n)             | O(n)  | Hard   | minimum number of candies to distribute.              |
 | Leet561  | Array Partition I                  | [JavaScript](Greedy/Leet561_arrayPartitionI.js)               | O(n<sup>2</sup>) | O(1)  | Easy   | Find maximized sum out of minimum number in pair.     |
 | Leet605  | Can Place Flowers                  | [JavaScript](Greedy/Leet605_canPlaceFlowers.js)               | O(n)             | O(1)  | Easy   | Check the number of space that can place flowers.     |
 | Leet860  | Lemonade Change                    | [JavaScript](Greedy/Leet860_lemonadeChange.js)                | O(n)             | O(1)  | Easy   | Give the correct change to all customers.             |
