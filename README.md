@@ -63,6 +63,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet350  | Intersection of Two Arrays II                             | [Java](Array/Leet350_intersectionOfTwoArraysii.java)                                        | O(m \* n), O(max(m, n)) | O(max(m, n)) | Medium | Update board with rules.                                               |               |
 | Leet997  | Find the Town Judge                                       | [JavaScript](Array/Leet997_findTownJudge.js)                                                | O(n)                    | O(n)         | Easy   | Find the town judge with given terms.                                  |               |
 | Leet3239 | Minimum Number of Flips to Make Binary Grid Palindromic I | [python3](Array/Leet3239_minimum_number_of_flips_to_make_binary_grid_palindromic_I.py)      | O(m\*n)                 | O(1)         | Medium | Minimum Number of time to make palindrome.                             |               |
+| Leet3413 | Maximum Coins From K Consecutive Bags                     | [python3](Array/Leet3413_maximum_coins_from_k_consecutive_bags.py)                          | O(m\*n)                 | O(m\*n)      | Medium | Maximum coins.                                                         |               |
 
 ### Backtracking
 
