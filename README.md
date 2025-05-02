@@ -130,9 +130,10 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 ### Heap
 
-|   No    | Title                           | Language                                           | Time | Space | Level  | Description                           | Notes    |
-| :-----: | ------------------------------- | -------------------------------------------------- | ---- | ----- | ------ | ------------------------------------- | -------- |
-| Leet215 | Kth Largest Element in an Array | [Java](Heap/Leet215_kthLargestElementInArray.java) | O(n) | O(n)  | Medium | Find kth largest element in an array. | min-heap |
+|    No    | Title                           | Language                                           | Time     | Space | Level  | Description                              | Notes    |
+| :------: | ------------------------------- | -------------------------------------------------- | -------- | ----- | ------ | ---------------------------------------- | -------- |
+| Leet215  | Kth Largest Element in an Array | [Java](Heap/Leet215_kthLargestElementInArray.java) | O(n)     | O(n)  | Medium | Find kth largest element in an array.    | min-heap |
+| Leet1046 | Last Stone Weight               | [Java](Heap/Leet215_kthLargestElementInArray.java) | O(nlogn) | O(n)  | Easy   | Find weight of the last remaining stone. | max-heap |
 
 ### Linked List
 
