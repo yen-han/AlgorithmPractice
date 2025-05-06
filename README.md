@@ -201,6 +201,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet150 | Evaluate Reverse Polish Notation | [python3](Stack/Leet150_evaluate_reverse_polish_notation.py) | O(n) | O(n)  | Medium | Evaluate the expression.                                       |
 | Leet155 | Min Stack                        | [JavaScript](Stack/Leet155_minStack.js)                      | -    | -     | Medium | Build stack to support push, pop, top, minimum element.        |
 | Leet227 | Basic Calculator II              | [JavaScript](Stack/Leet227_basicCalculatorII.js)             | O(n) | O(1)  | Medium | Calculate string with integer & basic operator.                |
+| Leet739 | Daily Temperatures               | [python3](Stack/Leet739_daily_temperatures.py)               | O(n) | O(n)  | Medium | Return number of days to get a warmer temperature.             |
 
 ### String
 
