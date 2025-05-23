@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-152-blue)  
-![Static Badge](https://img.shields.io/badge/easy-76-orange) ![Static Badge](https://img.shields.io/badge/medium-73-orange) ![Static Badge](https://img.shields.io/badge/hard-3-orange)
+![Static Badge](https://img.shields.io/badge/total-153-blue)  
+![Static Badge](https://img.shields.io/badge/easy-77-orange) ![Static Badge](https://img.shields.io/badge/medium-73-orange) ![Static Badge](https://img.shields.io/badge/hard-3-orange)
 
 ## Topics
 
