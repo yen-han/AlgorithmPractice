@@ -3,6 +3,7 @@ Source LeetCode
 501. Find Mode in Binary Search Tree
 https://leetcode.com/problems/find-mode-in-binary-search-tree/description/
 1st 2025-05-22
+2nd 2025-05-22
 
 Given the root of a binary search tree (BST) with duplicates, return all the mode(s) 
 (i.e., the most frequently occurred element) in it.
@@ -62,3 +63,34 @@ class Solution:
             if value == max_occurence:
                 res.append(key)
         return res
+
+# 2nd Attempt
+# LOGIC: Using inorder traversal, compare values with previous node and count the occurrence.
+# Time : O(n)  | Space: O(1)
+class Solution:
+    def inorder(self, root: Optional[TreeNode], hash_map: dict):
+        max_key = []
+        max_count = 0
+        count = 0
+        prev = None
+
+        def inorder(root):
+            nonlocal prev, count, max_count, max_key
+            if root:
+                inorder(root.left)
+                if prev and prev.val == root.val:
+                    count += 1
+                else:
+                    count = 1
+
+                if max_count < count:
+                    max_count = count
+                    max_key = [root.val]
+                elif max_count == count:
+                    max_key.append(root.val)
+
+                prev = root
+                inorder(root.right)
+
+        inorder(root)
+        return max_key
