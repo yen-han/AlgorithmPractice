@@ -1,7 +1,7 @@
 """
 Source LeetCode
 421. Maximum XOR of Two Numbers in an Array
-(https://leetcode.com/problems/path-sum/)
+https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/description/
 1st 2025-05-29
 
 Given an integer array nums, return the maximum result of nums[i] XOR nums[j], 
