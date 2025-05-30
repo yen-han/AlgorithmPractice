@@ -3,7 +3,7 @@
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
 ![Static Badge](https://img.shields.io/badge/total-153-blue)  
-![Static Badge](https://img.shields.io/badge/easy-77-orange) ![Static Badge](https://img.shields.io/badge/medium-74-orange) ![Static Badge](https://img.shields.io/badge/hard-3-orange)
+![Static Badge](https://img.shields.io/badge/easy-77-orange) ![Static Badge](https://img.shields.io/badge/medium-75-orange) ![Static Badge](https://img.shields.io/badge/hard-3-orange)
 
 ## Topics
 
@@ -254,6 +254,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet222 | Count Complete Tree Nodes                                 | [python](Tree/Leet222_count_complete_tree_nodes.py)                                          | O(n)   | O(n)       | Easy   | Count the number of nodes in tree.                                           | Depth-First Search (DFS)                             |
 | Leet226 | Invert Binary Tree                                        | [JavaScript](Tree/Leet226_invertBinaryTree.js), [python](Tree/Leet226_invert_binary_tree.py) | O(n)   | O(n)       | Easy   | Invert binary tree.                                                          | Depth-First Search (DFS)                             |
 | Leet235 | Lowest Common Ancestor of a Binary Search Tree            | [JavaScript](Tree/Leet235_lowestCommonAncestorOfBinarySearchTree.js)                         | O(n)   | O(1)       | Medium | Find the lowest common ancestor between two values.                          |                                                      |
+| Leet421 | Maximum XOR of Two Numbers in an Array                    | [python3](Tree/Leet421_maximum_xor_of_two_numbers_in_an_array.py)                            | O(n)   | O(n)       | Medium | Find the maximum result of two elements in array.                            | Trie                                                 |
 | Leet501 | Find Mode in Binary Search Tree                           | [python3](Tree/Leet501_find_mode_in_binary_search_tree.py)                                   | O(n)   | O(n), O(1) | Easy   | Find the most frequently occurred element.                                   | HashMap, Depth-First Search (DFS)                    |
 | Leet637 | Average of Levels in Binary Tree                          | [python3](Tree/Leet637_average_of_levels_in_binary_tree.py)                                  | O(n)   | O(n)       | Easy   | Find average value on each level.                                            | Breadth-First Search (BFS), Depth-First Search (DFS) |
 | Leet700 | Search in a Binary Search Tree                            | [JavaScript](Tree/Leet700_searchBinarySearchTree.js)                                         | O(n)   | O(1)       | Easy   | Find the node and subtree that matches with given value.                     |                                                      |
