@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-153-blue)  
-![Static Badge](https://img.shields.io/badge/easy-77-orange) ![Static Badge](https://img.shields.io/badge/medium-77-orange) ![Static Badge](https://img.shields.io/badge/hard-3-orange)
+![Static Badge](https://img.shields.io/badge/total-154-blue)  
+![Static Badge](https://img.shields.io/badge/easy-77-orange) ![Static Badge](https://img.shields.io/badge/medium-78-orange) ![Static Badge](https://img.shields.io/badge/hard-3-orange)
 
 ## Topics
 
@@ -91,6 +91,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | :-----: | ------------------------------ | -------------------------------------------------------------------------------------------------------- | ---------------- | ------------- | ------ | --------------------------------------------------------------- |
 | Leet53  | Maximum Subarray               | [JavaScript](Dynamic-Programming/Leet53_maximumSubarray.js), [python3](Array/Leet53_maximum_subarray.py) | O(n)             | O(1)          | Medium | Find contiguous subarry with the largest sum.                   |
 | Leet62  | Unique Paths                   | [JavaScript](Dynamic-Programming/Leet62_uniquePaths.js)                                                  | O(n<sup>2</sup>) | O(n)          | Medium | Find unique path going from left-top to right-bottom.           |
+| Leet63  | Unique Paths II                | [python3](Dynamic-Programming/Leet63_unique_paths_II.py)                                                 | O(m\*n)          | O(m\*n)       | Medium | Find unique path going from left-top to right-bottom.           |
 | Leet64  | Minimum Path Sum               | [JavaScript](Dynamic-Programming/Leet64_minimumPathSum.js)                                               | O(m\*n)          | O(m\*n), O(m) | Medium | Minimizes the sum of all numbers from left-top to right-bottom. |
 | Leet70  | Climbing Stairs                | [JavaScript](Dynamic-Programming/Leet70_climbingStairs.js)                                               | O(n), O(n^2)     | O(n)          | Easy   | Find possible ways to climb steps.                              |
 | Leet72  | Edit Distance                  | [JavaScript](Dynamic-Programming/Leet72_editDistance.js)                                                 | O(m\*n)          | O(m\*n)       | Medium | The minimum number of operation to conversion.                  |
