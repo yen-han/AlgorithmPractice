@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-154-blue)  
-![Static Badge](https://img.shields.io/badge/easy-77-orange) ![Static Badge](https://img.shields.io/badge/medium-78-orange) ![Static Badge](https://img.shields.io/badge/hard-3-orange)
+![Static Badge](https://img.shields.io/badge/total-155-blue)  
+![Static Badge](https://img.shields.io/badge/easy-77-orange) ![Static Badge](https://img.shields.io/badge/medium-79-orange) ![Static Badge](https://img.shields.io/badge/hard-3-orange)
 
 ## Topics
 
@@ -87,23 +87,24 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 ### Dynamic Programming
 
-|   No    | Title                          | Language                                                                                                 | Time             | Space         | Level  | Description                                                     |
-| :-----: | ------------------------------ | -------------------------------------------------------------------------------------------------------- | ---------------- | ------------- | ------ | --------------------------------------------------------------- |
-| Leet53  | Maximum Subarray               | [JavaScript](Dynamic-Programming/Leet53_maximumSubarray.js), [python3](Array/Leet53_maximum_subarray.py) | O(n)             | O(1)          | Medium | Find contiguous subarry with the largest sum.                   |
-| Leet62  | Unique Paths                   | [JavaScript](Dynamic-Programming/Leet62_uniquePaths.js)                                                  | O(n<sup>2</sup>) | O(n)          | Medium | Find unique path going from left-top to right-bottom.           |
-| Leet63  | Unique Paths II                | [python3](Dynamic-Programming/Leet63_unique_paths_II.py)                                                 | O(m\*n)          | O(m\*n)       | Medium | Find unique path going from left-top to right-bottom.           |
-| Leet64  | Minimum Path Sum               | [JavaScript](Dynamic-Programming/Leet64_minimumPathSum.js)                                               | O(m\*n)          | O(m\*n), O(m) | Medium | Minimizes the sum of all numbers from left-top to right-bottom. |
-| Leet70  | Climbing Stairs                | [JavaScript](Dynamic-Programming/Leet70_climbingStairs.js)                                               | O(n), O(n^2)     | O(n)          | Easy   | Find possible ways to climb steps.                              |
-| Leet72  | Edit Distance                  | [JavaScript](Dynamic-Programming/Leet72_editDistance.js)                                                 | O(m\*n)          | O(m\*n)       | Medium | The minimum number of operation to conversion.                  |
-| Leet97  | Interleaving String            | [JavaScript](Dynamic-Programming/Leet97_interleavingString.js)                                           | O(m\*n)          | O(m\*n)       | Medium | interleaving between two strings.                               |
-| Leet118 | Pascal's Triangle              | [JavaScript](Dynamic-Programming/Leet118_pascalsTriangle.js)                                             | O(n<sup>2</sup>) | O(1)          | Easy   | Return Pascal's triangle numbers.                               |
-| Leet120 | Triangle                       | [JavaScript](Dynamic-Programming/Leet120_triangle.js)                                                    | O(n<sup>2</sup>) | O(1)          | Medium | Return the minimum path sum.                                    |
-| Leet139 | Word Break                     | [JavaScript](Dynamic-Programming/Leet139_wordBreak.js)                                                   | O(m\*n)          | O(n)          | Medium | Find string in dictionary.                                      |
-| Leet198 | House Robber                   | [python3](Dynamic-Programming/Leet198_house_robber.py)                                                   | O(n)             | O(n)          | Medium | Find maximum amount of money you can rob.                       |
-| Leet221 | Maximal Square                 | [JavaScript](Dynamic-Programming/Leet221_maximalSquare.js)                                               | O(m\*n)          | O(1)          | Medium | Find the largest square with 1's.                               |
-| Leet300 | Longest Increasing Subsequence | [JavaScript](Dynamic-Programming/Leet300_longestIncreasingSubsequence.js)                                | O(n^2)           | O(n)          | Medium | Find the length of the longest strictly increasing subsequence. |
-| Leet322 | Coin Change                    | [JavaScript](Dynamic-Programming/Leet322_coinChange.js)                                                  | O(m\*n)          | O(n)          | Medium | Find the fewest number of coins to make up the amount.          |
-| Leet746 | Min Cost Climbing Stairs       | [JavaScript](Dynamic-Programming/Leet746_minCostClimbingStairs.js)                                       | O(n)             | O(1)          | Easy   | Find minimum cost to climb stairs.                              |
+|   No    | Title                               | Language                                                                                                 | Time             | Space         | Level  | Description                                                     |
+| :-----: | ----------------------------------- | -------------------------------------------------------------------------------------------------------- | ---------------- | ------------- | ------ | --------------------------------------------------------------- |
+| Leet53  | Maximum Subarray                    | [JavaScript](Dynamic-Programming/Leet53_maximumSubarray.js), [python3](Array/Leet53_maximum_subarray.py) | O(n)             | O(1)          | Medium | Find contiguous subarry with the largest sum.                   |
+| Leet62  | Unique Paths                        | [JavaScript](Dynamic-Programming/Leet62_uniquePaths.js)                                                  | O(n<sup>2</sup>) | O(n)          | Medium | Find unique path going from left-top to right-bottom.           |
+| Leet63  | Unique Paths II                     | [python3](Dynamic-Programming/Leet63_unique_paths_II.py)                                                 | O(m\*n)          | O(m\*n)       | Medium | Find unique path going from left-top to right-bottom.           |
+| Leet64  | Minimum Path Sum                    | [JavaScript](Dynamic-Programming/Leet64_minimumPathSum.js)                                               | O(m\*n)          | O(m\*n), O(m) | Medium | Minimizes the sum of all numbers from left-top to right-bottom. |
+| Leet70  | Climbing Stairs                     | [JavaScript](Dynamic-Programming/Leet70_climbingStairs.js)                                               | O(n), O(n^2)     | O(n)          | Easy   | Find possible ways to climb steps.                              |
+| Leet72  | Edit Distance                       | [JavaScript](Dynamic-Programming/Leet72_editDistance.js)                                                 | O(m\*n)          | O(m\*n)       | Medium | The minimum number of operation to conversion.                  |
+| Leet97  | Interleaving String                 | [JavaScript](Dynamic-Programming/Leet97_interleavingString.js)                                           | O(m\*n)          | O(m\*n)       | Medium | interleaving between two strings.                               |
+| Leet118 | Pascal's Triangle                   | [JavaScript](Dynamic-Programming/Leet118_pascalsTriangle.js)                                             | O(n<sup>2</sup>) | O(1)          | Easy   | Return Pascal's triangle numbers.                               |
+| Leet120 | Triangle                            | [JavaScript](Dynamic-Programming/Leet120_triangle.js)                                                    | O(n<sup>2</sup>) | O(1)          | Medium | Return the minimum path sum.                                    |
+| Leet139 | Word Break                          | [JavaScript](Dynamic-Programming/Leet139_wordBreak.js)                                                   | O(m\*n)          | O(n)          | Medium | Find string in dictionary.                                      |
+| Leet198 | House Robber                        | [python3](Dynamic-Programming/Leet198_house_robber.py)                                                   | O(n)             | O(n)          | Medium | Find maximum amount of money you can rob.                       |
+| Leet221 | Maximal Square                      | [JavaScript](Dynamic-Programming/Leet221_maximalSquare.js)                                               | O(m\*n)          | O(1)          | Medium | Find the largest square with 1's.                               |
+| Leet300 | Longest Increasing Subsequence      | [JavaScript](Dynamic-Programming/Leet300_longestIncreasingSubsequence.js)                                | O(n^2)           | O(n)          | Medium | Find the length of the longest strictly increasing subsequence. |
+| Leet322 | Coin Change                         | [JavaScript](Dynamic-Programming/Leet322_coinChange.js)                                                  | O(m\*n)          | O(n)          | Medium | Find the fewest number of coins to make up the amount.          |
+| Leet718 | Maximum Length of Repeated Subarray | [python3](Dynamic-Programming/Leet718_maximum_length_of_repeated_subarray.py)                            | O(m\*n)          | O(m\*n)       | Medium | Find repeated subarray.                                         |
+| Leet746 | Min Cost Climbing Stairs            | [JavaScript](Dynamic-Programming/Leet746_minCostClimbingStairs.js)                                       | O(n)             | O(1)          | Easy   | Find minimum cost to climb stairs.                              |
 
 <p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
 
