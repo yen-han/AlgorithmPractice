@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-156-blue)  
-![Static Badge](https://img.shields.io/badge/easy-77-orange) ![Static Badge](https://img.shields.io/badge/medium-80-orange) ![Static Badge](https://img.shields.io/badge/hard-3-orange)
+![Static Badge](https://img.shields.io/badge/total-157-blue)  
+![Static Badge](https://img.shields.io/badge/easy-77-orange) ![Static Badge](https://img.shields.io/badge/medium-81-orange) ![Static Badge](https://img.shields.io/badge/hard-3-orange)
 
 ## Topics
 
@@ -135,10 +135,11 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 ### Heap
 
-|    No    | Title                           | Language                                           | Time     | Space | Level  | Description                              | Notes    |
-| :------: | ------------------------------- | -------------------------------------------------- | -------- | ----- | ------ | ---------------------------------------- | -------- |
-| Leet215  | Kth Largest Element in an Array | [Java](Heap/Leet215_kthLargestElementInArray.java) | O(n)     | O(n)  | Medium | Find kth largest element in an array.    | min-heap |
-| Leet1046 | Last Stone Weight               | [python](Heap/Leet1046_last_stone_weight.py)       | O(nlogn) | O(n)  | Easy   | Find weight of the last remaining stone. | max-heap |
+|    No    | Title                                          | Language                                                                   | Time     | Space | Level  | Description                                        | Notes    |
+| :------: | ---------------------------------------------- | -------------------------------------------------------------------------- | -------- | ----- | ------ | -------------------------------------------------- | -------- |
+| Leet215  | Kth Largest Element in an Array                | [Java](Heap/Leet215_kthLargestElementInArray.java)                         | O(n)     | O(n)  | Medium | Find kth largest element in an array.              | min-heap |
+| Leet1046 | Last Stone Weight                              | [python](Heap/Leet1046_last_stone_weight.py)                               | O(nlogn) | O(n)  | Easy   | Find weight of the last remaining stone.           | max-heap |
+| Leet2406 | Divide Intervals Into Minimum Number of Groups | [python3](Heap/Leet2406_divide_intervals_into_minimum_number_of_groups.py) | O(nlogn) | O(n)  | Medium | Find minimum number of groups with no overlapping. | min-heap |
 
 ### Linked List
 
