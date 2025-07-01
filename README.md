@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-164-blue)  
-![Static Badge](https://img.shields.io/badge/easy-77-orange) ![Static Badge](https://img.shields.io/badge/medium-84-orange) ![Static Badge](https://img.shields.io/badge/hard-3-orange)
+![Static Badge](https://img.shields.io/badge/total-165-blue)  
+![Static Badge](https://img.shields.io/badge/easy-77-orange) ![Static Badge](https://img.shields.io/badge/medium-85-orange) ![Static Badge](https://img.shields.io/badge/hard-3-orange)
 
 ## Topics
 
@@ -251,7 +251,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet98  | Validate Binary Search Tree                               | [python3](Tree/Leet98_validate_binary_search_tree.py)                                        | O(n)   | O(1)       | Medium | Validate tree with binary search tree rule.                                  |                                                      |
 | Leet100 | Same Tree                                                 | [JavaScript](Tree/Leet100_sameTree.js)                                                       | O(V+E) | O(d)       | Easy   | Check if the trees are the same.                                             | BFS                                                  |
 | Leet101 | Symmetric Tree                                            | [JavaScript](Tree/Leet101_symmetricTree.js)                                                  | O(n)   | O(1)       | Easy   | Check whether it is mirror of itself.                                        |                                                      |
-| Leet102 | Binary Tree Level Order Traversal                         | [python3](Tree/Leet102_binary_tree_level_order_traversal.py)                                 | O(n)   | O(1)       | Medium | Return level order traversal of its nodes' values.                           | BFS                                                  |
+| Leet102 | Binary Tree Level Order Traversal                         | [python3](Tree/Leet102_binary_tree_level_order_traversal.py)                                 | O(n)   | O(1)       | Medium | Return level order traversal of its nodes' values.                           | BFS, DFS                                             |
 | Leet104 | Maximum Depth of Binary Tree                              | [JavaScript](Tree/Leet104_maximumDepthOfBinaryTree.js)                                       | O(n)   | O(1)       | Easy   | Find maximum depth.                                                          |                                                      |
 | Leet105 | Construct Binary Tree from Preorder and Inorder Traversal | [python3](Tree/Leet105_construct_binary_tree_from_preorder_and_inorder_traversal.py)         | -      | -          | Medium | Build Tree from preorder and inroder traversal.                              |                                                      |
 | Leet106 | Construct Binary Tree from Inorder and Preorder Traversal | [python3](Tree/Leet106_construct_binary_tree_from_inorder_and_preorder_traversal.py)         | -      | -          | Medium | Build Tree from inorder and preroder traversal.                              |                                                      |

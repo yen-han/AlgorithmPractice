@@ -52,5 +52,22 @@ class Solution:
             result.append(temp)    
         return result
 
+# 1st Attempt
+# LOGIC: using DFS
+# Time : O(n)  | Space: O(1)
+class Solution:
+    def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+        result = []
+        def dfs(node, level):
+            if node is None:
+                return
+            if len(result) > level:
+                result[level].append(node.val)
+            else: 
+                result.insert(level, [node.val])
+            dfs(node.left, level + 1)
+            dfs(node.right, level + 1)
 
+        dfs(root, 0)
+        return result
 
