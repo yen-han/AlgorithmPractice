@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-170-blue)  
-![Static Badge](https://img.shields.io/badge/easy-80-orange) ![Static Badge](https://img.shields.io/badge/medium-87-orange) ![Static Badge](https://img.shields.io/badge/hard-3-orange)
+![Static Badge](https://img.shields.io/badge/total-171-blue)  
+![Static Badge](https://img.shields.io/badge/easy-80-orange) ![Static Badge](https://img.shields.io/badge/medium-88-orange) ![Static Badge](https://img.shields.io/badge/hard-3-orange)
 
 ## Topics
 
@@ -272,6 +272,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet501 | Find Mode in Binary Search Tree                           | [python3](Tree/Leet501_find_mode_in_binary_search_tree.py)                                   | O(n)   | O(n), O(1) | Easy   | Find the most frequently occurred element.                                   | HashMap, Depth-First Search (DFS)                    |
 | Leet589 | Average of Levels in Binary Tree                          | [python3](Tree/Leet589_n-ary_tree_preorder_traversal.py)                                     | O(n)   | O(n)       | Easy   | Find tree values with preorder traversal.                                    | Recursion, Iteration                                 |
 | Leet637 | Average of Levels in Binary Tree                          | [python3](Tree/Leet637_average_of_levels_in_binary_tree.py)                                  | O(n)   | O(n)       | Easy   | Find average value on each level.                                            | Breadth-First Search (BFS), Depth-First Search (DFS) |
+| Leet654 | Maximum Binary Tree                                       | [python3](Tree/Leet654_maximum_binary_tree.py)                                               | O(n^2) | O(n)       | Medium | Return the maximum binary tree.                                              | Recursion                                            |
 | Leet700 | Search in a Binary Search Tree                            | [JavaScript](Tree/Leet700_searchBinarySearchTree.js)                                         | O(n)   | O(1)       | Easy   | Find the node and subtree that matches with given value.                     |                                                      |
 
 <p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
