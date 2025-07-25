@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-171-blue)  
-![Static Badge](https://img.shields.io/badge/easy-80-orange) ![Static Badge](https://img.shields.io/badge/medium-88-orange) ![Static Badge](https://img.shields.io/badge/hard-3-orange)
+![Static Badge](https://img.shields.io/badge/total-172-blue)  
+![Static Badge](https://img.shields.io/badge/easy-80-orange) ![Static Badge](https://img.shields.io/badge/medium-89-orange) ![Static Badge](https://img.shields.io/badge/hard-3-orange)
 
 ## Topics
 
@@ -262,6 +262,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet108 | Convert Sorted Array to Binary Search Tree                | [JavaScript](Tree/Leet108_convertedSortedArraytoBinarySearchTree.js)                         | -      | O(1)       | Easy   | Make balanced binary search tree with number array.                          |                                                      |
 | Leet112 | Path Sum                                                  | [JavaScript](Tree/Leet112_pathSum.js), [python](Leet112_pathSum)                             | O(n)   | O(1)       | Easy   | Find the way to have path                                                    |                                                      |
 | Leet114 | Flatten Binary Tree to Linked List                        | [python3](Tree/Leet114_flatten_binary_tree_to_linked_list.py)                                | O(n)   | O(1)       | Medium | Flatten the tree.                                                            | Depth-First Search (DFS)                             |
+| Leet117 | Populating Next Right Pointers in Each Node II            | [python3](Tree/Leet117_populating_next_right_pointers_in_each_node_II.py)                    | O(n)   | O(n)       | Medium | Connect pointer to its next right node.                                      | Breadth-First Search (BFS)                           |
 | Leet129 | Sum Root to Leaf Numbers                                  | [python3](Tree/Leet129_sum_root_to_leaf_numbers.py)                                          | -      | -          | Medium | sum all root-to-leaf numbers.                                                |                                                      |
 | Leet144 | Binary Tree Preorder Traversal                            | [JavaScript](Tree/Leet144_binaryTreePreorderTraversal.js)                                    | O(n)   | O(n)       | Easy   | Preorder method(Root, Left, Right) in Depth First Traversals of binary tree. |                                                      |
 | Leet199 | Binary Tree Right Side View                               | [python](Tree/Leet199_binary_tree_right_side_view.py)                                        | O(n)   | O(n)       | Medium | Return the very right node on each level.                                    | Breadth-First Search (BFS)                           |
