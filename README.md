@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-172-blue)  
-![Static Badge](https://img.shields.io/badge/easy-80-orange) ![Static Badge](https://img.shields.io/badge/medium-89-orange) ![Static Badge](https://img.shields.io/badge/hard-3-orange)
+![Static Badge](https://img.shields.io/badge/total-173-blue)  
+![Static Badge](https://img.shields.io/badge/easy-80-orange) ![Static Badge](https://img.shields.io/badge/medium-90-orange) ![Static Badge](https://img.shields.io/badge/hard-3-orange)
 
 ## Topics
 
@@ -124,15 +124,16 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 ### Greedy
 
-|    No    | Title                              | Language                                                      | Time             | Space | Level  | Description                                           |
-| :------: | ---------------------------------- | ------------------------------------------------------------- | ---------------- | ----- | ------ | ----------------------------------------------------- |
-|  Leet11  | Container With Most Water          | [JavaScript](Greedy/Leet11_containerWithMostWater.js)         | O(n)             | O(1)  | Medium | Find max area that contains the most waters.          |
-| Leet135  | Candy                              | [python3](Greedy/Leet135_candy.py)                            | O(n)             | O(n)  | Hard   | Find minimum number of candies to distribute.         |
-| Leet561  | Array Partition I                  | [JavaScript](Greedy/Leet561_arrayPartitionI.js)               | O(n<sup>2</sup>) | O(1)  | Easy   | Find maximized sum out of minimum number in pair.     |
-| Leet605  | Can Place Flowers                  | [JavaScript](Greedy/Leet605_canPlaceFlowers.js)               | O(n)             | O(1)  | Easy   | Check the number of space that can place flowers.     |
-| Leet860  | Lemonade Change                    | [JavaScript](Greedy/Leet860_lemonadeChange.js)                | O(n)             | O(1)  | Easy   | Give the correct change to all customers.             |
-| Leet1221 | Split a String in Balanced Strings | [JavaScript](Greedy/Leet1221_splitStringInBalancedStrings.js) | O(n)             | O(1)  | Easy   | Find maximum number of balanced string.               |
-| Leet1710 | Maximum Units on a Truck           | [JavaScript](Greedy/Leet1710_maximumUnitsOnTruck.js)          | O(nlogn)         | O(1)  | Easy   | Find maximum units of boxes can be stored on a truck. |
+|    No    | Title                              | Language                                                      | Time             | Space | Level  | Description                                               |
+| :------: | ---------------------------------- | ------------------------------------------------------------- | ---------------- | ----- | ------ | --------------------------------------------------------- |
+|  Leet11  | Container With Most Water          | [JavaScript](Greedy/Leet11_containerWithMostWater.js)         | O(n)             | O(1)  | Medium | Find max area that contains the most waters.              |
+| Leet135  | Candy                              | [python3](Greedy/Leet135_candy.py)                            | O(n)             | O(n)  | Hard   | Find minimum number of candies to distribute.             |
+| Leet561  | Array Partition I                  | [JavaScript](Greedy/Leet561_arrayPartitionI.js)               | O(n<sup>2</sup>) | O(1)  | Easy   | Find maximized sum out of minimum number in pair.         |
+| Leet605  | Can Place Flowers                  | [JavaScript](Greedy/Leet605_canPlaceFlowers.js)               | O(n)             | O(1)  | Easy   | Check the number of space that can place flowers.         |
+| Leet860  | Lemonade Change                    | [JavaScript](Greedy/Leet860_lemonadeChange.js)                | O(n)             | O(1)  | Easy   | Give the correct change to all customers.                 |
+| Leet1221 | Split a String in Balanced Strings | [JavaScript](Greedy/Leet1221_splitStringInBalancedStrings.js) | O(n)             | O(1)  | Easy   | Find maximum number of balanced string.                   |
+| Leet1710 | Maximum Units on a Truck           | [JavaScript](Greedy/Leet1710_maximumUnitsOnTruck.js)          | O(nlogn)         | O(1)  | Easy   | Find maximum units of boxes can be stored on a truck.     |
+| Leet2439 | Minimize Maximum of Array          | [python3](Greedy/Leet2439_minimize_maximum_of_array.py)       | O(n)             | O(n)  | Medium | Return the minimum possible value of the maximum integer. |
 
 <p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
 
