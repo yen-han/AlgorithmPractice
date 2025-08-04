@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-175-blue)  
-![Static Badge](https://img.shields.io/badge/easy-81-orange) ![Static Badge](https://img.shields.io/badge/medium-91-orange) ![Static Badge](https://img.shields.io/badge/hard-3-orange)
+![Static Badge](https://img.shields.io/badge/total-176-blue)  
+![Static Badge](https://img.shields.io/badge/easy-81-orange) ![Static Badge](https://img.shields.io/badge/medium-91-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -203,6 +203,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet74  | Search 2D Matrix                     | Binary Search | [python3](Search/Leet74_search_2d_matrix.py)                     | O(max(m,n)), O(log(m \* n)) | O(1), O(m+n) | Medium | Find if target is matrix.                                                     |
 | Leet79  | Word Search                          | Depth-first   | [python3](Search/Leet74_search_2d_matrix.py)                     | -                           | -            | Medium | Find the word can be constructed from letters of sequentially adjacent cells. |
 | Leet153 | Find Minimum in Rotated Sorted Array | Binary Search | [python](Search/Leet153_find_minimum_in_rotated_sorted_array.py) | O(logn)                     | O(n)         | Medium | Find minimum value in rotated array.                                          |
+| Leet410 | Split Array Largest Sum              | Binary Search | [python3](Search/Leet410_split_array_largest_sum.py)             | O(nlogm)                    | O(1)         | Hard   | Find minimum largest sum of sub-array.                                        |
 | Leet463 | Island Perimeter                     | Depth-first   | [JavaScript](Search/Leet463_islandPerimeter.js)                  | O(n)                        | O(1)         | Easy   | Find perimeter on an island.                                                  |
 | Leet704 | Binary Search                        | Binary        | [JavaScript](Search/Leet704_binarySearch.js)                     | O(logn)                     | O(1)         | Easy   | Find target number with logn complexity.                                      |
 | Leet733 | Flood Fill                           | Depth-first   | [JavaScript](Search/Leet733_floodFill.js)                        | -                           | O(1)         | Easy   | Apply new color in an image.                                                  |
