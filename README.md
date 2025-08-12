@@ -287,4 +287,4 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 |   No    | Title                   | Language                                           | Time | Space | Level  | Description                        | Notes |
 | :-----: | ----------------------- | -------------------------------------------------- | ---- | ----- | ------ | ---------------------------------- | ----- |
-| Leet386 | Lexicographical Numbers | [python3](Trie/Leet386_lesicographical_numbers.py) | O(n) | O(n)  | Medium | Return with lexicographical order. |       |
+| Leet386 | Lexicographical Numbers | [python3](Trie/Leet386_lexicographical_numbers.py) | O(n) | O(n)  | Medium | Return with lexicographical order. |       |
