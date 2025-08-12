@@ -21,6 +21,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 - [Stack](#stack)
 - [String](#string)
 - [Tree](#tree)
+- [Trie](#trie)
 
 ### Array
 
@@ -281,3 +282,9 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet700 | Search in a Binary Search Tree                            | [JavaScript](Tree/Leet700_searchBinarySearchTree.js)                                         | O(n)   | O(1)       | Easy   | Find the node and subtree that matches with given value.                     |                                                      |
 
 <p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
+
+### Trie
+
+|   No    | Title                   | Language                                           | Time | Space | Level  | Description                        | Notes |
+| :-----: | ----------------------- | -------------------------------------------------- | ---- | ----- | ------ | ---------------------------------- | ----- |
+| Leet386 | Lexicographical Numbers | [python3](Trie/Leet386_lesicographical_numbers.py) | O(n) | O(n)  | Medium | Return with lexicographical order. |       |
