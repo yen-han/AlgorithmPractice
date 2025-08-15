@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-176-blue)  
-![Static Badge](https://img.shields.io/badge/easy-81-orange) ![Static Badge](https://img.shields.io/badge/medium-92-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/total-177-blue)  
+![Static Badge](https://img.shields.io/badge/easy-82-orange) ![Static Badge](https://img.shields.io/badge/medium-92-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -77,6 +77,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 |  Leet39  | Combination Sum                                | [python3](Backtracking/Leet39_combination_sum.py)                                  | -    | -     | Medium | all unique combinations that sum to target.           |
 |  Leet46  | Permutations                                   | [python3](Backtracking/Leet46_permutations.py)                                     | -    | -     | Medium | all possible permutations.                            |
 |  Leet77  | Combinations                                   | [python3](Backtracking/Leet77_combinations.py)                                     | -    | -     | Medium | all possible combinations.                            |
+| Leet1863 | Sum of All Subset XOR Totals                   | [python3](Backtracking/Leet1863_sum_of_all_subset_XOR_totals.py)                   | O(n) | O(n)  | Easy   | Find XOR total of all its elements.                   |
 | Leet3211 | Generate Binary Strings Without Adjacent Zeros | [python3](Backtracking/Leet3211_generate_binary_strings_without_adjacent_zeros.py) | -    | -     | Medium | all possible binary string without consecutive zeros. |
 
 ### Bit
@@ -273,7 +274,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet222 | Count Complete Tree Nodes                                 | [python](Tree/Leet222_count_complete_tree_nodes.py)                                          | O(n)   | O(n)       | Easy   | Count the number of nodes in tree.                                           | Depth-First Search (DFS)                             |
 | Leet226 | Invert Binary Tree                                        | [JavaScript](Tree/Leet226_invertBinaryTree.js), [python](Tree/Leet226_invert_binary_tree.py) | O(n)   | O(n)       | Easy   | Invert binary tree.                                                          | Depth-First Search (DFS)                             |
 | Leet235 | Lowest Common Ancestor of a Binary Search Tree            | [JavaScript](Tree/Leet235_lowestCommonAncestorOfBinarySearchTree.js)                         | O(n)   | O(1)       | Medium | Find the lowest common ancestor between two values.                          |                                                      |
-| Leet386 | Lexicographical Numbers | [python3](Tree/Leet386_lexicographical_numbers.py) | O(n) | O(n)  | Medium | Return with lexicographical order. | Trie      |
+| Leet386 | Lexicographical Numbers                                   | [python3](Tree/Leet386_lexicographical_numbers.py)                                           | O(n)   | O(n)       | Medium | Return with lexicographical order.                                           | Trie                                                 |
 | Leet421 | Maximum XOR of Two Numbers in an Array                    | [python3](Tree/Leet421_maximum_xor_of_two_numbers_in_an_array.py)                            | O(n)   | O(n)       | Medium | Find the maximum XOR result of two elements in array.                        | Trie                                                 |
 | Leet501 | Find Mode in Binary Search Tree                           | [python3](Tree/Leet501_find_mode_in_binary_search_tree.py)                                   | O(n)   | O(n), O(1) | Easy   | Find the most frequently occurred element.                                   | HashMap, Depth-First Search (DFS)                    |
 | Leet589 | Average of Levels in Binary Tree                          | [python3](Tree/Leet589_n-ary_tree_preorder_traversal.py)                                     | O(n)   | O(n)       | Easy   | Find tree values with preorder traversal.                                    | Recursion, Iteration                                 |
@@ -282,4 +283,3 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet700 | Search in a Binary Search Tree                            | [JavaScript](Tree/Leet700_searchBinarySearchTree.js)                                         | O(n)   | O(1)       | Easy   | Find the node and subtree that matches with given value.                     |                                                      |
 
 <p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
-
