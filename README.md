@@ -3,7 +3,7 @@
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
 ![Static Badge](https://img.shields.io/badge/total-177-blue)  
-![Static Badge](https://img.shields.io/badge/easy-82-orange) ![Static Badge](https://img.shields.io/badge/medium-93-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/easy-82-orange) ![Static Badge](https://img.shields.io/badge/medium-94-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -208,6 +208,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet410 | Split Array Largest Sum              | Binary Search | [python3](Search/Leet410_split_array_largest_sum.py)             | O(nlogm)                    | O(1)         | Hard   | Find minimum largest sum of sub-array.                                        |
 | Leet463 | Island Perimeter                     | Depth-first   | [JavaScript](Search/Leet463_islandPerimeter.js)                  | O(n)                        | O(1)         | Easy   | Find perimeter on an island.                                                  |
 | Leet704 | Binary Search                        | Binary        | [JavaScript](Search/Leet704_binarySearch.js)                     | O(logn)                     | O(1)         | Easy   | Find target number with logn complexity.                                      |
+| Leet729 | My Calendar I                        | Binary Search | [python3](Search/Leet733_floodFill.js)                           | O(n)                        | O(n)         | Medium | Find if booking is possible.                                                  |
 | Leet733 | Flood Fill                           | Depth-first   | [JavaScript](Search/Leet733_floodFill.js)                        | -                           | O(1)         | Easy   | Apply new color in an image.                                                  |
 
 <p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
