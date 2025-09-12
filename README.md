@@ -146,7 +146,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet215  | Kth Largest Element in an Array                | [Java](Heap/Leet215_kthLargestElementInArray.java)                         | O(n)     | O(n)  | Medium | Find kth largest element in an array.              | min-heap |
 | Leet1046 | Last Stone Weight                              | [python](Heap/Leet1046_last_stone_weight.py)                               | O(nlogn) | O(n)  | Easy   | Find weight of the last remaining stone.           | max-heap |
 | Leet2406 | Divide Intervals Into Minimum Number of Groups | [python3](Heap/Leet2406_divide_intervals_into_minimum_number_of_groups.py) | O(nlogn) | O(n)  | Medium | Find minimum number of groups with no overlapping. | min-heap |
-| Leet3318 | Find X-Sum of All K-Long Subarrays I           | [python3](Heap/Leet3318_find_x_sum_of_all_k_long_subarrays_i.py)           | O(nlogn) | O(n)  | Easy   | Find top x occurrence elements of subarray.        | max-heap |
+| Leet3318 | Find X-Sum of All K-Long Subarrays I           | [python3](Heap/Leet3318_find_x_sum_of_all_k_long_subarrays_i.py)           | O(n^2)   | O(n)  | Easy   | Find top x occurrence elements of subarray.        | max-heap |
 
 ### Linked List
 
