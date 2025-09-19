@@ -83,13 +83,13 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 ### Bit
 
-|    No    | Title            | Language                                                                           | Time   | Space | Level  | Description                                    |
-| :------: | ---------------- | ---------------------------------------------------------------------------------- | ------ | ----- | ------ | ---------------------------------------------- |
-|  Leet67  | Add Binary       | [JavaScript](Bit/Leet67_addBinary.js)                                              | O(n)   | O(1)  | Easy   | Sum two binary strings.                        |
-|  Leet89  | Gray Code        | [python3](Bit/Leet89_gray_code.py)                                                 | O(2^n) | O(n)  | Medium | Find gray code.                                |
-| Leet190  | Reverse Bits     | [JavaScript](Bit/Leet190_reverseBits.js)                                           | O(n)   | O(n)  | Easy   | Reverse bits of a given 32 bits.               |
-| Leet191  | Number of 1 Bits | [JavaScript](Bit/Leet191_numberOf1Bits.js), [Java](Bit/Leet191.numberOf1Bits.java) | -      | O(1)  | Easy   | Find the number of 1 bits.                     |
-| Leet2680 | Maximum OR       | [python3](Bit/Leet2680_maximum_OR.py)                                              | -      | O(1)  | Medium | Find maximum possible value of OR combination. |
+|    No    | Title            | Language                                                                           | Time         | Space      | Level  | Description                                    |
+| :------: | ---------------- | ---------------------------------------------------------------------------------- | ------------ | ---------- | ------ | ---------------------------------------------- |
+|  Leet67  | Add Binary       | [JavaScript](Bit/Leet67_addBinary.js)                                              | O(n)         | O(1)       | Easy   | Sum two binary strings.                        |
+|  Leet89  | Gray Code        | [python3](Bit/Leet89_gray_code.py)                                                 | O(2^n)       | O(n)       | Medium | Find gray code.                                |
+| Leet190  | Reverse Bits     | [JavaScript](Bit/Leet190_reverseBits.js)                                           | O(n)         | O(n)       | Easy   | Reverse bits of a given 32 bits.               |
+| Leet191  | Number of 1 Bits | [JavaScript](Bit/Leet191_numberOf1Bits.js), [Java](Bit/Leet191.numberOf1Bits.java) | -            | O(1)       | Easy   | Find the number of 1 bits.                     |
+| Leet2680 | Maximum OR       | [python3](Bit/Leet2680_maximum_OR.py)                                              | O(2^n), O(n) | O(1), O(n) | Medium | Find maximum possible value of OR combination. |
 
 ### Dynamic Programming
 

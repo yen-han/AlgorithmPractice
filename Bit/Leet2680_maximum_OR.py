@@ -27,8 +27,8 @@ Constraints:
 """
 
 # 1st Attempt
-# LOGIC: Brute Force
-# Time: O(2^n)  | Space: O(n)
+# LOGIC: Brute Force - Time Limit Exceeded
+# Time: O(2^n)  | Space: O(1)
 class Solution:
     def maximumOr(self, nums: List[int], k: int) -> int:
         max_value = 0
@@ -42,4 +42,23 @@ class Solution:
                 res |= nums[i]
             max_value = max(res, max_value)
 
+        return max_value
+    
+# 2nd Attempt
+# LOGIC: prefix, suffix calculation first and add multiple of 2^k to each element
+# Time: O(n)  | Space: O(n)
+class Solution:
+    def maximumOr(self, nums: List[int], k: int) -> int:
+        max_value=0
+        prefix = [0 for _ in range(len(nums)+1)]
+        for i in range(len(nums)):
+            prefix[i+1] = prefix[i]|nums[i]
+            
+        suffix = [0 for i in range(len(nums)+1)]
+        for i in range(len(nums)-1, -1,-1):
+            suffix[i] = suffix[i+1]|nums[i]
+
+        for i in range(len(nums)):
+            res = prefix[i]|(nums[i]<<k)|suffix[i+1]
+            max_value = max(res, max_value)
         return max_value
