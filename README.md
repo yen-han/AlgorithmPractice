@@ -3,7 +3,7 @@
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
 ![Static Badge](https://img.shields.io/badge/total-177-blue)  
-![Static Badge](https://img.shields.io/badge/easy-83-orange) ![Static Badge](https://img.shields.io/badge/medium-95-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/easy-83-orange) ![Static Badge](https://img.shields.io/badge/medium-96-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -66,6 +66,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet350  | Intersection of Two Arrays II                             | [Java](Array/Leet350_intersectionOfTwoArraysii.java)                                        | O(m \* n), O(max(m, n)) | O(max(m, n)) | Medium | Update board with rules.                                               |                  |
 | Leet706  | Design HashMap                                            | [python3](Array/Leet706_design_hashmap.py)                                                  | O(n)                    | O(n)         | Easy   | Implement hashmap without library.                                     |                  |
 | Leet997  | Find the Town Judge                                       | [JavaScript](Array/Leet997_findTownJudge.js)                                                | O(n)                    | O(n)         | Easy   | Find the town judge with given terms.                                  |                  |
+| Leet1233  | Remove Sub-Folders from the Filesystem    | [python3](Array/Leet1233_remove_sub-folders_from_the_filesystem.py)                                                | O(n)                    | O(n)         | Medium   | Find common parent folder.                                  |                  |
 | Leet2347 | Best Poker Hand                                           | [python3](Array/Leet2347_best_poker_hand.py)                                                | O(1)                    | O(1)         | Easy   | Find the best type of poker hand.                                      | Hash Table       |
 | Leet3239 | Minimum Number of Flips to Make Binary Grid Palindromic I | [python3](Array/Leet3239_minimum_number_of_flips_to_make_binary_grid_palindromic_I.py)      | O(m\*n)                 | O(1)         | Medium | Minimum Number of time to make palindrome.                             |                  |
 | Leet3413 | Maximum Coins From K Consecutive Bags                     | [python3](Array/Leet3413_maximum_coins_from_k_consecutive_bags.py)                          | O(m\*n)                 | O(m\*n)      | Medium | Maximum coins.                                                         |                  |
