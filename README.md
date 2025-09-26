@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-184-blue)  
-![Static Badge](https://img.shields.io/badge/easy-84-orange) ![Static Badge](https://img.shields.io/badge/medium-96-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/total-185-blue)  
+![Static Badge](https://img.shields.io/badge/easy-85-orange) ![Static Badge](https://img.shields.io/badge/medium-96-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -188,6 +188,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet326  | Power of Three                           | [JavaScript](Math/Leet326_powerOfThree.js)                                         | O(logn)      | O(1)       | Easy   | Check if the number is power of three.    |            |
 | Leet509  | Fibonacci Number                         | [JavaScript](Math/Leet509_fibonacciNumber.js)                                      | O(2^n), O(n) | O(n)       | Easy   | Check for fibonacci number.               |            |
 | Leet1154 | Day of the Year                          | [JavaScript](Math/Leet1154_dayOfTheYear.js)                                        | O(1)         | O(1)       | Easy   | find the day of year with given date.     |            |
+| Leet1266 | Minimum Time Visiting All Points         | [python3](Math/Leet1266_minimum_time_visiting_all_points.py)                       | O(n)         | O(1)       | Easy   | Find seconds to visit all points.         |            |
 | Leet3304 | Find the K-th Character in String Game I | [python3](Math/Leet3304_find_the_k-th_character_in_string_game_I.py)               | O(n)         | O(1)       | Easy   | Find kth character in generated string.   |            |
 | Leet3492 | Maximum Containers on a Ship             | [python3](Math/Leet3492_maximum_containers_on_a_ship.py)                           | O(1)         | O(1)       | Easy   | Find maximum container to fit a ship.     |            |
 
