@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-177-blue)  
-![Static Badge](https://img.shields.io/badge/easy-83-orange) ![Static Badge](https://img.shields.io/badge/medium-96-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/total-184-blue)  
+![Static Badge](https://img.shields.io/badge/easy-84-orange) ![Static Badge](https://img.shields.io/badge/medium-96-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -66,7 +66,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet350  | Intersection of Two Arrays II                             | [Java](Array/Leet350_intersectionOfTwoArraysii.java)                                        | O(m \* n), O(max(m, n)) | O(max(m, n)) | Medium | Update board with rules.                                               |                  |
 | Leet706  | Design HashMap                                            | [python3](Array/Leet706_design_hashmap.py)                                                  | O(n)                    | O(n)         | Easy   | Implement hashmap without library.                                     |                  |
 | Leet997  | Find the Town Judge                                       | [JavaScript](Array/Leet997_findTownJudge.js)                                                | O(n)                    | O(n)         | Easy   | Find the town judge with given terms.                                  |                  |
-| Leet1233  | Remove Sub-Folders from the Filesystem    | [python3](Array/Leet1233_remove_sub-folders_from_the_filesystem.py)                                                | O(n)                    | O(n)         | Medium   | Find common parent folder.                                  |                  |
+| Leet1233 | Remove Sub-Folders from the Filesystem                    | [python3](Array/Leet1233_remove_sub-folders_from_the_filesystem.py)                         | O(n)                    | O(n)         | Medium | Find common parent folder.                                             |                  |
 | Leet2347 | Best Poker Hand                                           | [python3](Array/Leet2347_best_poker_hand.py)                                                | O(1)                    | O(1)         | Easy   | Find the best type of poker hand.                                      | Hash Table       |
 | Leet3239 | Minimum Number of Flips to Make Binary Grid Palindromic I | [python3](Array/Leet3239_minimum_number_of_flips_to_make_binary_grid_palindromic_I.py)      | O(m\*n)                 | O(1)         | Medium | Minimum Number of time to make palindrome.                             |                  |
 | Leet3413 | Maximum Coins From K Consecutive Bags                     | [python3](Array/Leet3413_maximum_coins_from_k_consecutive_bags.py)                          | O(m\*n)                 | O(m\*n)      | Medium | Maximum coins.                                                         |                  |
@@ -173,22 +173,23 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 ### Math
 
-|    No    | Title                        | Language                                                                           | Time         | Space      | Level  | Description                               | Notes      |
-| :------: | ---------------------------- | ---------------------------------------------------------------------------------- | ------------ | ---------- | ------ | ----------------------------------------- | ---------- |
-|  Leet7   | Reverse Integer              | [JavaScript](Math/Leet7_reverseInteger.js)                                         | O(n)         | O(1)       | Medium | Reverse the given integer                 |            |
-|  Leet9   | Palindrome Number            | [JavaScript](Math/Leet9_palindromeNumber.js)                                       | O(n)         | O(n), O(1) | Easy   | Check given number is palindrome or not   |            |
-|  Leet43  | Multiply Strings             | [python3](Math/Leet43_multiply_strings.py)                                         | O(n)         | O(1)       | Medium | Multiply two strings.                     | Hash table |
-|  Leet50  | Pow(x, n)                    | [JavaScript](Math/Leet50_powXN.js)                                                 | O(logN)      | O(logN)    | Medium | Implement Pow.                            | Recursion  |
-|  Leet67  | Add Binary                   | [JavaScript](Math/Leet67_addBinary.js)                                             | O(n)         | O(1)       | Easy   | Sum two binary strings to one             |            |
-|  Leet69  | Sqrt(x)                      | [JavaScript](<Math/Leet69_sqrt(x).js>)                                             | O(n)         | O(1)       | Easy   | Check which square number is the closest. |            |
-| Leet172  | Factorial Trailing Zeroes    | [JavaScript](Math/Leet172_factorialTrailingZeros.js)                               | O(n)         | O(1)       | Medium | Find the number of trailing zeroes in n!. |            |
-| Leet202  | Happy Number                 | [JavaScript](Math/Leet202_happyNumber.js), [python3](Math/Leet202_happy_number.py) | O(logN)      | O(logN)    | Easy   | Check for happy number without cycle.     |            |
-| Leet204  | Count Primes                 | [JavaScript](Math/Leet204_countPrimes.js)                                          | O(n)         | O(n)       | Medium | Count prime numbers.                      |            |
-| Leet231  | Power of Two                 | [JavaScript](Math/Leet231_powerOfTwo.js)                                           | O(logn)      | O(1)       | Easy   | Check if the number is power of two.      |            |
-| Leet326  | Power of Three               | [JavaScript](Math/Leet326_powerOfThree.js)                                         | O(logn)      | O(1)       | Easy   | Check if the number is power of three.    |            |
-| Leet509  | Fibonacci Number             | [JavaScript](Math/Leet509_fibonacciNumber.js)                                      | O(2^n), O(n) | O(n)       | Easy   | Check for fibonacci number.               |            |
-| Leet1154 | Day of the Year              | [JavaScript](Math/Leet1154_dayOfTheYear.js)                                        | O(1)         | O(1)       | Easy   | find the day of year with given date.     |            |
-| Leet3492 | Maximum Containers on a Ship | [python3](Math/Leet3492_maximum_containers_on_a_ship.py)                           | O(1)         | O(1)       | Easy   | Find maximum container to fit a ship.     |            |
+|    No    | Title                                    | Language                                                                           | Time         | Space      | Level  | Description                               | Notes      |
+| :------: | ---------------------------------------- | ---------------------------------------------------------------------------------- | ------------ | ---------- | ------ | ----------------------------------------- | ---------- |
+|  Leet7   | Reverse Integer                          | [JavaScript](Math/Leet7_reverseInteger.js)                                         | O(n)         | O(1)       | Medium | Reverse the given integer                 |            |
+|  Leet9   | Palindrome Number                        | [JavaScript](Math/Leet9_palindromeNumber.js)                                       | O(n)         | O(n), O(1) | Easy   | Check given number is palindrome or not   |            |
+|  Leet43  | Multiply Strings                         | [python3](Math/Leet43_multiply_strings.py)                                         | O(n)         | O(1)       | Medium | Multiply two strings.                     | Hash table |
+|  Leet50  | Pow(x, n)                                | [JavaScript](Math/Leet50_powXN.js)                                                 | O(logN)      | O(logN)    | Medium | Implement Pow.                            | Recursion  |
+|  Leet67  | Add Binary                               | [JavaScript](Math/Leet67_addBinary.js)                                             | O(n)         | O(1)       | Easy   | Sum two binary strings to one             |            |
+|  Leet69  | Sqrt(x)                                  | [JavaScript](<Math/Leet69_sqrt(x).js>)                                             | O(n)         | O(1)       | Easy   | Check which square number is the closest. |            |
+| Leet172  | Factorial Trailing Zeroes                | [JavaScript](Math/Leet172_factorialTrailingZeros.js)                               | O(n)         | O(1)       | Medium | Find the number of trailing zeroes in n!. |            |
+| Leet202  | Happy Number                             | [JavaScript](Math/Leet202_happyNumber.js), [python3](Math/Leet202_happy_number.py) | O(logN)      | O(logN)    | Easy   | Check for happy number without cycle.     |            |
+| Leet204  | Count Primes                             | [JavaScript](Math/Leet204_countPrimes.js)                                          | O(n)         | O(n)       | Medium | Count prime numbers.                      |            |
+| Leet231  | Power of Two                             | [JavaScript](Math/Leet231_powerOfTwo.js)                                           | O(logn)      | O(1)       | Easy   | Check if the number is power of two.      |            |
+| Leet326  | Power of Three                           | [JavaScript](Math/Leet326_powerOfThree.js)                                         | O(logn)      | O(1)       | Easy   | Check if the number is power of three.    |            |
+| Leet509  | Fibonacci Number                         | [JavaScript](Math/Leet509_fibonacciNumber.js)                                      | O(2^n), O(n) | O(n)       | Easy   | Check for fibonacci number.               |            |
+| Leet1154 | Day of the Year                          | [JavaScript](Math/Leet1154_dayOfTheYear.js)                                        | O(1)         | O(1)       | Easy   | find the day of year with given date.     |            |
+| Leet3304 | Find the K-th Character in String Game I | [python3](Math/Leet3304_find_the_k-th_character_in_string_game_I.py)               | O(n)         | O(1)       | Easy   | Find kth character in generated string.   |            |
+| Leet3492 | Maximum Containers on a Ship             | [python3](Math/Leet3492_maximum_containers_on_a_ship.py)                           | O(1)         | O(1)       | Easy   | Find maximum container to fit a ship.     |            |
 
 <p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
 
