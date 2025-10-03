@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-186-blue)  
-![Static Badge](https://img.shields.io/badge/easy-85-orange) ![Static Badge](https://img.shields.io/badge/medium-97-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/total-187-blue)  
+![Static Badge](https://img.shields.io/badge/easy-85-orange) ![Static Badge](https://img.shields.io/badge/medium-98-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -107,6 +107,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet120 | Triangle                            | [JavaScript](Dynamic-Programming/Leet120_triangle.js)                                                    | O(n<sup>2</sup>) | O(1)          | Medium | Return the minimum path sum.                                    |
 | Leet139 | Word Break                          | [JavaScript](Dynamic-Programming/Leet139_wordBreak.js)                                                   | O(m\*n)          | O(n)          | Medium | Find string in dictionary.                                      |
 | Leet198 | House Robber                        | [python3](Dynamic-Programming/Leet198_house_robber.py)                                                   | O(n)             | O(n)          | Medium | Find maximum amount of money you can rob.                       |
+| Leet213 | House Robber II                     | [python3](Dynamic-Programming/Leet213_house_robber_II.py)                                                | O(n)             | O(n)          | Medium | Find minimum path.                                              |
 | Leet221 | Maximal Square                      | [JavaScript](Dynamic-Programming/Leet221_maximalSquare.js)                                               | O(m\*n)          | O(1)          | Medium | Find the largest square with 1's.                               |
 | Leet300 | Longest Increasing Subsequence      | [JavaScript](Dynamic-Programming/Leet300_longestIncreasingSubsequence.js)                                | O(n^2)           | O(n)          | Medium | Find the length of the longest strictly increasing subsequence. |
 | Leet322 | Coin Change                         | [JavaScript](Dynamic-Programming/Leet322_coinChange.js)                                                  | O(m\*n)          | O(n)          | Medium | Find the fewest number of coins to make up the amount.          |
