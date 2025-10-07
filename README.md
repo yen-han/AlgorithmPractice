@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-187-blue)  
-![Static Badge](https://img.shields.io/badge/easy-85-orange) ![Static Badge](https://img.shields.io/badge/medium-98-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/total-188-blue)  
+![Static Badge](https://img.shields.io/badge/easy-86-orange) ![Static Badge](https://img.shields.io/badge/medium-98-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -221,14 +221,15 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 ### Stack
 
-|   No    | Title                            | Language                                                     | Time | Space | Level  | Description                                                    |
-| :-----: | -------------------------------- | ------------------------------------------------------------ | ---- | ----- | ------ | -------------------------------------------------------------- |
-| Leet20  | Valid Parentheses                | [JavaScript](Stack/Leet20_validParentheses.js)               | O(n) | O(n)  | Easy   | Check if the string consists of brackets in the correct order. |
-| Leet71  | Simplify Path                    | [python3](Stack/Leet71_simplify_path.py)                     | O(n) | O(n)  | Medium | Return simplified path.                                        |
-| Leet150 | Evaluate Reverse Polish Notation | [python3](Stack/Leet150_evaluate_reverse_polish_notation.py) | O(n) | O(n)  | Medium | Evaluate the expression.                                       |
-| Leet155 | Min Stack                        | [JavaScript](Stack/Leet155_minStack.js)                      | -    | -     | Medium | Build stack to support push, pop, top, minimum element.        |
-| Leet227 | Basic Calculator II              | [JavaScript](Stack/Leet227_basicCalculatorII.js)             | O(n) | O(1)  | Medium | Calculate string with integer & basic operator.                |
-| Leet739 | Daily Temperatures               | [python3](Stack/Leet739_daily_temperatures.py)               | O(n) | O(n)  | Medium | Return number of days to get a warmer temperature.             |
+|    No    | Title                            | Language                                                     | Time | Space | Level  | Description                                                    |
+| :------: | -------------------------------- | ------------------------------------------------------------ | ---- | ----- | ------ | -------------------------------------------------------------- |
+|  Leet20  | Valid Parentheses                | [JavaScript](Stack/Leet20_validParentheses.js)               | O(n) | O(n)  | Easy   | Check if the string consists of brackets in the correct order. |
+|  Leet71  | Simplify Path                    | [python3](Stack/Leet71_simplify_path.py)                     | O(n) | O(n)  | Medium | Return simplified path.                                        |
+| Leet150  | Evaluate Reverse Polish Notation | [python3](Stack/Leet150_evaluate_reverse_polish_notation.py) | O(n) | O(n)  | Medium | Evaluate the expression.                                       |
+| Leet155  | Min Stack                        | [JavaScript](Stack/Leet155_minStack.js)                      | -    | -     | Medium | Build stack to support push, pop, top, minimum element.        |
+| Leet227  | Basic Calculator II              | [JavaScript](Stack/Leet227_basicCalculatorII.js)             | O(n) | O(1)  | Medium | Calculate string with integer & basic operator.                |
+| Leet739  | Daily Temperatures               | [python3](Stack/Leet739_daily_temperatures.py)               | O(n) | O(n)  | Medium | Return number of days to get a warmer temperature.             |
+| Leet1544 | Make The String Great            | [python3](Stack/Leet1544_make_string_great.py)               | O(n) | O(n)  | Easy   | Remove same letters ignoring case.                             |
 
 ### String
 
