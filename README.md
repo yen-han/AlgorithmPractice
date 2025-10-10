@@ -3,7 +3,7 @@
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
 ![Static Badge](https://img.shields.io/badge/total-188-blue)  
-![Static Badge](https://img.shields.io/badge/easy-86-orange) ![Static Badge](https://img.shields.io/badge/medium-98-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/easy-86-orange) ![Static Badge](https://img.shields.io/badge/medium-99-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -79,6 +79,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 |  Leet39  | Combination Sum                                | [python3](Backtracking/Leet39_combination_sum.py)                                  | -    | -     | Medium | all unique combinations that sum to target.           |
 |  Leet46  | Permutations                                   | [python3](Backtracking/Leet46_permutations.py)                                     | -    | -     | Medium | all possible permutations.                            |
 |  Leet77  | Combinations                                   | [python3](Backtracking/Leet77_combinations.py)                                     | -    | -     | Medium | all possible combinations.                            |
+| Leet473  | Matchsticks To Square                          | [python3](Backtracking/Leet473_matchsticks_to_square.py)                           | -    | -     | Medium | Find if matchsticks can make square.                  |
 | Leet1863 | Sum of All Subset XOR Totals                   | [python3](Backtracking/Leet1863_sum_of_all_subset_XOR_totals.py)                   | O(n) | O(n)  | Easy   | Find XOR total of all its elements.                   |
 | Leet3211 | Generate Binary Strings Without Adjacent Zeros | [python3](Backtracking/Leet3211_generate_binary_strings_without_adjacent_zeros.py) | -    | -     | Medium | all possible binary string without consecutive zeros. |
 
