@@ -24,7 +24,7 @@ Constraints:
 """
 # 1st Attempt
 # LOGIC: Use brute force to check all substrings and count palindromic ones.
-# Time : O(m*n)  | Space: O(m*n)
+# Time : O(n^3)  | Space: O(n)
 class Solution:
     def checkPalindromic(self, s:str) -> bool:
         start = 0
@@ -45,4 +45,18 @@ class Solution:
                 else:
                     if self.checkPalindromic(sub_str):
                         count += 1
+        return count
+# 2nd Attempt
+# LOGIC: Use dynamic programming to track palindromic substrings.
+# Time : O(n^2)  | Space: O(n^2)
+class Solution:
+    def countSubstrings(self, s: str) -> int:
+        dp = [[False] * len(s) for _ in range(len(s))]
+        count = 0
+        for i in range(len(s)):
+            for j in range(i+1): 
+                if s[i] == s[j]:  
+                    if  i-j <= 1 or dp[j+1][i-1]:
+                        dp[j][i] = True
+                        count+= 1 
         return count
