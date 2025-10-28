@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-193-blue)  
-![Static Badge](https://img.shields.io/badge/easy-87-orange) ![Static Badge](https://img.shields.io/badge/medium-102-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/total-194-blue)  
+![Static Badge](https://img.shields.io/badge/easy-87-orange) ![Static Badge](https://img.shields.io/badge/medium-103-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -291,6 +291,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet386  | Lexicographical Numbers                                   | [python3](Tree/Leet386_lexicographical_numbers.py)                                           | O(n)   | O(n)       | Medium | Return with lexicographical order.                                           | Trie                                                 |
 | Leet421  | Maximum XOR of Two Numbers in an Array                    | [python3](Tree/Leet421_maximum_xor_of_two_numbers_in_an_array.py)                            | O(n)   | O(n)       | Medium | Find the maximum XOR result of two elements in array.                        | Trie                                                 |
 | Leet501  | Find Mode in Binary Search Tree                           | [python3](Tree/Leet501_find_mode_in_binary_search_tree.py)                                   | O(n)   | O(n), O(1) | Easy   | Find the most frequently occurred element.                                   | HashMap, Depth-First Search (DFS)                    |
+| Leet515  | Find Largest Value in Each Tree Row                       | [python3](Tree/Leet515_find_largest_value_in_each_tree_row.py)                               | O(n)   | O(n)       | Medium | Find the maximum value on each level.                                        | Breadth-First Search (BFS)                           |
 | Leet589  | Average of Levels in Binary Tree                          | [python3](Tree/Leet589_n-ary_tree_preorder_traversal.py)                                     | O(n)   | O(n)       | Easy   | Find tree values with preorder traversal.                                    | Recursion, Iteration                                 |
 | Leet637  | Average of Levels in Binary Tree                          | [python3](Tree/Leet637_average_of_levels_in_binary_tree.py)                                  | O(n)   | O(n)       | Easy   | Find average value on each level.                                            | Breadth-First Search (BFS), Depth-First Search (DFS) |
 | Leet654  | Maximum Binary Tree                                       | [python3](Tree/Leet654_maximum_binary_tree.py)                                               | O(n^2) | O(n)       | Medium | Return the maximum binary tree.                                              | Recursion                                            |
