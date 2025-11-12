@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-194-blue)  
-![Static Badge](https://img.shields.io/badge/easy-87-orange) ![Static Badge](https://img.shields.io/badge/medium-103-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/total-195-blue)  
+![Static Badge](https://img.shields.io/badge/easy-87-orange) ![Static Badge](https://img.shields.io/badge/medium-104-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -208,18 +208,19 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 ### Search
 
-|   No    | Title                                | Type          | Language                                                         | Time                        | Space        | Level  | Description                                                                   |
-| :-----: | ------------------------------------ | ------------- | ---------------------------------------------------------------- | --------------------------- | ------------ | ------ | ----------------------------------------------------------------------------- |
-| Leet33  | Search in Rotated Sorted Array       | Binary Search | [JavaScript](Search/Leet33_SearchInRotatedSortedArray.js)        | O(logn)                     | O(1)         | Medium | Find index of target integer in rotated sorted array.                         |
-| Leet35  | Search Insert Position               | Binary Search | [python](Search/Leet35_search_insert_position.py)                | O(logn)                     | O(1)         | Easy   | Find position to insert integer.                                              |
-| Leet74  | Search 2D Matrix                     | Binary Search | [python3](Search/Leet74_search_2d_matrix.py)                     | O(max(m,n)), O(log(m \* n)) | O(1), O(m+n) | Medium | Find if target is matrix.                                                     |
-| Leet79  | Word Search                          | Depth-first   | [python3](Search/Leet74_search_2d_matrix.py)                     | -                           | -            | Medium | Find the word can be constructed from letters of sequentially adjacent cells. |
-| Leet153 | Find Minimum in Rotated Sorted Array | Binary Search | [python](Search/Leet153_find_minimum_in_rotated_sorted_array.py) | O(logn)                     | O(n)         | Medium | Find minimum value in rotated array.                                          |
-| Leet410 | Split Array Largest Sum              | Binary Search | [python3](Search/Leet410_split_array_largest_sum.py)             | O(nlogm)                    | O(1)         | Hard   | Find minimum largest sum of sub-array.                                        |
-| Leet463 | Island Perimeter                     | Depth-first   | [JavaScript](Search/Leet463_islandPerimeter.js)                  | O(n)                        | O(1)         | Easy   | Find perimeter on an island.                                                  |
-| Leet704 | Binary Search                        | Binary        | [JavaScript](Search/Leet704_binarySearch.js)                     | O(logn)                     | O(1)         | Easy   | Find target number with logn complexity.                                      |
-| Leet729 | My Calendar I                        | Binary Search | [python3](Search/Leet733_floodFill.js)                           | O(n)                        | O(n)         | Medium | Find if booking is possible.                                                  |
-| Leet733 | Flood Fill                           | Depth-first   | [JavaScript](Search/Leet733_floodFill.js)                        | -                           | O(1)         | Easy   | Apply new color in an image.                                                  |
+|    No    | Title                                | Type          | Language                                                         | Time                        | Space        | Level  | Description                                                                   |
+| :------: | ------------------------------------ | ------------- | ---------------------------------------------------------------- | --------------------------- | ------------ | ------ | ----------------------------------------------------------------------------- |
+|  Leet33  | Search in Rotated Sorted Array       | Binary Search | [JavaScript](Search/Leet33_SearchInRotatedSortedArray.js)        | O(logn)                     | O(1)         | Medium | Find index of target integer in rotated sorted array.                         |
+|  Leet35  | Search Insert Position               | Binary Search | [python](Search/Leet35_search_insert_position.py)                | O(logn)                     | O(1)         | Easy   | Find position to insert integer.                                              |
+|  Leet74  | Search 2D Matrix                     | Binary Search | [python3](Search/Leet74_search_2d_matrix.py)                     | O(max(m,n)), O(log(m \* n)) | O(1), O(m+n) | Medium | Find if target is matrix.                                                     |
+|  Leet79  | Word Search                          | Depth-first   | [python3](Search/Leet74_search_2d_matrix.py)                     | -                           | -            | Medium | Find the word can be constructed from letters of sequentially adjacent cells. |
+| Leet153  | Find Minimum in Rotated Sorted Array | Binary Search | [python](Search/Leet153_find_minimum_in_rotated_sorted_array.py) | O(logn)                     | O(n)         | Medium | Find minimum value in rotated array.                                          |
+| Leet410  | Split Array Largest Sum              | Binary Search | [python3](Search/Leet410_split_array_largest_sum.py)             | O(nlogm)                    | O(1)         | Hard   | Find minimum largest sum of sub-array.                                        |
+| Leet463  | Island Perimeter                     | Depth-first   | [JavaScript](Search/Leet463_islandPerimeter.js)                  | O(n)                        | O(1)         | Easy   | Find perimeter on an island.                                                  |
+| Leet704  | Binary Search                        | Binary        | [JavaScript](Search/Leet704_binarySearch.js)                     | O(logn)                     | O(1)         | Easy   | Find target number with logn complexity.                                      |
+| Leet729  | My Calendar I                        | Binary Search | [python3](Search/Leet733_floodFill.js)                           | O(n)                        | O(n)         | Medium | Find if booking is possible.                                                  |
+| Leet733  | Flood Fill                           | Depth-first   | [JavaScript](Search/Leet733_floodFill.js)                        | -                           | O(1)         | Easy   | Apply new color in an image.                                                  |
+| Leet1760 | Minimum Limit of Balls in a Bag      | Binary Search | [python3](Search/Leet1760_minimum_limit_of_balls_in_a_bag.py)    | O(logn)                     | O(1)         | Medium | Find the minimum balls to put in.                                             |
 
 <p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
 
