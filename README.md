@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-195-blue)  
-![Static Badge](https://img.shields.io/badge/easy-87-orange) ![Static Badge](https://img.shields.io/badge/medium-104-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/total-196-blue)  
+![Static Badge](https://img.shields.io/badge/easy-88-orange) ![Static Badge](https://img.shields.io/badge/medium-104-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -196,6 +196,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet2358 | Maximum Number of Groups Entering a Competition | [python3](Math/Leet2358_maximum_number_of_groups_entering_a_competition.py)        | O(n d)       | O(1)       | Medium | Find maximum number of groups.            |            |
 | Leet3304 | Find the K-th Character in String Game I        | [python3](Math/Leet3304_find_the_k-th_character_in_string_game_I.py)               | O(n)         | O(1)       | Easy   | Find kth character in generated string.   |            |
 | Leet3492 | Maximum Containers on a Ship                    | [python3](Math/Leet3492_maximum_containers_on_a_ship.py)                           | O(1)         | O(1)       | Easy   | Find maximum container to fit a ship.     |            |
+| Leet3550 | Smallest Index With Digit Sum Equal to Index    | [python3](Math/Leet3550_smallest_index_with_digit_sum_equal_to_index.py)           | O(n)         | O(1)       | Easy   | Find smallest index for sum of digits.    |            |
 
 <p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
 
