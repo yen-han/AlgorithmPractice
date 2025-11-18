@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-197-blue)  
-![Static Badge](https://img.shields.io/badge/easy-89-orange) ![Static Badge](https://img.shields.io/badge/medium-104-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/total-198-blue)  
+![Static Badge](https://img.shields.io/badge/easy-89-orange) ![Static Badge](https://img.shields.io/badge/medium-105-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -263,6 +263,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet387  | First Unique Character in a String                | [Java](String/Leet387_firstUniqueCharacterInString.java)                                         | O(n<sup>2</sup>)/O(n) | O(1)          | Easy   | Find the first and unique character in a string.                       |                        |
 | Leet392  | Is Subsequence                                    | [JavaScript](String/Leet392_isSubsequence.js)                                                    | O(n)                  | O(1)          | Easy   | Find if a string is subsequence to the other one.                      |                        |
 | Leet412  | Fizz Buzz                                         | [JavaScript](String/Leet412_fizzBuzz.js)                                                         | O(n)                  | O(n)          | Easy   | Display 'Fizz' or 'Buzz' when a number is divided by 3 or 5.           |                        |
+| Leet848  | Shifting Letters                                  | [python3](String/Leet848_shifting_letters.py)                                                    | O(n)                  | O(n)          | Medium | Shift letters in alphabetically.                                       |                        |
 | Leet1813 | Sentence Similarity III                           | [python3](String/Leet1813_sentence_similarity_III.py)                                            | O(n)                  | O(n)          | Medium | Find similarity of two sentences.                                      | Two pointer            |
 | Leet1859 | Sorting the Sentence                              | [python3](String/Leet1859_sorting_the_sentence.py)                                               | O(n)                  | O(1)          | Easy   | Find sentence in correct order.                                        | Hash Map               |
 | Leet1876 | Substrings of Size Three with Distinct Characters | [python3](String/Leet1876_substrings_of_size_three_with_distinct_characters.py)                  | O(n)                  | O(1)          | Easy   | Find substrings with non-repeated characters.                          | Hash Set               |
