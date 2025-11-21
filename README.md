@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-198-blue)  
-![Static Badge](https://img.shields.io/badge/easy-89-orange) ![Static Badge](https://img.shields.io/badge/medium-105-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/total-199-blue)  
+![Static Badge](https://img.shields.io/badge/easy-89-orange) ![Static Badge](https://img.shields.io/badge/medium-106-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -235,6 +235,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet150  | Evaluate Reverse Polish Notation | [python3](Stack/Leet150_evaluate_reverse_polish_notation.py) | O(n) | O(n)  | Medium | Evaluate the expression.                                       |
 | Leet155  | Min Stack                        | [JavaScript](Stack/Leet155_minStack.js)                      | -    | -     | Medium | Build stack to support push, pop, top, minimum element.        |
 | Leet227  | Basic Calculator II              | [JavaScript](Stack/Leet227_basicCalculatorII.js)             | O(n) | O(1)  | Medium | Calculate string with integer & basic operator.                |
+| Leet394  | Decode String                    | [python3](Stack/Leet394_decode_string.py)                    | O(n) | O(n)  | Medium | Generate string with square brackets.                          |
 | Leet739  | Daily Temperatures               | [python3](Stack/Leet739_daily_temperatures.py)               | O(n) | O(n)  | Medium | Return number of days to get a warmer temperature.             |
 | Leet1544 | Make The String Great            | [python3](Stack/Leet1544_make_string_great.py)               | O(n) | O(n)  | Easy   | Remove same letters ignoring case.                             |
 
