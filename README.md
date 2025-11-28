@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-202-blue)  
-![Static Badge](https://img.shields.io/badge/easy-91-orange) ![Static Badge](https://img.shields.io/badge/medium-107-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/total-203-blue)  
+![Static Badge](https://img.shields.io/badge/easy-92-orange) ![Static Badge](https://img.shields.io/badge/medium-107-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -193,6 +193,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet231  | Power of Two                                    | [JavaScript](Math/Leet231_powerOfTwo.js)                                           | O(logn)      | O(1)       | Easy   | Check if the number is power of two.      |            |
 | Leet326  | Power of Three                                  | [JavaScript](Math/Leet326_powerOfThree.js)                                         | O(logn)      | O(1)       | Easy   | Check if the number is power of three.    |            |
 | Leet509  | Fibonacci Number                                | [JavaScript](Math/Leet509_fibonacciNumber.js)                                      | O(2^n), O(n) | O(n)       | Easy   | Check for fibonacci number.               |            |
+| Leet1025 | Divisor Game                                    | [python3](Math/Leet1025_divisor_game.py)                                           | O(1)         | O(1)       | Easy   | Find who wins with the game rule.         |            |
 | Leet1154 | Day of the Year                                 | [JavaScript](Math/Leet1154_dayOfTheYear.js)                                        | O(1)         | O(1)       | Easy   | find the day of year with given date.     |            |
 | Leet1266 | Minimum Time Visiting All Points                | [python3](Math/Leet1266_minimum_time_visiting_all_points.py)                       | O(n)         | O(1)       | Easy   | Find seconds to visit all points.         |            |
 | Leet2358 | Maximum Number of Groups Entering a Competition | [python3](Math/Leet2358_maximum_number_of_groups_entering_a_competition.py)        | O(n d)       | O(1)       | Medium | Find maximum number of groups.            |            |
