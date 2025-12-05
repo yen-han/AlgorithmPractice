@@ -21,8 +21,8 @@ Constraints
 '''
 
 # 1st Attempt
-# LOGIC: using hash table to count the frequency of ranks and suits, then determine the best poker hand based on the counts.
-# Time: O(1)  | Space: O(1)
+# LOGIC: Find the common minimum digit between the two arrays. If there is no common digit, combine the smallest digits from both arrays in ascending order.
+# Time: O(n)  | Space: O(1)
 class Solution:
     def minNumber(self, nums1: List[int], nums2: List[int]) -> int:
         common_min = -1
