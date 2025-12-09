@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-205-blue)  
-![Static Badge](https://img.shields.io/badge/easy-93-orange) ![Static Badge](https://img.shields.io/badge/medium-108-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/total-206-blue)  
+![Static Badge](https://img.shields.io/badge/easy-94-orange) ![Static Badge](https://img.shields.io/badge/medium-108-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -275,6 +275,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet1813 | Sentence Similarity III                           | [python3](String/Leet1813_sentence_similarity_III.py)                                            | O(n)                  | O(n)          | Medium | Find similarity of two sentences.                                      | Two pointer            |
 | Leet1859 | Sorting the Sentence                              | [python3](String/Leet1859_sorting_the_sentence.py)                                               | O(n)                  | O(1)          | Easy   | Find sentence in correct order.                                        | Hash Map               |
 | Leet1876 | Substrings of Size Three with Distinct Characters | [python3](String/Leet1876_substrings_of_size_three_with_distinct_characters.py)                  | O(n)                  | O(1)          | Easy   | Find substrings with non-repeated characters.                          | Hash Set               |
+| Leet2716 | Minimize String Length                            | [python3](String/Leet2716_minimize_string_length.py)                                             | O(n)                  | O(1)          | Easy   | Find the length of the minimized string.                               | Hash Set               |
 
 <p align="right"><a href="#topics">:arrow_up: Go to Top</a></p>
 
