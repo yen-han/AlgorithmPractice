@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-204-blue)  
-![Static Badge](https://img.shields.io/badge/easy-93-orange) ![Static Badge](https://img.shields.io/badge/medium-107-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/total-205-blue)  
+![Static Badge](https://img.shields.io/badge/easy-93-orange) ![Static Badge](https://img.shields.io/badge/medium-108-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -197,6 +197,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet1025 | Divisor Game                                    | [python3](Math/Leet1025_divisor_game.py)                                           | O(1)         | O(1)       | Easy   | Find who wins with the game rule.         |            |
 | Leet1154 | Day of the Year                                 | [JavaScript](Math/Leet1154_dayOfTheYear.js)                                        | O(1)         | O(1)       | Easy   | find the day of year with given date.     |            |
 | Leet1266 | Minimum Time Visiting All Points                | [python3](Math/Leet1266_minimum_time_visiting_all_points.py)                       | O(n)         | O(1)       | Easy   | Find seconds to visit all points.         |            |
+| Leet1390 | Four Divisors                                   | [python3](Math/Leet1390_four_divisors.py)                                          | O(sqrt(N))   | O(1)       | Medium | Find sum of divisors of the integers.     |            |
 | Leet2358 | Maximum Number of Groups Entering a Competition | [python3](Math/Leet2358_maximum_number_of_groups_entering_a_competition.py)        | O(n)         | O(1)       | Medium | Find maximum number of groups.            |            |
 | Leet2544 | Alternating Digit Sum                           | [python3](Math/Leet2544_alternating_digit_sum.py)                                  | O(n)         | O(1)       | Easy   | Find he sum of all digits.                |            |
 | Leet3304 | Find the K-th Character in String Game I        | [python3](Math/Leet3304_find_the_k-th_character_in_string_game_I.py)               | O(n)         | O(1)       | Easy   | Find kth character in generated string.   |            |
