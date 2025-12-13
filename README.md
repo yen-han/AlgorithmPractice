@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-206-blue)  
-![Static Badge](https://img.shields.io/badge/easy-94-orange) ![Static Badge](https://img.shields.io/badge/medium-108-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/total-207-blue)  
+![Static Badge](https://img.shields.io/badge/easy-94-orange) ![Static Badge](https://img.shields.io/badge/medium-109-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -68,6 +68,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet997  | Find the Town Judge                                       | [JavaScript](Array/Leet997_findTownJudge.js)                                                | O(n)                    | O(n)         | Easy   | Find the town judge with given terms.                                  |                  |
 | Leet1233 | Remove Sub-Folders from the Filesystem                    | [python3](Array/Leet1233_remove_sub-folders_from_the_filesystem.py)                         | O(n)                    | O(n)         | Medium | Find common parent folder.                                             |                  |
 | Leet1351 | Count Negative Numbers in a Sorted Matrix                 | [python3](Array/Leet1351_count_negative_numbers_in_a_sorted_matrix.py)                      | O(n+m)                  | O(1)         | Easy   | Find negative numbers in sorted matrix.                                |                  |
+| Leet2115 | Find All Possible Recipes from Given Supplies             | [python3](Array/Leet2115_find_all_possible_recipes_from_given_supplies.py)                  | O(n\*m)                 | O(n)         | Easy   | Find possible recipes.                                                 | Hash Map         |
 | Leet2347 | Best Poker Hand                                           | [python3](Array/Leet2347_best_poker_hand.py)                                                | O(1)                    | O(1)         | Easy   | Find the best type of poker hand.                                      | Hash Table       |
 | Leet2605 | Form Smallest Number From Two Digit Arrays                | [python3](Array/Leet2605_from_smallest_number_from_two_digit_arrays.py)                     | O(n)                    | O(1)         | Easy   | Find smallest number that contains at least one digit.                 | Hash Set         |
 | Leet3239 | Minimum Number of Flips to Make Binary Grid Palindromic I | [python3](Array/Leet3239_minimum_number_of_flips_to_make_binary_grid_palindromic_I.py)      | O(m\*n)                 | O(1)         | Medium | Minimum Number of time to make palindrome.                             |                  |
