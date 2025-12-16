@@ -53,3 +53,25 @@ class Solution:
                     res.append(key)
                     added = True
         return res
+
+# 2nd Attempt
+# LOGIC: Using graph and queue, traversal to find all possible recipes that can be made with the given supplies.
+# Time: O(n * m)  | Space: O(n)
+class Solution:
+    def findAllRecipes(self, recipes: List[str], ingredients: List[List[str]], supplies: List[str]) -> List[str]: 
+        graph = defaultdict(list)
+        degrees = defaultdict()
+        for recipe, ingre in zip(recipes, ingredients):
+            degrees[recipe] =len(ingre)
+            for item in ingre:
+                graph[item].append(recipe)
+        q = deque(supplies)
+        res = []
+        while q:
+            selected = q.popleft()
+            for r in graph[selected]:
+                degrees[r] -=1
+                if degrees[r] ==0:
+                    res.append(r)
+                    q.append(r)
+        return res
