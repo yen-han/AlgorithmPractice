@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-208-blue)  
-![Static Badge](https://img.shields.io/badge/easy-96-orange) ![Static Badge](https://img.shields.io/badge/medium-108-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/total-209-blue)  
+![Static Badge](https://img.shields.io/badge/easy-96-orange) ![Static Badge](https://img.shields.io/badge/medium-109-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -124,14 +124,15 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 
 ### Graph
 
-|    No    | Title                        | Language                                              | Time | Space | Level  | Description                                          |
-| :------: | ---------------------------- | ----------------------------------------------------- | ---- | ----- | ------ | ---------------------------------------------------- |
-| Leet130  | Surrounded Regions           | [python3](Graph/Leet130_surrounded_regions.py)        | -    | -     | Medium | capture surrounded regions.                          |
-| Leet133  | Surrounded Regions           | [python3](Graph/Leet133_clone_graph.py)               | -    | -     | Medium | Deep copy of the graph.                              |
-| Leet200  | Number of Islands            | [python3](Graph/Leet200_number_of_islands.py)         | -    | -     | Medium | Find the number of islands surrounded by 0.          |
-| Leet207  | Course Schedule              | [python3](Graph/Leet207_course_schedule.py)           | -    | -     | Medium | course schedule.                                     |
-| Leet433  | Minimum Genetic Mutation     | [python3](Graph/Leet433_minimum_genetic_mutation.py)  | -    | -     | Medium | Find the number of mutation to end gene within bank. |
-| Leet1971 | Find if Path Exists in Graph | [JavaScript](Graph/Leet1971_findIfPathExistsGraph.js) | -    | -     | Easy   | Find the path from source to destination.            |
+|    No    | Title                                                  | Language                                                                            | Time | Space | Level  | Description                                          |
+| :------: | ------------------------------------------------------ | ----------------------------------------------------------------------------------- | ---- | ----- | ------ | ---------------------------------------------------- |
+| Leet130  | Surrounded Regions                                     | [python3](Graph/Leet130_surrounded_regions.py)                                      | -    | -     | Medium | capture surrounded regions.                          |
+| Leet133  | Surrounded Regions                                     | [python3](Graph/Leet133_clone_graph.py)                                             | -    | -     | Medium | Deep copy of the graph.                              |
+| Leet200  | Number of Islands                                      | [python3](Graph/Leet200_number_of_islands.py)                                       | -    | -     | Medium | Find the number of islands surrounded by 0.          |
+| Leet207  | Course Schedule                                        | [python3](Graph/Leet207_course_schedule.py)                                         | -    | -     | Medium | course schedule.                                     |
+| Leet433  | Minimum Genetic Mutation                               | [python3](Graph/Leet433_minimum_genetic_mutation.py)                                | -    | -     | Medium | Find the number of mutation to end gene within bank. |
+| Leet1466 | Reorder Routes to Make All Paths Lead to the City Zero | [python3](Graph/Leet1466_reorder_routes_to_make_all_paths_lead_to_the_city_zero.py) | -    | -     | Medium | Find the changed path to city zero.                  |
+| Leet1971 | Find if Path Exists in Graph                           | [JavaScript](Graph/Leet1971_findIfPathExistsGraph.js)                               | -    | -     | Easy   | Find the path from source to destination.            |
 
 ### Greedy
 
