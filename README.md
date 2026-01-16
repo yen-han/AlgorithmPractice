@@ -3,7 +3,7 @@
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
 ![Static Badge](https://img.shields.io/badge/total-209-blue)  
-![Static Badge](https://img.shields.io/badge/easy-96-orange) ![Static Badge](https://img.shields.io/badge/medium-109-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/easy-97-orange) ![Static Badge](https://img.shields.io/badge/medium-110-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -44,7 +44,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 |  Leet57  | Insert Interval                                           | [python3](Array/Leet57_insert_interval.py)                                                  | O(n)                    | O(n)         | Medium | Insert non-overlapping intervals.                                      |                  |
 |  Leet66  | Plus One                                                  | [JavaScript](Array/Leet66_plusOne.js)                                                       | O(n)                    | O(1)         | Easy   | Add one to the given array.                                            |                  |
 |  Leet73  | Set Matrix Zeroes                                         | [python3](Array/Leet73_set_matrix_zeroes.py)                                                | O(m\*n)                 | O(m+n)       | Medium | set its entire row and column to 0.                                    |                  |
-|  Leet75  | Sort Colors                                               | [JavaScript](Array/Leet75_sortColors.js),[python](Array/Leet75_sort_colors.py)              | O(n)                    | O(1)         | Medium | Sort colors in-place.                                                  |                  |
+|  Leet75  | Sort Colors                                               | [JavaScript](Array/Leet75_sortColors.js), [python](Array/Leet75_sort_colors.py)             | O(n)                    | O(1)         | Medium | Sort colors in-place.                                                  | Two pointer      |
 |  Leet78  | Subsets                                                   | [JavaScript](Array/Leet78_Subsets.js)                                                       | O(n^2)                  | O(n^2)       | Medium | Make all possible subsets.                                             |                  |
 | Leet121  | Best Time to Buy and Sell Stock                           | [JavaScript](Array/Leet121_bestTimeToBuySellStock.js)                                       | O(n)                    | O(1)         | Easy   | Find the maximum profit.                                               |                  |
 | Leet122  | Best Time to Buy and Sell Stock II                        | [python3](Array/Leet122_best_time_to_buy_and_sell_stock_II.py)                              | O(n)                    | O(1)         | Medium | Find the maximum profit.                                               |                  |
@@ -71,6 +71,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet2115 | Find All Possible Recipes from Given Supplies             | [python3](Array/Leet2115_find_all_possible_recipes_from_given_supplies.py)                  | O(n\*m)                 | O(n)         | Easy   | Find possible recipes.                                                 | Hash Map         |
 | Leet2347 | Best Poker Hand                                           | [python3](Array/Leet2347_best_poker_hand.py)                                                | O(1)                    | O(1)         | Easy   | Find the best type of poker hand.                                      | Hash Table       |
 | Leet2605 | Form Smallest Number From Two Digit Arrays                | [python3](Array/Leet2605_from_smallest_number_from_two_digit_arrays.py)                     | O(n)                    | O(1)         | Easy   | Find smallest number that contains at least one digit.                 | Hash Set         |
+| Leet2733 | Neither Minimum nor Maximum                               | [python3](Array/Leet2733_neither_minimum_nor_maximum.py)                                    | O(n)                    | O(1)         | Easy   | Find any number neither minimum or maximum.                            |                  |
 | Leet3239 | Minimum Number of Flips to Make Binary Grid Palindromic I | [python3](Array/Leet3239_minimum_number_of_flips_to_make_binary_grid_palindromic_I.py)      | O(m\*n)                 | O(1)         | Medium | Minimum Number of time to make palindrome.                             |                  |
 | Leet3413 | Maximum Coins From K Consecutive Bags                     | [python3](Array/Leet3413_maximum_coins_from_k_consecutive_bags.py)                          | O(m\*n)                 | O(m\*n)      | Medium | Maximum coins.                                                         |                  |
 
