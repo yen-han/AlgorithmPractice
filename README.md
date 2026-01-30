@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-209-blue)  
-![Static Badge](https://img.shields.io/badge/easy-97-orange) ![Static Badge](https://img.shields.io/badge/medium-110-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/total-210-blue)  
+![Static Badge](https://img.shields.io/badge/easy-97-orange) ![Static Badge](https://img.shields.io/badge/medium-111-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -74,6 +74,7 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet2733 | Neither Minimum nor Maximum                               | [python3](Array/Leet2733_neither_minimum_nor_maximum.py)                                    | O(n)                    | O(1)         | Easy   | Find any number neither minimum or maximum.                            |                  |
 | Leet3239 | Minimum Number of Flips to Make Binary Grid Palindromic I | [python3](Array/Leet3239_minimum_number_of_flips_to_make_binary_grid_palindromic_I.py)      | O(m\*n)                 | O(1)         | Medium | Minimum Number of time to make palindrome.                             |                  |
 | Leet3413 | Maximum Coins From K Consecutive Bags                     | [python3](Array/Leet3413_maximum_coins_from_k_consecutive_bags.py)                          | O(m\*n)                 | O(m\*n)      | Medium | Maximum coins.                                                         |                  |
+| Leet3767 | Maximize Points After Choosing K Tasks                    | [python3](Array/Leet3767_maximize_points_after_choosing_k_tasks.py)                         | O(nlogn)                | O(n)         | Medium | Choose task for maximum points                                         |                  |
 
 ### Backtracking
 
