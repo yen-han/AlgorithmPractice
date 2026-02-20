@@ -30,7 +30,7 @@ Constraints:
 
 # 1st Attempt
 # LOGIC: Remainder can be determined by the formula: (previous_remainder * 10 + current_digit) % m. 
-# Time: O(n) | Space: O(1)
+# Time: O(n) | Space: O(n)
 class Solution:
     def divisibilityArray(self, word: str, m: int) -> List[int]:
         output =[]
