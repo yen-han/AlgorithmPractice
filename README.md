@@ -2,8 +2,8 @@
 
 The repository contains algorithm practices in various topics from LeetCode, codility.<br>
 
-![Static Badge](https://img.shields.io/badge/total-211-blue)  
-![Static Badge](https://img.shields.io/badge/easy-97-orange) ![Static Badge](https://img.shields.io/badge/medium-113-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
+![Static Badge](https://img.shields.io/badge/total-212-blue)  
+![Static Badge](https://img.shields.io/badge/easy-97-orange) ![Static Badge](https://img.shields.io/badge/medium-114-orange) ![Static Badge](https://img.shields.io/badge/hard-4-orange)
 
 ## Topics
 
@@ -276,7 +276,8 @@ The repository contains algorithm practices in various topics from LeetCode, cod
 | Leet383  | Ransom Note                                       | [JavaScript](String/Leet383_ransomNote.js)                                                       | O(n)                  | O(n)          | Easy   | Find if one string can be constructed by letters from the other string | Hash Map               |
 | Leet387  | First Unique Character in a String                | [Java](String/Leet387_firstUniqueCharacterInString.java)                                         | O(n<sup>2</sup>)/O(n) | O(1)          | Easy   | Find the first and unique character in a string.                       |                        |
 | Leet392  | Is Subsequence                                    | [JavaScript](String/Leet392_isSubsequence.js)                                                    | O(n)                  | O(1)          | Easy   | Find if a string is subsequence to the other one.                      |                        |
-| Leet412  | Fizz Buzz                                         | [JavaScript](String/Leet412_fizzBuzz.js)                                                         | O(n)                  | O(n)          | Easy   | Display 'Fizz' or 'Buzz' when a number is divided by 3 or 5.           |                        |
+| Leet412  | Fizz Buzz                                         | [JavaScript](String/Leet412_fizzBuzz.js)                                                         | O(n)                  | O(n)          | Easy   | Display 'Fizz' or 'Buzz' when a number is divided by 3 or 5.           |
+| Leet443  | String Compression                                | [python3](String/Leet443_string_compression.py)                                                  | O(n)                  | O(1)          | Medium | Replace with character and count.                                      |                        |
 | Leet848  | Shifting Letters                                  | [python3](String/Leet848_shifting_letters.py)                                                    | O(n)                  | O(n)          | Medium | Shift letters in alphabetically.                                       |                        |
 | Leet1400 | Construct K Palindrome Strings                    | [python3](String/Leet1400_construct_k_palindrome_strings.py)                                     | O(n)                  | O(n)          | Medium | Construct Palindrome String.                                           | Hash Map               |
 | Leet1813 | Sentence Similarity III                           | [python3](String/Leet1813_sentence_similarity_III.py)                                            | O(n)                  | O(n)          | Medium | Find similarity of two sentences.                                      | Two pointer            |
