@@ -2,7 +2,7 @@
 Source LeetCode
 3340. Check Balanced String
 https://leetcode.com/problems/check-balanced-string/
-1st 2025-12-08
+1st 2026-03-12
 
 You are given a string num consisting of only digits. A string of digits is called balanced 
 if the sum of the digits at even indices is equal to the sum of digits at odd indices.
